@@ -101,7 +101,7 @@ namespace EasyTechToolUI
             {
                 canvas.gameObject.SetActive(false);
             }
-            m_canvases[0].gameObject.SetActive(true);
+            m_canvases[m_firstScreenCanvasIndex].gameObject.SetActive(true);
 
             m_prevCanvasName = m_canvasNames[m_firstScreenCanvasIndex];
         }
