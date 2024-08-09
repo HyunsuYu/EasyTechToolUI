@@ -1,1 +1,1 @@
-# EasyTechToolUI
+# Quick start
