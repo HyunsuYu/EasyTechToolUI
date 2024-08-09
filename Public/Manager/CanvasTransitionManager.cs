@@ -26,9 +26,61 @@ namespace EasyTechToolUI
         private Dictionary<string, ITranssitionEventSub> m_canvasTransitionEventSub;
         private string m_prevCanvasName;
 
+        private static CanvasTransitionManager m_instance;
+
+
+        public static CanvasTransitionManager Instance
+        {
+            get
+            {
+                return m_instance;
+            }
+        }
+
+        public List<Canvas> Canvases
+        {
+            get
+            {
+                return m_canvases;
+            }
+        }
+        public List<string> CanvasNames
+        {
+            get
+            {
+                return m_canvasNames;
+            }
+        }
+        public int FirstScreenCanvasIndex
+        {
+            get
+            {
+                return m_firstScreenCanvasIndex;
+            }
+            set
+            {
+                if(0 <= value && value < m_canvasTransitionEventSub.Values.Count)
+                {
+                    m_firstScreenCanvasIndex = value;
+                }
+            }
+        }
+        public Dictionary<string, ITranssitionEventSub> CanvasTransitionEventSub
+        {
+            get
+            {
+                return m_canvasTransitionEventSub;
+            }
+        }
 
         private void Awake()
         {
+            if(m_instance != null)
+            {
+                Debug.LogError("More than one instance of Canvas Transition Manager exists in the game");
+            }
+            m_instance = this;
+
             if(m_canvases.Count != m_canvasNames.Count)
             {
                 Debug.LogError("CanvasTransitionManager: Awake: Canvas count and Canvas name count does not match");
