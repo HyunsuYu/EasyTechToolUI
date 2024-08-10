@@ -9,13 +9,13 @@ using UnityEngine;
 
 namespace EasyTechToolUI
 {
-    public class CanvasTransitionManager : MonoBehaviour
+    public class CanvasTransitionManager : MonoBehaviour, IModuleStateUpdate
     {
         public interface ITranssitionEventSub
         {
             void OnTransition(in string from);
 
-            void Initialize();
+            void InitializeAwake();
         }
 
 
@@ -26,8 +26,46 @@ namespace EasyTechToolUI
         private Dictionary<string, ITranssitionEventSub> m_canvasTransitionEventSub;
         private string m_prevCanvasName;
 
+        private List<IModuleStateUpdate> m_moduleStateUpdates = new List<IModuleStateUpdate>();
+
         private static CanvasTransitionManager m_instance;
 
+
+        private void Awake()
+        {
+            if (m_instance != null)
+            {
+                Debug.LogError("More than one instance of Canvas Transition Manager exists in the game");
+            }
+            m_instance = this;
+
+            if (m_canvases.Count != m_canvasNames.Count)
+            {
+                Debug.LogError("CanvasTransitionManager: Awake: Canvas count and Canvas name count does not match");
+            }
+
+            m_canvasTransitionEventSub = new Dictionary<string, ITranssitionEventSub>();
+            for (int index = 0; index < m_canvases.Count; index++)
+            {
+                m_canvasTransitionEventSub.Add(m_canvasNames[index], m_canvases[index].GetComponent<ITranssitionEventSub>());
+                m_moduleStateUpdates.Add(m_canvases[index].GetComponent<IModuleStateUpdate>());
+            }
+
+            foreach (string canvasName in m_canvasNames)
+            {
+                m_canvasTransitionEventSub[canvasName].InitializeAwake();
+            }
+
+            InitializeModule();
+
+            foreach (Canvas canvas in m_canvases)
+            {
+                canvas.gameObject.SetActive(false);
+            }
+            m_canvases[m_firstScreenCanvasIndex].gameObject.SetActive(true);
+
+            m_prevCanvasName = m_canvasNames[m_firstScreenCanvasIndex];
+        }
 
         public static CanvasTransitionManager Instance
         {
@@ -73,39 +111,6 @@ namespace EasyTechToolUI
             }
         }
 
-        private void Awake()
-        {
-            if(m_instance != null)
-            {
-                Debug.LogError("More than one instance of Canvas Transition Manager exists in the game");
-            }
-            m_instance = this;
-
-            if(m_canvases.Count != m_canvasNames.Count)
-            {
-                Debug.LogError("CanvasTransitionManager: Awake: Canvas count and Canvas name count does not match");
-            }
-
-            m_canvasTransitionEventSub = new Dictionary<string, ITranssitionEventSub>();
-            for (int index = 0; index < m_canvases.Count; index++)
-            {
-                m_canvasTransitionEventSub.Add(m_canvasNames[index], m_canvases[index].GetComponent<ITranssitionEventSub>());
-            }
-
-            foreach(string canvasName in m_canvasNames)
-            {
-                m_canvasTransitionEventSub[canvasName].Initialize();
-            }
-
-            foreach (Canvas canvas in m_canvases)
-            {
-                canvas.gameObject.SetActive(false);
-            }
-            m_canvases[m_firstScreenCanvasIndex].gameObject.SetActive(true);
-
-            m_prevCanvasName = m_canvasNames[m_firstScreenCanvasIndex];
-        }
-
         public void OpenCanvas(int canvasIndex)
         {
             if (canvasIndex == -1)
@@ -127,9 +132,25 @@ namespace EasyTechToolUI
             if (m_canvasTransitionEventSub[m_canvasNames[canvasIndex]] != null)
             {
                 m_canvasTransitionEventSub[m_canvasNames[canvasIndex]].OnTransition(m_prevCanvasName);
+                m_moduleStateUpdates[canvasIndex].UpdateModuleState();
             }
 
             m_prevCanvasName = m_canvasNames[canvasIndex];
+        }
+
+        public void InitializeModule()
+        {
+            foreach (var moduleStateUpdate in m_moduleStateUpdates)
+            {
+                moduleStateUpdate.InitializeModule();
+            }
+        }
+        public void UpdateModuleState()
+        {
+            foreach (var moduleStateUpdate in m_moduleStateUpdates)
+            {
+                moduleStateUpdate.UpdateModuleState();
+            }
         }
     }
 }
