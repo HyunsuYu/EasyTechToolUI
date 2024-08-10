@@ -14,6 +14,12 @@
   <img alt="Static Badge" src="https://img.shields.io/badge/Feature-Item_View_List-red">
 </p>
 
+# Abstract
+Here's a strong reason to use EasyTechToolUI for your project:
+- You just have to use all the components as they are, or inherit and fill in a little bit of content
+- It provides convenient data buffers, utility methods, and properties considering flexibility in use
+- It allows easy access to each element from anywhere and helps to code that lowers strong bonds between codes
+
 # Usage
 > [!IMPORTANT]\
 > This project is for UI development in Unity. Informs that no other game engine supports it
@@ -23,9 +29,12 @@
 UnityEngine.dll
 ```
 
-## Preview supported UI styles
-|temp|temp|temp|
-|---|---|---|
+## Supported UI styles
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/ad4f9f30-0746-4c17-bb67-d42ee76c1c34" width=600>
+  <br>
+  <img src="https://github.com/user-attachments/assets/653e6432-c470-4daa-9dbc-177f0ddeb76b" width=600>
+</p>
 
 ## Unity Project Setting
 For details on applying EasyTechToolUI.dll to Unity Project, please refer to the <a href="https://docs.unity3d.com/Manual/Plugins.html">Unity Manual</a>
