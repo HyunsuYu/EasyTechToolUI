@@ -62,7 +62,7 @@ namespace EasyTechToolUI
         private static int m_curSelectedItemIndex = 0;
 
 
-        public void Awake()
+        private void Awake()
         {
             m_instance = this;
         }
@@ -116,10 +116,11 @@ namespace EasyTechToolUI
             m_itemComponentClasses.Add(itemComponentClass);
         }
 
-        public virtual void RemoveItem(in _ItemComponentClass itemComponentClass)
+        internal void RemoveItem(in _ItemComponentClass itemComponentClass)
         {
             m_itemComponentClasses.Remove(itemComponentClass);
         }
+
         public virtual void RemoveItemAt(in int index)
         {
             m_itemComponentClasses.RemoveAt(index);

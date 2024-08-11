@@ -9,7 +9,7 @@ using UnityEngine;
 
 namespace EasyTechToolUI
 {
-    public abstract class TransitionCanvasMonoBehaviour<_TransitionCanvasCommonDataBuffer> : MonoBehaviour, CanvasTransitionManager.ITranssitionEventSub, IModuleStateUpdate where _TransitionCanvasCommonDataBuffer : new()
+    public abstract class TransitionCanvasMonoBehaviour<_TransitionCanvasCommonDataBuffer> : MonoBehaviour, CanvasTransitionManager.ITransitionEventSub, IModuleStateUpdate where _TransitionCanvasCommonDataBuffer : new()
     {
         private static _TransitionCanvasCommonDataBuffer m_commonDataBuffer;
 

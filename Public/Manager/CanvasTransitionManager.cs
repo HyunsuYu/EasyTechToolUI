@@ -11,7 +11,7 @@ namespace EasyTechToolUI
 {
     public class CanvasTransitionManager : MonoBehaviour, IModuleStateUpdate
     {
-        public interface ITranssitionEventSub
+        public interface ITransitionEventSub
         {
             void OnTransition(in string from);
 
@@ -21,9 +21,9 @@ namespace EasyTechToolUI
 
         [SerializeField] private List<Canvas> m_canvases;
         [SerializeField] private List<string> m_canvasNames;
-        [SerializeField] private int m_firstScreenCanvasIndex;
+        [SerializeField] private int m_firstScreenCanvasIndex = 0;
 
-        private Dictionary<string, ITranssitionEventSub> m_canvasTransitionEventSub;
+        private Dictionary<string, ITransitionEventSub> m_canvasTransitionEventSub;
         private string m_prevCanvasName;
 
         private List<IModuleStateUpdate> m_moduleStateUpdates = new List<IModuleStateUpdate>();
@@ -44,10 +44,10 @@ namespace EasyTechToolUI
                 Debug.LogError("CanvasTransitionManager: Awake: Canvas count and Canvas name count does not match");
             }
 
-            m_canvasTransitionEventSub = new Dictionary<string, ITranssitionEventSub>();
+            m_canvasTransitionEventSub = new Dictionary<string, ITransitionEventSub>();
             for (int index = 0; index < m_canvases.Count; index++)
             {
-                m_canvasTransitionEventSub.Add(m_canvasNames[index], m_canvases[index].GetComponent<ITranssitionEventSub>());
+                m_canvasTransitionEventSub.Add(m_canvasNames[index], m_canvases[index].GetComponent<ITransitionEventSub>());
                 m_moduleStateUpdates.Add(m_canvases[index].GetComponent<IModuleStateUpdate>());
             }
 
@@ -58,9 +58,19 @@ namespace EasyTechToolUI
 
             InitializeModule();
 
+            if(m_canvases.Count == 0)
+            {
+                m_firstScreenCanvasIndex = -1;
+            }
+
             foreach (Canvas canvas in m_canvases)
             {
                 canvas.gameObject.SetActive(false);
+            }
+
+            if(m_firstScreenCanvasIndex == -1)
+            {
+                throw new Exception("CanvasTransitionManager: Awake: FirstScreenCanvasIndex not set");
             }
             m_canvases[m_firstScreenCanvasIndex].gameObject.SetActive(true);
 
@@ -103,7 +113,7 @@ namespace EasyTechToolUI
                 }
             }
         }
-        public Dictionary<string, ITranssitionEventSub> CanvasTransitionEventSub
+        public Dictionary<string, ITransitionEventSub> CanvasTransitionEventSub
         {
             get
             {
