@@ -7,48 +7,43 @@ using System.Threading.Tasks;
 using UnityEngine;
 
 
-namespace EasyTechToolUI
+namespace EasyTechToolUI.ItemViewList
 {
-    public abstract class ItemViewList<_ItemComponentClass> : MonoBehaviour where _ItemComponentClass : MonoBehaviour, ItemViewList<_ItemComponentClass>.IItemStateUpdate
+    public interface IItemStateUpdate<_ItemComponentClass> where _ItemComponentClass : MonoBehaviour, IItemStateUpdate<_ItemComponentClass>
     {
-        public interface IItemStateUpdate
+        void InitializeItem(in ItemViewList<_ItemComponentClass> itemViewList, in object itemInitData);
+
+        void UpdateItemState();
+    }
+
+    public abstract class ItemViewListItem : MonoBehaviour, IItemStateUpdate<ItemViewListItem>
+    {
+        private ItemViewList<ItemViewListItem> m_itemViewList;
+
+
+        /// <summary>
+        /// If you want to initialize item with init data, must be override this method and implement the custom initialization.
+        /// </summary>
+        /// <param name="itemViewList"></param>
+        /// <param name="itemInitData"></param>
+        [Obsolete]
+        public void InitializeItem(in ItemViewList<ItemViewListItem> itemViewList, in object itemInitData) { }
+
+        [Obsolete]
+        public void UpdateItemState() { }
+
+        public virtual void RemoveItem()
         {
-            void InitializeItem(in ItemViewList<_ItemComponentClass> itemViewList, in object itemInitData);
-
-            void UpdateItemState();
+            m_itemViewList.RemoveItem(this);
         }
-
-        public abstract class Item : MonoBehaviour, ItemViewList<Item>.IItemStateUpdate
+        public virtual void SelectItem()
         {
-            private ItemViewList<Item> m_itemViewList;
-
-
-            /// <summary>
-            /// If you want to initialize item with init data, must be override this method and implement the custom initialization.
-            /// </summary>
-            /// <param name="itemViewList"></param>
-            /// <param name="itemInitData"></param>
-            public virtual void InitializeItem(in ItemViewList<Item> itemViewList, in object itemInitData)
-            {
-                m_itemViewList = itemViewList;
-            }
-
-            public virtual void UpdateItemState()
-            {
-
-            }
-
-            public virtual void RemoveItem()
-            {
-                m_itemViewList.RemoveItem(this);
-            }
-            public virtual void SelectItem()
-            {
-                ItemViewList<Item>.CurSelectedItemIndex = m_itemViewList.GetItemIndex(this);
-            }
+            ItemViewList<ItemViewListItem>.CurSelectedItemIndex = m_itemViewList.GetItemIndex(this);
         }
+    }
 
-
+    public abstract class ItemViewList<_ItemComponentClass> : MonoBehaviour, IModuleStateUpdate where _ItemComponentClass : MonoBehaviour, IItemStateUpdate<_ItemComponentClass>
+    {
         [Header("Item View Item Prefab")]
         [SerializeField] private GameObject m_prefab_item;
 
@@ -138,6 +133,15 @@ namespace EasyTechToolUI
         public virtual int GetItemIndex(in _ItemComponentClass itemComponentClass)
         {
             return m_itemComponentClasses.IndexOf(itemComponentClass);
+        }
+
+        public virtual void InitializeModule()
+        {
+
+        }
+        public virtual void UpdateModuleState()
+        {
+
         }
     }
 }
