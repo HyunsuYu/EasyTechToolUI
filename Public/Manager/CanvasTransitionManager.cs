@@ -19,8 +19,11 @@ namespace EasyTechToolUI
         }
 
 
+        [Header("Canvas Settings")]
         [SerializeField] private List<Canvas> m_canvases;
         [SerializeField] private List<string> m_canvasNames;
+
+        [Header("First Screen Canvas Index")]
         [SerializeField] private int m_firstScreenCanvasIndex = 0;
 
         private Dictionary<string, ITransitionEventSub> m_canvasTransitionEventSub;
