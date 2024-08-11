@@ -1,4 +1,5 @@
-﻿using System;
+﻿using EasyTechToolUI.Public.Data;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -13,7 +14,8 @@ namespace EasyTechToolUI
     {
         private static _TransitionCanvasCommonDataBuffer m_commonDataBuffer;
 
-        private List<IModuleStateUpdate> m_moduleStateUpdates = new List<IModuleStateUpdate>();
+        [Header("Edgy Module Prototypes")]
+        [SerializeField] private List<EdgyModulePrototype> m_edgyModulePrototypes;
 
 
         public virtual void OnTransition(in string from)
@@ -23,21 +25,50 @@ namespace EasyTechToolUI
 
         public virtual void InitializeAwake()
         {
-
+            InitializeModule(null);
         }
 
-        public virtual void InitializeModule()
+        public virtual void InitializeModule(in object moduleInitData)
         {
-            foreach(var moduleStateUpdate in m_moduleStateUpdates)
+            InitializeModule(moduleInitData);
+        }
+        protected void InitializeModule(in List<object> moduleInitDataPerSubModule)
+        {
+            if(moduleInitDataPerSubModule != null && moduleInitDataPerSubModule.Count == m_edgyModulePrototypes.Count)
             {
-                moduleStateUpdate.InitializeModule();
+                for(int index = 0; index < moduleInitDataPerSubModule.Count; index++)
+                {
+                    m_edgyModulePrototypes[index].InitializeModule(moduleInitDataPerSubModule[index]);
+                }
+            }
+            else
+            {
+                foreach(var moduleStateUpdate in m_edgyModulePrototypes)
+                {
+                    moduleStateUpdate.InitializeModule(null);
+                }
             }
         }
-        public virtual void UpdateModuleState()
+
+        public virtual void UpdateModuleState(in object moduleInitData)
         {
-            foreach (var moduleStateUpdate in m_moduleStateUpdates)
+            UpdateModuleState(moduleInitData);
+        }
+        protected void UpdateModuleState(in List<object> moduleUpdateDataPerSubModule)
+        {
+            if (moduleUpdateDataPerSubModule != null && moduleUpdateDataPerSubModule.Count == m_edgyModulePrototypes.Count)
             {
-                moduleStateUpdate.UpdateModuleState();
+                for (int index = 0; index < moduleUpdateDataPerSubModule.Count; index++)
+                {
+                    m_edgyModulePrototypes[index].UpdateModuleState(moduleUpdateDataPerSubModule[index]);
+                }
+            }
+            else
+            {
+                foreach (var moduleStateUpdate in m_edgyModulePrototypes)
+                {
+                    moduleStateUpdate.UpdateModuleState(null);
+                }
             }
         }
 

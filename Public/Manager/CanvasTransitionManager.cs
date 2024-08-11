@@ -56,7 +56,7 @@ namespace EasyTechToolUI
                 m_canvasTransitionEventSub[canvasName].InitializeAwake();
             }
 
-            InitializeModule();
+            InitializeModule(null);
 
             if(m_canvases.Count == 0)
             {
@@ -121,14 +121,18 @@ namespace EasyTechToolUI
             }
         }
 
-        public void OpenCanvas(int canvasIndex)
+        public virtual void OpenCanvas(int canvasIndex)
+        {
+            OpenCanvas(canvasIndex, null);
+        }
+        protected void OpenCanvas(in int canvasIndex, in object moduleUpdateData)
         {
             if (canvasIndex == -1)
             {
                 Debug.LogError("CanvasTransitionManager: OpenCanvas: CanvasType not found");
                 return;
             }
-            else if(m_canvasNames.Count <= canvasIndex)
+            else if (m_canvasNames.Count <= canvasIndex)
             {
                 Debug.LogError("CanvasTransitionManager: OpenCanvas: CanvasType not found");
                 return;
@@ -142,24 +146,53 @@ namespace EasyTechToolUI
             if (m_canvasTransitionEventSub[m_canvasNames[canvasIndex]] != null)
             {
                 m_canvasTransitionEventSub[m_canvasNames[canvasIndex]].OnTransition(m_prevCanvasName);
-                m_moduleStateUpdates[canvasIndex].UpdateModuleState();
+                m_moduleStateUpdates[canvasIndex].UpdateModuleState(moduleUpdateData);
             }
 
             m_prevCanvasName = m_canvasNames[canvasIndex];
         }
 
-        public void InitializeModule()
+        public virtual void InitializeModule(in object moduleInitData)
         {
-            foreach (var moduleStateUpdate in m_moduleStateUpdates)
+            InitializeModule(null);
+        }
+        protected void InitializeModule(in List<object> moduleInitDataPerCanvas)
+        {
+            if(moduleInitDataPerCanvas != null && moduleInitDataPerCanvas.Count == m_canvases.Count)
             {
-                moduleStateUpdate.InitializeModule();
+                for (int index = 0; index < m_canvases.Count; index++)
+                {
+                    m_moduleStateUpdates[index].InitializeModule(moduleInitDataPerCanvas[index]);
+                }
+            }
+            else
+            {
+                foreach (var moduleStateUpdate in m_moduleStateUpdates)
+                {
+                    moduleStateUpdate.InitializeModule(null);
+                }
             }
         }
-        public void UpdateModuleState()
+
+        public virtual void UpdateModuleState(in object moduleUpdateData)
         {
-            foreach (var moduleStateUpdate in m_moduleStateUpdates)
+            UpdateModuleState(null);
+        }
+        protected void UpdateModuleState(in List<object> moduleUpdateDataPerCanvas)
+        {
+            if (moduleUpdateDataPerCanvas != null && moduleUpdateDataPerCanvas.Count == m_canvases.Count)
             {
-                moduleStateUpdate.UpdateModuleState();
+                for (int index = 0; index < m_canvases.Count; index++)
+                {
+                    m_moduleStateUpdates[index].UpdateModuleState(moduleUpdateDataPerCanvas[index]);
+                }
+            }
+            else
+            {
+                foreach (var moduleStateUpdate in m_moduleStateUpdates)
+                {
+                    moduleStateUpdate.UpdateModuleState(null);
+                }
             }
         }
     }

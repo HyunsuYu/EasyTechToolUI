@@ -1,4 +1,5 @@
-﻿using System;
+﻿using EasyTechToolUI.Public.Data;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -9,68 +10,53 @@ using UnityEngine;
 
 namespace EasyTechToolUI.ItemViewList
 {
-    public interface IItemStateUpdate<_ItemComponentClass> where _ItemComponentClass : MonoBehaviour, IItemStateUpdate<_ItemComponentClass>
+    public abstract class ItemViewList : EdgyModulePrototype
     {
-        void InitializeItem(in ItemViewList<_ItemComponentClass> itemViewList, in object itemInitData);
-
-        void UpdateItemState();
-    }
-
-    public abstract class ItemViewListItem : MonoBehaviour, IItemStateUpdate<ItemViewListItem>
-    {
-        private ItemViewList<ItemViewListItem> m_itemViewList;
-
-
-        /// <summary>
-        /// If you want to initialize item with init data, must be override this method and implement the custom initialization.
-        /// </summary>
-        /// <param name="itemViewList"></param>
-        /// <param name="itemInitData"></param>
-        [Obsolete]
-        public void InitializeItem(in ItemViewList<ItemViewListItem> itemViewList, in object itemInitData) { }
-
-        [Obsolete]
-        public void UpdateItemState() { }
-
-        public virtual void RemoveItem()
+        public interface IItemStateUpdate
         {
-            m_itemViewList.RemoveItem(this);
-        }
-        public virtual void SelectItem()
-        {
-            ItemViewList<ItemViewListItem>.CurSelectedItemIndex = m_itemViewList.GetItemIndex(this);
-        }
-    }
+            void InitializeItem(in ItemViewList itemViewList, in object itemInitData);
 
-    public abstract class ItemViewList<_ItemComponentClass> : MonoBehaviour, IModuleStateUpdate where _ItemComponentClass : MonoBehaviour, IItemStateUpdate<_ItemComponentClass>
-    {
+            void UpdateItemState(in object itemUpdateData);
+        }
+
+        public abstract class Item : MonoBehaviour, IItemStateUpdate
+        {
+            private ItemViewList m_itemViewList;
+
+
+            public virtual void InitializeItem(in ItemViewList itemViewList, in object itemInitData)
+            {
+                m_itemViewList = itemViewList;
+            }
+
+            public virtual void UpdateItemState(in object itemUpdateData)
+            {
+
+            }
+
+            public virtual void RemoveItem()
+            {
+                m_itemViewList.RemoveItem(this);
+            }
+            public virtual void SelectItem()
+            {
+                m_itemViewList.CurSelectedItemIndex = m_itemViewList.GetItemIndex(this);
+            }
+        }
+
+
         [Header("Item View Item Prefab")]
         [SerializeField] private GameObject m_prefab_item;
 
         [Header("Item View Item Parent")]
         [SerializeField] private Transform m_transform_itemParent;
 
-        private List<_ItemComponentClass> m_itemComponentClasses = new List<_ItemComponentClass>();
-
-        private static ItemViewList<_ItemComponentClass> m_instance;
+        private List<Item> m_items = new List<Item>();
 
         private static int m_curSelectedItemIndex = 0;
 
 
-        private void Awake()
-        {
-            m_instance = this;
-        }
-
-        public static ItemViewList<_ItemComponentClass> Instance
-        {
-            get
-            {
-                return m_instance;
-            }
-        }
-
-        public static int CurSelectedItemIndex
+        public int CurSelectedItemIndex
         {
             get
             {
@@ -78,18 +64,17 @@ namespace EasyTechToolUI.ItemViewList
             }
             set
             {
-                if(0 <= value && value < Instance.ItemCount)
+                if (0 <= value && value < ItemCount)
                 {
                     m_curSelectedItemIndex = value;
                 }
             }
         }
-
         public int ItemCount
         {
             get
             {
-                return m_itemComponentClasses.Count;
+                return m_items.Count;
             }
         }
 
@@ -103,43 +88,42 @@ namespace EasyTechToolUI.ItemViewList
         protected void AddItem(in object itemInitData)
         {
             GameObject newItem = Instantiate(m_prefab_item, m_transform_itemParent);
-            _ItemComponentClass itemComponentClass = newItem.GetComponent<_ItemComponentClass>();
+            Item item = newItem.GetComponent<Item>();
 
-            itemComponentClass.InitializeItem(this, itemInitData);
-            itemComponentClass.UpdateItemState();
+            item.InitializeItem(this, itemInitData);
 
-            m_itemComponentClasses.Add(itemComponentClass);
+            m_items.Add(item);
         }
 
-        internal void RemoveItem(in _ItemComponentClass itemComponentClass)
+        internal void RemoveItem(in Item itemComponentClass)
         {
-            m_itemComponentClasses.Remove(itemComponentClass);
+            m_items.Remove(itemComponentClass);
         }
 
         public virtual void RemoveItemAt(in int index)
         {
-            m_itemComponentClasses.RemoveAt(index);
+            m_items.RemoveAt(index);
         }
 
         public virtual void ClearItems()
         {
-            foreach (var itemComponentClass in m_itemComponentClasses)
+            foreach (var itemComponentClass in m_items)
             {
                 Destroy(itemComponentClass.gameObject);
             }
-            m_itemComponentClasses.Clear();
+            m_items.Clear();
         }
 
-        public virtual int GetItemIndex(in _ItemComponentClass itemComponentClass)
+        public virtual int GetItemIndex(in Item itemComponentClass)
         {
-            return m_itemComponentClasses.IndexOf(itemComponentClass);
+            return m_items.IndexOf(itemComponentClass);
         }
 
-        public virtual void InitializeModule()
+        public override void InitializeModule(in object moduleInitData)
         {
 
         }
-        public virtual void UpdateModuleState()
+        public override void UpdateModuleState(in object moduleUpdateData)
         {
 
         }

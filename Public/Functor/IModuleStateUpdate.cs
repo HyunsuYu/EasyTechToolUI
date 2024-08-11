@@ -11,7 +11,7 @@ namespace EasyTechToolUI
 {
     public interface IModuleStateUpdate
     {
-        void InitializeModule();
-        void UpdateModuleState();
+        void InitializeModule(in object moduleInitData);
+        void UpdateModuleState(in object moduleUpdateData);
     }
 }
