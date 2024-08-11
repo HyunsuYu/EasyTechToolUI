@@ -2,7 +2,7 @@
   <img src="https://simpleicons.org/icons/unity.svg" alt="Simple Icons" width=70>
   <h3 align="center">EasyTechToolUI</h3>
   <p align="center">
-    Project for easy UI development and change. See <a href="https://galvanized-soda-726.notion.site/EasyTechTool-API-Docs-e75031634b364643b2fb7516a5114ae2?pvs=4">documentation</a> for details
+    Project for easy UI development and change. See <a href="https://galvanized-soda-726.notion.site/EasyTechTool-API-Docs-e75031634b364643b2fb7516a5114ae2?pvs=4" target="_blank">documentation</a> for details
   </p>
 </p>
 
@@ -37,7 +37,7 @@ UnityEngine.dll
 </p>
 
 ## Unity Project Setting
-For details on applying EasyTechToolUI.dll to Unity Project, please refer to the <a href="https://docs.unity3d.com/Manual/Plugins.html">Unity Manual</a>
+For details on applying EasyTechToolUI.dll to Unity Project, please refer to the <a href="https://docs.unity3d.com/Manual/Plugins.html" target="_blank">Unity Manual</a>
 
 However, if you only want a simple way to apply the plug-in to the Unity project, you can follow this procedure:
 1. Create a Plugins folder under the Assets folder
@@ -46,7 +46,7 @@ However, if you only want a simple way to apply the plug-in to the Unity project
 4. Check dependency issues, etc. before using plug-in
 
 ## Tutorials for each feature
-- <a href="">Canvas Transition</a>
-- <a href="">Item View List</a>
+- <a href="" target="_blank">Canvas Transition</a>
+- <a href="" target="_blank">Item View List</a>
 
-## [EasyTechToolUI Docs](https://galvanized-soda-726.notion.site/EasyTechTool-API-Docs-e75031634b364643b2fb7516a5114ae2?pvs=4)
+## <a href="https://galvanized-soda-726.notion.site/EasyTechTool-API-Docs-e75031634b364643b2fb7516a5114ae2?pvs=4" target="_blank">EasyTechToolUI Docs</a>
