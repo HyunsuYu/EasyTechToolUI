@@ -1,5 +1,4 @@
-﻿using EasyTechToolUI.Public.Data;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -30,7 +29,7 @@ namespace EasyTechToolUI
 
         public virtual void InitializeModule(in object moduleInitData)
         {
-            InitializeModule(moduleInitData);
+            InitializeModule((List<object>)moduleInitData);
         }
         protected void InitializeModule(in List<object> moduleInitDataPerSubModule)
         {
@@ -52,7 +51,7 @@ namespace EasyTechToolUI
 
         public virtual void UpdateModuleState(in object moduleInitData)
         {
-            UpdateModuleState(moduleInitData);
+            UpdateModuleState((List<object>)moduleInitData);
         }
         protected void UpdateModuleState(in List<object> moduleUpdateDataPerSubModule)
         {

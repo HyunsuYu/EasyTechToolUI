@@ -26,10 +26,15 @@ namespace EasyTechToolUI
         [Header("First Screen Canvas Index")]
         [SerializeField] private int m_firstScreenCanvasIndex = 0;
 
+        [Header("Page Transition Controll")]
+        [SerializeField] private EdgyModulePrototype m_pageTransitionControll;
+
         private Dictionary<string, ITransitionEventSub> m_canvasTransitionEventSub;
         private string m_prevCanvasName;
 
         private List<IModuleStateUpdate> m_moduleStateUpdates = new List<IModuleStateUpdate>();
+
+        private int m_curCanvasIndex = 0;
 
         private static CanvasTransitionManager m_instance;
 
@@ -58,8 +63,6 @@ namespace EasyTechToolUI
             {
                 m_canvasTransitionEventSub[canvasName].InitializeAwake();
             }
-
-            InitializeModule(null);
 
             if(m_canvases.Count == 0)
             {
@@ -123,6 +126,13 @@ namespace EasyTechToolUI
                 return m_canvasTransitionEventSub;
             }
         }
+        public int CurCanvasIndex
+        {
+            get
+            {
+                return m_curCanvasIndex;
+            }
+        }
 
         public virtual void OpenCanvas(int canvasIndex)
         {
@@ -153,14 +163,18 @@ namespace EasyTechToolUI
             }
 
             m_prevCanvasName = m_canvasNames[canvasIndex];
+
+            m_curCanvasIndex = canvasIndex;
         }
 
         public virtual void InitializeModule(in object moduleInitData)
         {
-            InitializeModule(null);
+            InitializeModule((List<object>)null);
         }
         protected void InitializeModule(in List<object> moduleInitDataPerCanvas)
         {
+            m_pageTransitionControll.InitializeModule(null);
+
             if(moduleInitDataPerCanvas != null && moduleInitDataPerCanvas.Count == m_canvases.Count)
             {
                 for (int index = 0; index < m_canvases.Count; index++)
@@ -179,10 +193,12 @@ namespace EasyTechToolUI
 
         public virtual void UpdateModuleState(in object moduleUpdateData)
         {
-            UpdateModuleState(null);
+            UpdateModuleState((List<object>)null);
         }
         protected void UpdateModuleState(in List<object> moduleUpdateDataPerCanvas)
         {
+            m_pageTransitionControll.UpdateModuleState(null);
+
             if (moduleUpdateDataPerCanvas != null && moduleUpdateDataPerCanvas.Count == m_canvases.Count)
             {
                 for (int index = 0; index < m_canvases.Count; index++)

@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 using UnityEngine;
 
 
-namespace EasyTechToolUI.Public.Data
+namespace EasyTechToolUI
 {
     public abstract class EdgyModulePrototype : MonoBehaviour, IModuleStateUpdate
     {
