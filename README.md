@@ -31,9 +31,9 @@ UnityEngine.dll
 
 ## Supported UI styles
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/ad4f9f30-0746-4c17-bb67-d42ee76c1c34" width=600>
+  <img src="https://github.com/user-attachments/assets/31705b8c-a91f-4606-afb6-b00d18de2641" width=600>
   <br>
-  <img src="https://github.com/user-attachments/assets/653e6432-c470-4daa-9dbc-177f0ddeb76b" width=600>
+  <img src="https://github.com/user-attachments/assets/9d040f3c-e66b-400e-8538-732cb0a062af" width=600>
 </p>
 
 ## Unity Project Setting
