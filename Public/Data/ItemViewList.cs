@@ -76,6 +76,13 @@ namespace EasyTechToolUI.ItemViewList
                 return m_items.Count;
             }
         }
+        public List<Item> Items
+        {
+            get
+            {
+                return m_items;
+            }
+        }
 
         /// <summary>
         /// If you want to add item with init data, must be override this method and pass the init data to AddItem(in object itemInitData) method.
