@@ -5,17 +5,32 @@ using System.Text;
 using System.Threading.Tasks;
 
 using UnityEngine;
+using UnityEngine.UIElements;
 
 
 namespace EasyTechToolUI
 {
+    /// <summary>
+    /// EasyTechToolUI's top administrator is responsible for initializing, updating, and transition of pages
+    /// </summary>
     public class CanvasTransitionManager : EdgyModulePrototype
     {
+        /// <summary>
+        /// Define the methods that must be implemented when each page is transition by the CanvasTransitionManager
+        /// </summary>
         public interface ITransitionEventSub
         {
+            /// <summary>
+            /// Called when the screen switches to the page that inherited the corresponding ITransitionEventSub
+            /// </summary>
+            /// <param name="from" >Name of the screen before it was switched to the current screen</param>
             void OnTransition(in string from);
 
-            void InitializeAwake();
+            /// <summary>
+            /// The page that inherited ITTransitionEventSub is called by the appropriate CanvasTransitionManager when it is initialized for the first time
+            /// </summary>
+            /// <param name="attachedCanvasTransitionManagerGuid"></param>
+            void InitializeAwake(in Guid attachedCanvasTransitionManagerGuid);
         }
 
 
@@ -58,10 +73,11 @@ namespace EasyTechToolUI
 
             foreach (string canvasName in m_canvasNames)
             {
-                m_canvasTransitionEventSub[canvasName].InitializeAwake();
+                m_canvasTransitionEventSub[canvasName].InitializeAwake(m_canvasTransitionManagerGuid);
             }
 
-            InitializeModule(null);
+            InitializeModule(null as object, m_canvasTransitionManagerGuid);
+            UpdateModuleState(null as object);
 
             if (m_canvases.Count == 0)
             {
@@ -96,6 +112,7 @@ namespace EasyTechToolUI
                 return m_canvasNames;
             }
         }
+
         public int FirstScreenCanvasIndex
         {
             get
@@ -110,6 +127,18 @@ namespace EasyTechToolUI
                 }
             }
         }
+
+        /// <summary>
+        /// It refers to the EdgeModulePrototype for managing UI elements to be used for page transition
+        /// </summary>
+        public EdgyModulePrototype PageTransitionControll
+        {
+            get
+            {
+                return m_pageTransitionControll;
+            }
+        }
+
         public Dictionary<string, ITransitionEventSub> CanvasTransitionEventSub
         {
             get
@@ -117,6 +146,14 @@ namespace EasyTechToolUI
                 return m_canvasTransitionEventSub;
             }
         }
+        public string PrevCanvasName
+        {
+            get
+            {
+                return m_prevCanvasName;
+            }
+        }
+
         public int CurCanvasIndex
         {
             get
@@ -132,6 +169,10 @@ namespace EasyTechToolUI
             }
         }
 
+        /// <summary>
+        /// Transition to canvas on the corresponding m_canvas using the given int as index
+        /// </summary>
+        /// <param name="canvasIndex">Index of the page you want to switch to</param>
         public virtual void OpenCanvas(int canvasIndex)
         {
             OpenCanvas(canvasIndex, null);
@@ -166,33 +207,33 @@ namespace EasyTechToolUI
             m_pageTransitionControll.UpdateModuleState(null);
         }
 
-        public override void InitializeModule(in object moduleInitData)
+        public override void InitializeModule(in object moduleInitData, in Guid attachedCanvasTransitionManagerGuid)
         {
-            InitializeModule((List<object>)null);
+            InitializeModule(moduleInitData as List<object>);
         }
         protected void InitializeModule(in List<object> moduleInitDataPerCanvas)
         {
-            m_pageTransitionControll.InitializeModule(null);
+            m_pageTransitionControll.InitializeModule(null, m_canvasTransitionManagerGuid);
 
             if(moduleInitDataPerCanvas != null && moduleInitDataPerCanvas.Count == m_canvases.Count)
             {
                 for (int index = 0; index < m_canvases.Count; index++)
                 {
-                    m_moduleStateUpdates[index].InitializeModule(moduleInitDataPerCanvas[index]);
+                    m_moduleStateUpdates[index].InitializeModule(moduleInitDataPerCanvas[index], m_canvasTransitionManagerGuid);
                 }
             }
             else
             {
                 foreach (var moduleStateUpdate in m_moduleStateUpdates)
                 {
-                    moduleStateUpdate.InitializeModule(null);
+                    moduleStateUpdate.InitializeModule(null, m_canvasTransitionManagerGuid);
                 }
             }
         }
 
         public override void UpdateModuleState(in object moduleUpdateData)
         {
-            UpdateModuleState((List<object>)null);
+            UpdateModuleState(null as List<object>);
         }
         protected void UpdateModuleState(in List<object> moduleUpdateDataPerCanvas)
         {

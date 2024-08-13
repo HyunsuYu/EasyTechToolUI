@@ -7,9 +7,10 @@ using System.Threading.Tasks;
 using UnityEngine;
 
 
-namespace EasyTechToolUI
+namespace EasyTechToolUI.ItemGridPlane
 {
-    public abstract class ItemGridPlane : MonoBehaviour
+    [Obsolete("Please do not use this class because it is being implemented")]
+    internal abstract class ItemGridPlane : MonoBehaviour
     {
 
     }
