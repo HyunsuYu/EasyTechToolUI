@@ -9,7 +9,7 @@ using UnityEngine;
 
 namespace EasyTechToolUI.ItemGridPlane
 {
-    [Obsolete("Please do not use this class because it is being implemented")]
+    [Obsolete("On Dev")]
     internal abstract class ItemGridPlane : MonoBehaviour
     {
 
