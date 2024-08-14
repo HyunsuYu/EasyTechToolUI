@@ -20,23 +20,33 @@ Here's a strong reason to use EasyTechToolUI for your project:
 - It provides convenient data buffers, utility methods, and properties considering flexibility in use
 - It allows easy access to each element from anywhere and helps to code that lowers strong bonds between codes
 
+### Features
+- CanvasTransitonManager
+- ItemViewList
+- ItemGridPlane
+
+### Demo - Unity Asset Store
+
 # Usage
 > [!IMPORTANT]\
 > This project is for UI development in Unity. Informs that no other game engine supports it
 
-## Dependencies
+# Dependencies
 ```
 UnityEngine.dll
+UnityEngine.UI.dll
 ```
 
-## Supported UI styles
+# Supported UI styles
 <p align="center">
   <img src="https://github.com/user-attachments/assets/31705b8c-a91f-4606-afb6-b00d18de2641" width=600>
   <br>
-  <img src="https://github.com/user-attachments/assets/9d040f3c-e66b-400e-8538-732cb0a062af" width=600>
+  <img src="https://github.com/user-attachments/assets/f9a6d304-a307-431a-9971-0e6eb19861b4" width=600>
+  <br>
+  <img src="https://github.com/user-attachments/assets/05ea0717-56bd-49da-baf0-0d7d3fa3a239" width=600>
 </p>
 
-## Unity Project Setting
+# Unity Project Setting
 For details on applying EasyTechToolUI.dll to Unity Project, please refer to the <a href="https://docs.unity3d.com/Manual/Plugins.html" target="_blank">Unity Manual</a>
 
 However, if you only want a simple way to apply the plug-in to the Unity project, you can follow this procedure:
@@ -45,8 +55,4 @@ However, if you only want a simple way to apply the plug-in to the Unity project
 3. Drag and drop the downloaded dll under the Plugins folder
 4. Check dependency issues, etc. before using plug-in
 
-## Tutorials for each feature
-- <a href="" target="_blank">Canvas Transition</a>
-- <a href="" target="_blank">Item View List</a>
-
-## <a href="https://galvanized-soda-726.notion.site/EasyTechTool-API-Docs-e75031634b364643b2fb7516a5114ae2?pvs=4" target="_blank">EasyTechToolUI Docs</a>
+# <a href="https://galvanized-soda-726.notion.site/EasyTechTool-API-Docs-e75031634b364643b2fb7516a5114ae2?pvs=4" target="_blank">EasyTechToolUI Docs</a>
