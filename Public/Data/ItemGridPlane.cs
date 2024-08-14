@@ -34,6 +34,14 @@ namespace EasyTechToolUI.ItemGridPlane
             private int m_spawnedItemIndex;
 
 
+            public ItemGridPlane AttahcedItemGridPlane
+            {
+                get
+                {
+                    return m_itemGridPlane;
+                }
+            }
+
             public virtual void InitializeItem(in ItemGridPlane itemGridPlane, in int spawnedItemIndex, in object itemInitData)
             {
                 m_itemGridPlane = itemGridPlane;
