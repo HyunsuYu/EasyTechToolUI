@@ -55,8 +55,6 @@ namespace EasyTechToolUI.ItemViewList
             public virtual void InitializeItem(in ItemViewList itemViewList, in object itemInitData)
             {
                 m_itemViewList = itemViewList;
-
-                UpdateItemState(itemInitData);
             }
 
             public virtual void UpdateItemState(in object itemUpdateData)
@@ -209,6 +207,8 @@ namespace EasyTechToolUI.ItemViewList
         }
         protected void InitializeModule(in List<object> moduleInitDataPerItem)
         {
+            ClearItems();
+
             if (moduleInitDataPerItem != null && moduleInitDataPerItem.Count == m_items.Count)
             {
                 for (int index = 0; index < m_items.Count; index++)
@@ -227,7 +227,7 @@ namespace EasyTechToolUI.ItemViewList
 
         public override void UpdateModuleState(in object moduleUpdateData)
         {
-            UpdateModuleState((List<object>)moduleUpdateData);
+            UpdateModuleState(moduleUpdateData as List<object>);
         }
         protected void UpdateModuleState(in List<object> moduleUpdateDataPerItem)
         {
