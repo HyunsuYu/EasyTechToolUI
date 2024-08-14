@@ -27,6 +27,7 @@ Here's a strong reason to use EasyTechToolUI for your project:
 ## Dependencies
 ```
 UnityEngine.dll
+UnityEngine.UI.dll
 ```
 
 ## Supported UI styles
