@@ -13,7 +13,7 @@ namespace EasyTechToolUI
     /// <summary>
     /// EasyTechToolUI's top administrator is responsible for initializing, updating, and transition of pages
     /// </summary>
-    public class CanvasTransitionManager : EdgyModulePrototype
+    public class CanvasTransitionManager : MonoBehaviour, IModuleStateUpdate
     {
         /// <summary>
         /// Define the methods that must be implemented when each page is transition by the CanvasTransitionManager
@@ -207,7 +207,7 @@ namespace EasyTechToolUI
             m_pageTransitionControll.UpdateModuleState(null);
         }
 
-        public override void InitializeModule(in object moduleInitData, in Guid attachedCanvasTransitionManagerGuid)
+        public virtual void InitializeModule(in object moduleInitData, in Guid attachedCanvasTransitionManagerGuid)
         {
             InitializeModule(moduleInitData as List<object>);
         }
@@ -231,7 +231,7 @@ namespace EasyTechToolUI
             }
         }
 
-        public override void UpdateModuleState(in object moduleUpdateData)
+        public virtual void UpdateModuleState(in object moduleUpdateData)
         {
             UpdateModuleState(null as List<object>);
         }

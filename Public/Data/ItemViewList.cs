@@ -79,13 +79,16 @@ namespace EasyTechToolUI.ItemViewList
             /// <summary>
             /// Method called when you want to select the current item in ItemViewList
             /// </summary>
-            public virtual void SelectItem()
+            public virtual void SelectItem(bool bdoCanvasTransiton)
             {
                 m_itemViewList.CurSelectedItemIndex = m_itemViewList.GetItemIndex(this);
 
                 m_itemViewList.UpdateModuleState(null);
 
-                CanvasTransitionManagerBuffer.GetCanvasTransitionManager(m_itemViewList.AttachedCanvasTransitionManagerGuid).OpenCanvas(m_itemViewList.GetItemIndex(this));
+                if(bdoCanvasTransiton)
+                {
+                    CanvasTransitionManagerBuffer.GetCanvasTransitionManager(m_itemViewList.AttachedCanvasTransitionManagerGuid).OpenCanvas(m_itemViewList.GetItemIndex(this));
+                }
             }
 
             public abstract void OnItemSelected(in object itemData, in bool bisSelected);
@@ -155,25 +158,42 @@ namespace EasyTechToolUI.ItemViewList
             item.InitializeItem(this, itemInitData);
 
             m_items.Add(item);
+
+            UpdateModuleState(null);
         }
 
         internal void RemoveItem(in Item itemComponentClass)
         {
+            Destroy(itemComponentClass.gameObject);
             m_items.Remove(itemComponentClass);
+
+            UpdateModuleState(null);
         }
 
         public virtual void RemoveItemAt(in int index)
         {
+            if(m_curSelectedItemIndex == ItemCount - 1)
+            {
+                m_curSelectedItemIndex -= 1;
+            }
+
+            Destroy(m_items[index].gameObject);
             m_items.RemoveAt(index);
+
+            UpdateModuleState(null);
         }
 
         public virtual void ClearItems()
         {
+            m_curSelectedItemIndex = 0;
+
             foreach (var itemComponentClass in m_items)
             {
                 Destroy(itemComponentClass.gameObject);
             }
             m_items.Clear();
+
+            UpdateModuleState(null);
         }
 
         public virtual int GetItemIndex(in Item itemComponentClass)
