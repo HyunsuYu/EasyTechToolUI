@@ -79,7 +79,7 @@ namespace EasyTechToolUI.ItemViewList
             /// <summary>
             /// Method called when you want to select the current item in ItemViewList
             /// </summary>
-            public virtual void SelectItem(bool bdoCanvasTransiton)
+            public virtual void SelectItem(bool bdoCanvasTransiton = false)
             {
                 m_itemViewList.CurSelectedItemIndex = m_itemViewList.GetItemIndex(this);
 
