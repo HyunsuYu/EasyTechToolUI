@@ -41,6 +41,13 @@ namespace EasyTechToolUI.ItemGridPlane
                     return m_itemGridPlane;
                 }
             }
+            public int SpawnedItemIndex
+            {
+                get
+                {
+                    return m_spawnedItemIndex;
+                }
+            }
 
             public virtual void InitializeItem(in ItemGridPlane itemGridPlane, in int spawnedItemIndex, in object itemInitData)
             {
@@ -376,8 +383,6 @@ namespace EasyTechToolUI.ItemGridPlane
                     m_itemPlane[coord_y, coord_x] = item;
                 }
             }
-
-            UpdateModuleState(null);
         }
 
         public override void UpdateModuleState(in object moduleUpdateData)
