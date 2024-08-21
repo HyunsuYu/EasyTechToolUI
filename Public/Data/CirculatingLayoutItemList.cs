@@ -1,85 +1,94 @@
-﻿using EasyTechToolUI.ItemGridPlane;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Security.Cryptography;
 using System.Text;
 using System.Threading.Tasks;
 
 using UnityEngine;
 
 
-namespace EasyTechToolUI
+namespace EasyTechToolUI.Public.Data
 {
-    public abstract class FreeLayoutItemPlane : EdgyModulePrototype
+    public abstract class CirculatingLayoutItemList : EdgyModulePrototype
     {
         public interface IItemStateUpdate
         {
-            void InitializeItem(in FreeLayoutItemPlane freeLayoutItemPlane, in object itemInitData);
+            void InitializeItem(in CirculatingLayoutItemList circulatingLayoutItemList, in int absoluteItemIndex, in object itemInitData);
 
             void UpdateItemState(in object itemUpdateData);
         }
 
         public abstract class Item : MonoBehaviour, IItemStateUpdate, IItemSelectedAction
         {
-            private FreeLayoutItemPlane m_freeLayoutItemPlane;
+            private CirculatingLayoutItemList m_circulatingLayoutItemList;
+
+            private int m_absoluteItemIndex = -1;
 
 
-            public FreeLayoutItemPlane AttahcedFreeLayoutItemPlane
+            public CirculatingLayoutItemList AttahcedCirculatingLayoutItemList
             {
                 get
                 {
-                    return m_freeLayoutItemPlane;
+                    return m_circulatingLayoutItemList;
                 }
             }
 
-            public void InitializeItem(in FreeLayoutItemPlane freeLayoutItemPlane, in object itemInitData)
+            public int AbsoluteItemIndex
             {
-                m_freeLayoutItemPlane = freeLayoutItemPlane;
+                get
+                {
+                    return m_absoluteItemIndex;
+                }
             }
 
-            public void UpdateItemState(in object itemUpdateData)
+            public virtual void InitializeItem(in CirculatingLayoutItemList circulatingLayoutItemList, in int absoluteItemIndex, in object itemInitData)
             {
-                if (m_freeLayoutItemPlane != null)
+                m_circulatingLayoutItemList = circulatingLayoutItemList;
+
+                m_absoluteItemIndex = absoluteItemIndex;
+            }
+
+            public virtual void UpdateItemState(in object itemUpdateData)
+            {
+                if (m_circulatingLayoutItemList != null)
                 {
-                    bool bisItemSelected = m_freeLayoutItemPlane.CurSelectedItemIndex == m_freeLayoutItemPlane.GetItemIndex(this);
+                    bool bisItemSelected = m_circulatingLayoutItemList.CurAbsoluteSelectedItemIndex == m_absoluteItemIndex;
 
                     OnItemSelected(itemUpdateData, bisItemSelected);
                 }
             }
 
+            public virtual void RemoveItem()
+            {
+                m_circulatingLayoutItemList.RemoveItem(this);
+            }
             public virtual void SelectItem(bool bdoCanvasTransiton = false)
             {
-                m_freeLayoutItemPlane.CurSelectedItemIndex = m_freeLayoutItemPlane.GetItemIndex(this);
+                m_circulatingLayoutItemList.CurAbsoluteSelectedItemIndex = m_absoluteItemIndex;
 
-                m_freeLayoutItemPlane.UpdateModuleState(null);
+                m_circulatingLayoutItemList.UpdateModuleState(null);
 
-                if (bdoCanvasTransiton)
+                m_circulatingLayoutItemList.ReorderItem();
+
+                if(bdoCanvasTransiton)
                 {
-                    CanvasTransitionManagerBuffer.GetCanvasTransitionManager(m_freeLayoutItemPlane.AttachedCanvasTransitionManagerGuid).OpenCanvas(m_freeLayoutItemPlane.GetItemIndex(this));
+                    CanvasTransitionManagerBuffer.GetCanvasTransitionManager(m_circulatingLayoutItemList.AttachedCanvasTransitionManagerGuid).OpenCanvas(m_absoluteItemIndex);
                 }
             }
 
             public abstract void OnItemSelected(in object itemData, in bool bisSelected);
         }
 
-        /// <summary>
-        /// This event is called when item addition is faced on limit
-        /// </summary>
-        public delegate void MaxItemCountEvent();
-
 
         [Header("Item Grid Plane Prefab")]
         [SerializeField] private GameObject m_prefab_item;
 
-        [Header("Item Spawn Poses")]
-        [SerializeField] List<Transform> m_itemSpawnPoses;
-
-        protected MaxItemCountEvent MaxItemCountEventHandler { get; set; }
+        [Header("Item View Item Parent")]
+        [SerializeField] private Transform m_transform_itemParent;
 
         private List<Item> m_items = new List<Item>();
 
-        private int m_curSelectedItemIndex;
+        private int m_curSelectedAbsoluteItemIndex = 0;
 
         private Guid m_attachedCanvasTransitionManagerGuid;
 
@@ -99,17 +108,17 @@ namespace EasyTechToolUI
             }
         }
 
-        public int CurSelectedItemIndex
+        public int CurAbsoluteSelectedItemIndex
         {
             get
             {
-                return m_curSelectedItemIndex;
+                return m_curSelectedAbsoluteItemIndex;
             }
             set
             {
                 if (0 <= value && value < ItemCount)
                 {
-                    m_curSelectedItemIndex = value;
+                    m_curSelectedAbsoluteItemIndex = value;
                 }
             }
         }
@@ -128,15 +137,10 @@ namespace EasyTechToolUI
         }
         protected void AddItem(in object itemInitData)
         {
-            if(ItemCount >= m_itemSpawnPoses.Count)
-            {
-                MaxItemCountEventHandler();
-            }
+            GameObject itemObject = Instantiate(m_prefab_item, m_transform_itemParent);
+            Item item = itemObject.GetComponent<Item>();
 
-            GameObject newItem = Instantiate(m_prefab_item, m_itemSpawnPoses[ItemCount + 1]);
-            Item item = newItem.GetComponent<Item>();
-
-            item.InitializeItem(this, itemInitData);
+            item.InitializeItem(this, ItemCount - 1, itemInitData);
 
             m_items.Add(item);
 
@@ -145,17 +149,20 @@ namespace EasyTechToolUI
 
         internal void RemoveItem(in Item itemComponentClass)
         {
-            Destroy(itemComponentClass.gameObject);
-            m_items.Remove(itemComponentClass);
+            if (m_items.Contains(itemComponentClass))
+            {
+                Destroy(itemComponentClass.gameObject);
+                m_items.Remove(itemComponentClass);
 
-            UpdateModuleState(null);
+                UpdateModuleState(null);
+            }
         }
 
         public virtual void RemoveItemAt(in int index)
         {
-            if (m_curSelectedItemIndex == ItemCount - 1)
+            if(m_curSelectedAbsoluteItemIndex == ItemCount - 1)
             {
-                m_curSelectedItemIndex -= 1;
+                m_curSelectedAbsoluteItemIndex -= 1;
             }
 
             Destroy(m_items[index].gameObject);
@@ -166,7 +173,9 @@ namespace EasyTechToolUI
 
         public virtual void ClearItems()
         {
-            foreach(Item item in m_items)
+            m_curSelectedAbsoluteItemIndex = 0;
+
+            foreach (Item item in m_items)
             {
                 Destroy(item.gameObject);
             }
@@ -175,9 +184,19 @@ namespace EasyTechToolUI
             UpdateModuleState(null);
         }
 
-        public virtual int GetItemIndex(in Item itemComponentClass)
+        internal void ReorderItem()
         {
-            return m_items.IndexOf(itemComponentClass);
+            for (int index = 0; index < ItemCount; index++)
+            {
+                if(CurAbsoluteSelectedItemIndex != m_items[index].AbsoluteItemIndex)
+                {
+                    m_items[index].transform.SetSiblingIndex(ItemCount - 1);
+                }
+                else
+                {
+                    break;
+                }
+            }
         }
 
         public override void InitializeModule(in object moduleInitData, in Guid attachedCanvasTransitionManagerGuid)
@@ -190,18 +209,18 @@ namespace EasyTechToolUI
         {
             ClearItems();
 
-            if (moduleInitDataPerItem != null && moduleInitDataPerItem.Count == m_items.Count)
+            if(moduleInitDataPerItem != null && moduleInitDataPerItem.Count == m_items.Count)
             {
                 for (int index = 0; index < m_items.Count; index++)
                 {
-                    m_items[index].InitializeItem(this, moduleInitDataPerItem[index]);
+                    m_items[index].InitializeItem(this, index, moduleInitDataPerItem[index]);
                 }
             }
             else
             {
-                foreach (var item in m_items)
+                for (int index = 0; index < m_items.Count; index++)
                 {
-                    item.InitializeItem(this, null);
+                    m_items[index].InitializeItem(this, index, null);
                 }
             }
         }
@@ -210,7 +229,7 @@ namespace EasyTechToolUI
         {
             UpdateModuleState(moduleUpdateData as List<object>);
         }
-        protected void UpdateModuleState(in List<object> moduleUpdateDataPerItem)
+        public void UpdateModuleState(in List<object> moduleUpdateDataPerItem)
         {
             if (moduleUpdateDataPerItem != null && moduleUpdateDataPerItem.Count == m_items.Count)
             {
