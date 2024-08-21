@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 using UnityEngine;
 
 
-namespace EasyTechToolUI.Public.Data
+namespace EasyTechToolUI.CirculatingLayoutItemList
 {
     public abstract class CirculatingLayoutItemList : EdgyModulePrototype
     {
@@ -149,13 +149,10 @@ namespace EasyTechToolUI.Public.Data
 
         internal void RemoveItem(in Item itemComponentClass)
         {
-            if (m_items.Contains(itemComponentClass))
-            {
-                Destroy(itemComponentClass.gameObject);
-                m_items.Remove(itemComponentClass);
+            Destroy(itemComponentClass.gameObject);
+            m_items.Remove(itemComponentClass);
 
-                UpdateModuleState(null);
-            }
+            UpdateModuleState(null);
         }
 
         public virtual void RemoveItemAt(in int index)

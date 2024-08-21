@@ -1,15 +1,13 @@
-﻿using EasyTechToolUI.ItemGridPlane;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Security.Cryptography;
 using System.Text;
 using System.Threading.Tasks;
 
 using UnityEngine;
 
 
-namespace EasyTechToolUI
+namespace EasyTechToolUI.FreeLayoutItemPlane
 {
     public abstract class FreeLayoutItemPlane : EdgyModulePrototype
     {
@@ -48,6 +46,10 @@ namespace EasyTechToolUI
                 }
             }
 
+            public virtual void RemoveItem()
+            {
+                m_freeLayoutItemPlane.RemoveItem(this);
+            }
             public virtual void SelectItem(bool bdoCanvasTransiton = false)
             {
                 m_freeLayoutItemPlane.CurSelectedItemIndex = m_freeLayoutItemPlane.GetItemIndex(this);
@@ -147,6 +149,12 @@ namespace EasyTechToolUI
         {
             Destroy(itemComponentClass.gameObject);
             m_items.Remove(itemComponentClass);
+
+            for(int index = 0; index < ItemCount; index++)
+            {
+                m_items[index].transform.SetParent(m_itemSpawnPoses[index]);
+                m_items[index].GetComponent<RectTransform>().SetLocalPositionAndRotation(Vector3.zero, Quaternion.identity);
+            }
 
             UpdateModuleState(null);
         }
