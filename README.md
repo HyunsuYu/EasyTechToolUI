@@ -44,6 +44,10 @@ UnityEngine.UI.dll
   <img src="https://github.com/user-attachments/assets/f9a6d304-a307-431a-9971-0e6eb19861b4" width=600>
   <br>
   <img src="https://github.com/user-attachments/assets/05ea0717-56bd-49da-baf0-0d7d3fa3a239" width=600>
+  <br>
+  <img src="https://github.com/user-attachments/assets/978e740b-cc4f-49d2-9727-93add3644bd3" width=600>
+  <br>
+  <img src="https://github.com/user-attachments/assets/07fbb6d5-e71e-4f13-89bd-81e0e1ecbdc0" width=600>
 </p>
 
 # Unity Project Setting
