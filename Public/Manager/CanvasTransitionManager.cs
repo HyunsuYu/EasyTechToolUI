@@ -204,7 +204,10 @@ namespace EasyTechToolUI
             m_prevCanvasName = m_canvasNames[canvasIndex];
 
             m_curCanvasIndex = canvasIndex;
-            m_pageTransitionControll.UpdateModuleState(null);
+            if(m_pageTransitionControll != null)
+            {
+                m_pageTransitionControll.UpdateModuleState(null);
+            }
         }
 
         public virtual void InitializeModule(in object moduleInitData, in Guid attachedCanvasTransitionManagerGuid)
@@ -213,7 +216,10 @@ namespace EasyTechToolUI
         }
         protected void InitializeModule(in List<object> moduleInitDataPerCanvas)
         {
-            m_pageTransitionControll.InitializeModule(null, m_canvasTransitionManagerGuid);
+            if(m_pageTransitionControll != null)
+            {
+                m_pageTransitionControll.InitializeModule(null, m_canvasTransitionManagerGuid);
+            }
 
             if(moduleInitDataPerCanvas != null && moduleInitDataPerCanvas.Count == m_canvases.Count)
             {
@@ -237,7 +243,10 @@ namespace EasyTechToolUI
         }
         protected void UpdateModuleState(in List<object> moduleUpdateDataPerCanvas)
         {
-            m_pageTransitionControll.UpdateModuleState(null);
+            if(m_pageTransitionControll != null)
+            {
+                m_pageTransitionControll.UpdateModuleState(null);
+            }
 
             if (moduleUpdateDataPerCanvas != null && moduleUpdateDataPerCanvas.Count == m_canvases.Count)
             {

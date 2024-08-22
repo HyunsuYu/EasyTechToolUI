@@ -135,7 +135,7 @@ namespace EasyTechToolUI.FreeLayoutItemPlane
                 MaxItemCountEventHandler();
             }
 
-            GameObject newItem = Instantiate(m_prefab_item, m_itemSpawnPoses[ItemCount + 1]);
+            GameObject newItem = Instantiate(m_prefab_item, m_itemSpawnPoses[ItemCount]);
             Item item = newItem.GetComponent<Item>();
 
             item.InitializeItem(this, itemInitData);
