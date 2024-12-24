@@ -44,13 +44,15 @@ UnityEngine.UI.dll
 
 ## Supported UI styles
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/31705b8c-a91f-4606-afb6-b00d18de2641" width=600>
+  <img src="https://github.com/user-attachments/assets/acd02da3-0834-4ce3-b845-49bc69988250" width=600>
   <br>
-  <img src="https://github.com/user-attachments/assets/f9a6d304-a307-431a-9971-0e6eb19861b4" width=600>
+  <img src="https://github.com/user-attachments/assets/8663653f-067d-4f04-90c4-a79264497ac2" width=600>
   <br>
-  <img src="https://github.com/user-attachments/assets/05ea0717-56bd-49da-baf0-0d7d3fa3a239" width=600>
+  <img src="https://github.com/user-attachments/assets/0a4dba30-a6b0-4671-8715-d9b9df6fc5a9" width=600>
   <br>
-  <img src="https://github.com/user-attachments/assets/978e740b-cc4f-49d2-9727-93add3644bd3" width=600>
+  <img src="https://github.com/user-attachments/assets/65f4e30f-620e-445d-927c-d9c35ef8ee49" width=600>
   <br>
-  <img src="https://github.com/user-attachments/assets/07fbb6d5-e71e-4f13-89bd-81e0e1ecbdc0" width=600>
+  <img src="https://github.com/user-attachments/assets/87d7a2a0-b195-4153-8017-465945f25041" width=600>
+  <br>
+  <img src="https://github.com/user-attachments/assets/5c5ce322-14ae-4b66-86b0-a6e767979c07" width=600>
 </p>
