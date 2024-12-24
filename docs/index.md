@@ -1,9 +1,6 @@
 <p align="center">
   <img src="https://github.com/user-attachments/assets/031c51b6-9761-4f2a-83d2-61c5a40e6ca0" alt="Simple Icons" width=70>
   <h3 align="center">EasyTechToolUI</h3>
-  <p align="center">
-    Project for easy UI development and change. See <a href="https://galvanized-soda-726.notion.site/EasyTechTool-API-Docs-e75031634b364643b2fb7516a5114ae2?pvs=4" target="_blank">documentation</a> for details
-  </p>
 </p>
 
 <p align="center">
