@@ -106,6 +106,9 @@ namespace EasyTechToolUI.ItemViewList
         private Guid m_attachedCanvasTransitionManagerGuid;
 
 
+        /// <summary>
+        /// A list of items currently managed by the UI module
+        /// </summary>
         public List<Item> Items
         {
             get
