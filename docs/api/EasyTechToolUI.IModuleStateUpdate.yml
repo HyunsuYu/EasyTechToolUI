@@ -1,0 +1,150 @@
+### YamlMime:ManagedReference
+items:
+- uid: EasyTechToolUI.IModuleStateUpdate
+  commentId: T:EasyTechToolUI.IModuleStateUpdate
+  id: IModuleStateUpdate
+  parent: EasyTechToolUI
+  children:
+  - EasyTechToolUI.IModuleStateUpdate.InitializeModule(System.Object@,System.Guid@)
+  - EasyTechToolUI.IModuleStateUpdate.UpdateModuleState(System.Object@)
+  langs:
+  - csharp
+  - vb
+  name: IModuleStateUpdate
+  nameWithType: IModuleStateUpdate
+  fullName: EasyTechToolUI.IModuleStateUpdate
+  type: Interface
+  source:
+    remote:
+      path: Public/Functor/IModuleStateUpdate.cs
+      branch: master
+      repo: https://github.com/HyunsuYu/EasyTechToolUI.git
+    id: IModuleStateUpdate
+    path: ../Public/Functor/IModuleStateUpdate.cs
+    startLine: 14
+  assemblies:
+  - EasyTechToolUI
+  namespace: EasyTechToolUI
+  summary: Interface that defines the methods necessary to manage the UI module
+  example: []
+  syntax:
+    content: public interface IModuleStateUpdate
+    content.vb: Public Interface IModuleStateUpdate
+- uid: EasyTechToolUI.IModuleStateUpdate.InitializeModule(System.Object@,System.Guid@)
+  commentId: M:EasyTechToolUI.IModuleStateUpdate.InitializeModule(System.Object@,System.Guid@)
+  id: InitializeModule(System.Object@,System.Guid@)
+  parent: EasyTechToolUI.IModuleStateUpdate
+  langs:
+  - csharp
+  - vb
+  name: InitializeModule(in object, in Guid)
+  nameWithType: IModuleStateUpdate.InitializeModule(in object, in Guid)
+  fullName: EasyTechToolUI.IModuleStateUpdate.InitializeModule(in object, in System.Guid)
+  type: Method
+  source:
+    remote:
+      path: Public/Functor/IModuleStateUpdate.cs
+      branch: master
+      repo: https://github.com/HyunsuYu/EasyTechToolUI.git
+    id: InitializeModule
+    path: ../Public/Functor/IModuleStateUpdate.cs
+    startLine: 21
+  assemblies:
+  - EasyTechToolUI
+  namespace: EasyTechToolUI
+  summary: You can call the module when you initialize it
+  example: []
+  syntax:
+    content: void InitializeModule(in object moduleInitData, in Guid attachedCanvasTransitionManagerGuid)
+    parameters:
+    - id: moduleInitData
+      type: System.Object
+      description: This refers to custom data to be used when initializing modules. In some cases, null is also allowed
+    - id: attachedCanvasTransitionManagerGuid
+      type: System.Guid
+      description: This is the Guid of the CanvasTransitionManager to which the module belongs
+    content.vb: Sub InitializeModule(moduleInitData As Object, attachedCanvasTransitionManagerGuid As Guid)
+  overload: EasyTechToolUI.IModuleStateUpdate.InitializeModule*
+  nameWithType.vb: IModuleStateUpdate.InitializeModule(Object, Guid)
+  fullName.vb: EasyTechToolUI.IModuleStateUpdate.InitializeModule(Object, System.Guid)
+  name.vb: InitializeModule(Object, Guid)
+- uid: EasyTechToolUI.IModuleStateUpdate.UpdateModuleState(System.Object@)
+  commentId: M:EasyTechToolUI.IModuleStateUpdate.UpdateModuleState(System.Object@)
+  id: UpdateModuleState(System.Object@)
+  parent: EasyTechToolUI.IModuleStateUpdate
+  langs:
+  - csharp
+  - vb
+  name: UpdateModuleState(in object)
+  nameWithType: IModuleStateUpdate.UpdateModuleState(in object)
+  fullName: EasyTechToolUI.IModuleStateUpdate.UpdateModuleState(in object)
+  type: Method
+  source:
+    remote:
+      path: Public/Functor/IModuleStateUpdate.cs
+      branch: master
+      repo: https://github.com/HyunsuYu/EasyTechToolUI.git
+    id: UpdateModuleState
+    path: ../Public/Functor/IModuleStateUpdate.cs
+    startLine: 26
+  assemblies:
+  - EasyTechToolUI
+  namespace: EasyTechToolUI
+  summary: You can call the module when you updating it
+  example: []
+  syntax:
+    content: void UpdateModuleState(in object moduleUpdateData)
+    parameters:
+    - id: moduleUpdateData
+      type: System.Object
+      description: This refers to custom data to be used when updating modules. In some cases, null is also allowed
+    content.vb: Sub UpdateModuleState(moduleUpdateData As Object)
+  overload: EasyTechToolUI.IModuleStateUpdate.UpdateModuleState*
+  nameWithType.vb: IModuleStateUpdate.UpdateModuleState(Object)
+  fullName.vb: EasyTechToolUI.IModuleStateUpdate.UpdateModuleState(Object)
+  name.vb: UpdateModuleState(Object)
+references:
+- uid: EasyTechToolUI
+  commentId: N:EasyTechToolUI
+  href: EasyTechToolUI.html
+  name: EasyTechToolUI
+  nameWithType: EasyTechToolUI
+  fullName: EasyTechToolUI
+- uid: EasyTechToolUI.IModuleStateUpdate.InitializeModule*
+  commentId: Overload:EasyTechToolUI.IModuleStateUpdate.InitializeModule
+  href: EasyTechToolUI.IModuleStateUpdate.html#EasyTechToolUI_IModuleStateUpdate_InitializeModule_System_Object__System_Guid__
+  name: InitializeModule
+  nameWithType: IModuleStateUpdate.InitializeModule
+  fullName: EasyTechToolUI.IModuleStateUpdate.InitializeModule
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Guid
+  commentId: T:System.Guid
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.guid
+  name: Guid
+  nameWithType: Guid
+  fullName: System.Guid
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: EasyTechToolUI.IModuleStateUpdate.UpdateModuleState*
+  commentId: Overload:EasyTechToolUI.IModuleStateUpdate.UpdateModuleState
+  href: EasyTechToolUI.IModuleStateUpdate.html#EasyTechToolUI_IModuleStateUpdate_UpdateModuleState_System_Object__
+  name: UpdateModuleState
+  nameWithType: IModuleStateUpdate.UpdateModuleState
+  fullName: EasyTechToolUI.IModuleStateUpdate.UpdateModuleState

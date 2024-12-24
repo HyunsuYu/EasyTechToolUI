@@ -1,0 +1,118 @@
+### YamlMime:ManagedReference
+items:
+- uid: EasyTechToolUI.FreeLayoutItemPlane
+  commentId: N:EasyTechToolUI.FreeLayoutItemPlane
+  id: EasyTechToolUI.FreeLayoutItemPlane
+  children:
+  - EasyTechToolUI.FreeLayoutItemPlane.FreeLayoutItemPlane
+  - EasyTechToolUI.FreeLayoutItemPlane.FreeLayoutItemPlane.IItemStateUpdate
+  - EasyTechToolUI.FreeLayoutItemPlane.FreeLayoutItemPlane.Item
+  - EasyTechToolUI.FreeLayoutItemPlane.FreeLayoutItemPlane.MaxItemCountEvent
+  langs:
+  - csharp
+  - vb
+  name: EasyTechToolUI.FreeLayoutItemPlane
+  nameWithType: EasyTechToolUI.FreeLayoutItemPlane
+  fullName: EasyTechToolUI.FreeLayoutItemPlane
+  type: Namespace
+  assemblies:
+  - EasyTechToolUI
+references:
+- uid: EasyTechToolUI.FreeLayoutItemPlane.FreeLayoutItemPlane
+  commentId: T:EasyTechToolUI.FreeLayoutItemPlane.FreeLayoutItemPlane
+  parent: EasyTechToolUI.FreeLayoutItemPlane
+  href: EasyTechToolUI.FreeLayoutItemPlane.FreeLayoutItemPlane.html
+  name: FreeLayoutItemPlane
+  nameWithType: FreeLayoutItemPlane
+  fullName: EasyTechToolUI.FreeLayoutItemPlane.FreeLayoutItemPlane
+- uid: EasyTechToolUI.FreeLayoutItemPlane.FreeLayoutItemPlane.IItemStateUpdate
+  commentId: T:EasyTechToolUI.FreeLayoutItemPlane.FreeLayoutItemPlane.IItemStateUpdate
+  parent: EasyTechToolUI.FreeLayoutItemPlane
+  href: EasyTechToolUI.FreeLayoutItemPlane.FreeLayoutItemPlane.html
+  name: FreeLayoutItemPlane.IItemStateUpdate
+  nameWithType: FreeLayoutItemPlane.IItemStateUpdate
+  fullName: EasyTechToolUI.FreeLayoutItemPlane.FreeLayoutItemPlane.IItemStateUpdate
+  spec.csharp:
+  - uid: EasyTechToolUI.FreeLayoutItemPlane.FreeLayoutItemPlane
+    name: FreeLayoutItemPlane
+    href: EasyTechToolUI.FreeLayoutItemPlane.FreeLayoutItemPlane.html
+  - name: .
+  - uid: EasyTechToolUI.FreeLayoutItemPlane.FreeLayoutItemPlane.IItemStateUpdate
+    name: IItemStateUpdate
+    href: EasyTechToolUI.FreeLayoutItemPlane.FreeLayoutItemPlane.IItemStateUpdate.html
+  spec.vb:
+  - uid: EasyTechToolUI.FreeLayoutItemPlane.FreeLayoutItemPlane
+    name: FreeLayoutItemPlane
+    href: EasyTechToolUI.FreeLayoutItemPlane.FreeLayoutItemPlane.html
+  - name: .
+  - uid: EasyTechToolUI.FreeLayoutItemPlane.FreeLayoutItemPlane.IItemStateUpdate
+    name: IItemStateUpdate
+    href: EasyTechToolUI.FreeLayoutItemPlane.FreeLayoutItemPlane.IItemStateUpdate.html
+- uid: EasyTechToolUI.FreeLayoutItemPlane.FreeLayoutItemPlane.Item
+  commentId: T:EasyTechToolUI.FreeLayoutItemPlane.FreeLayoutItemPlane.Item
+  parent: EasyTechToolUI.FreeLayoutItemPlane
+  href: EasyTechToolUI.FreeLayoutItemPlane.FreeLayoutItemPlane.html
+  name: FreeLayoutItemPlane.Item
+  nameWithType: FreeLayoutItemPlane.Item
+  fullName: EasyTechToolUI.FreeLayoutItemPlane.FreeLayoutItemPlane.Item
+  spec.csharp:
+  - uid: EasyTechToolUI.FreeLayoutItemPlane.FreeLayoutItemPlane
+    name: FreeLayoutItemPlane
+    href: EasyTechToolUI.FreeLayoutItemPlane.FreeLayoutItemPlane.html
+  - name: .
+  - uid: EasyTechToolUI.FreeLayoutItemPlane.FreeLayoutItemPlane.Item
+    name: Item
+    href: EasyTechToolUI.FreeLayoutItemPlane.FreeLayoutItemPlane.Item.html
+  spec.vb:
+  - uid: EasyTechToolUI.FreeLayoutItemPlane.FreeLayoutItemPlane
+    name: FreeLayoutItemPlane
+    href: EasyTechToolUI.FreeLayoutItemPlane.FreeLayoutItemPlane.html
+  - name: .
+  - uid: EasyTechToolUI.FreeLayoutItemPlane.FreeLayoutItemPlane.Item
+    name: Item
+    href: EasyTechToolUI.FreeLayoutItemPlane.FreeLayoutItemPlane.Item.html
+- uid: EasyTechToolUI.FreeLayoutItemPlane.FreeLayoutItemPlane.MaxItemCountEvent
+  commentId: T:EasyTechToolUI.FreeLayoutItemPlane.FreeLayoutItemPlane.MaxItemCountEvent
+  parent: EasyTechToolUI.FreeLayoutItemPlane
+  href: EasyTechToolUI.FreeLayoutItemPlane.FreeLayoutItemPlane.html
+  name: FreeLayoutItemPlane.MaxItemCountEvent
+  nameWithType: FreeLayoutItemPlane.MaxItemCountEvent
+  fullName: EasyTechToolUI.FreeLayoutItemPlane.FreeLayoutItemPlane.MaxItemCountEvent
+  spec.csharp:
+  - uid: EasyTechToolUI.FreeLayoutItemPlane.FreeLayoutItemPlane
+    name: FreeLayoutItemPlane
+    href: EasyTechToolUI.FreeLayoutItemPlane.FreeLayoutItemPlane.html
+  - name: .
+  - uid: EasyTechToolUI.FreeLayoutItemPlane.FreeLayoutItemPlane.MaxItemCountEvent
+    name: MaxItemCountEvent
+    href: EasyTechToolUI.FreeLayoutItemPlane.FreeLayoutItemPlane.MaxItemCountEvent.html
+  spec.vb:
+  - uid: EasyTechToolUI.FreeLayoutItemPlane.FreeLayoutItemPlane
+    name: FreeLayoutItemPlane
+    href: EasyTechToolUI.FreeLayoutItemPlane.FreeLayoutItemPlane.html
+  - name: .
+  - uid: EasyTechToolUI.FreeLayoutItemPlane.FreeLayoutItemPlane.MaxItemCountEvent
+    name: MaxItemCountEvent
+    href: EasyTechToolUI.FreeLayoutItemPlane.FreeLayoutItemPlane.MaxItemCountEvent.html
+- uid: EasyTechToolUI.FreeLayoutItemPlane
+  commentId: N:EasyTechToolUI.FreeLayoutItemPlane
+  href: EasyTechToolUI.html
+  name: EasyTechToolUI.FreeLayoutItemPlane
+  nameWithType: EasyTechToolUI.FreeLayoutItemPlane
+  fullName: EasyTechToolUI.FreeLayoutItemPlane
+  spec.csharp:
+  - uid: EasyTechToolUI
+    name: EasyTechToolUI
+    href: EasyTechToolUI.html
+  - name: .
+  - uid: EasyTechToolUI.FreeLayoutItemPlane
+    name: FreeLayoutItemPlane
+    href: EasyTechToolUI.FreeLayoutItemPlane.html
+  spec.vb:
+  - uid: EasyTechToolUI
+    name: EasyTechToolUI
+    href: EasyTechToolUI.html
+  - name: .
+  - uid: EasyTechToolUI.FreeLayoutItemPlane
+    name: FreeLayoutItemPlane
+    href: EasyTechToolUI.FreeLayoutItemPlane.html

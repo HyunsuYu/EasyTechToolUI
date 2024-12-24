@@ -1,3 +1,2128 @@
 ### YamlMime:XRefMap
 sorted: true
-references: []
+references:
+- uid: EasyTechToolUI
+  name: EasyTechToolUI
+  href: api/EasyTechToolUI.html
+  commentId: N:EasyTechToolUI
+  fullName: EasyTechToolUI
+  nameWithType: EasyTechToolUI
+- uid: EasyTechToolUI.CanvasTransitionManager
+  name: CanvasTransitionManager
+  href: api/EasyTechToolUI.CanvasTransitionManager.html
+  commentId: T:EasyTechToolUI.CanvasTransitionManager
+  fullName: EasyTechToolUI.CanvasTransitionManager
+  nameWithType: CanvasTransitionManager
+- uid: EasyTechToolUI.CanvasTransitionManager.CanvasNames
+  name: CanvasNames
+  href: api/EasyTechToolUI.CanvasTransitionManager.html#EasyTechToolUI_CanvasTransitionManager_CanvasNames
+  commentId: P:EasyTechToolUI.CanvasTransitionManager.CanvasNames
+  fullName: EasyTechToolUI.CanvasTransitionManager.CanvasNames
+  nameWithType: CanvasTransitionManager.CanvasNames
+- uid: EasyTechToolUI.CanvasTransitionManager.CanvasNames*
+  name: CanvasNames
+  href: api/EasyTechToolUI.CanvasTransitionManager.html#EasyTechToolUI_CanvasTransitionManager_CanvasNames_
+  commentId: Overload:EasyTechToolUI.CanvasTransitionManager.CanvasNames
+  isSpec: "True"
+  fullName: EasyTechToolUI.CanvasTransitionManager.CanvasNames
+  nameWithType: CanvasTransitionManager.CanvasNames
+- uid: EasyTechToolUI.CanvasTransitionManager.CanvasTransitionEventSub
+  name: CanvasTransitionEventSub
+  href: api/EasyTechToolUI.CanvasTransitionManager.html#EasyTechToolUI_CanvasTransitionManager_CanvasTransitionEventSub
+  commentId: P:EasyTechToolUI.CanvasTransitionManager.CanvasTransitionEventSub
+  fullName: EasyTechToolUI.CanvasTransitionManager.CanvasTransitionEventSub
+  nameWithType: CanvasTransitionManager.CanvasTransitionEventSub
+- uid: EasyTechToolUI.CanvasTransitionManager.CanvasTransitionEventSub*
+  name: CanvasTransitionEventSub
+  href: api/EasyTechToolUI.CanvasTransitionManager.html#EasyTechToolUI_CanvasTransitionManager_CanvasTransitionEventSub_
+  commentId: Overload:EasyTechToolUI.CanvasTransitionManager.CanvasTransitionEventSub
+  isSpec: "True"
+  fullName: EasyTechToolUI.CanvasTransitionManager.CanvasTransitionEventSub
+  nameWithType: CanvasTransitionManager.CanvasTransitionEventSub
+- uid: EasyTechToolUI.CanvasTransitionManager.CanvasTransitionManagerGuid
+  name: CanvasTransitionManagerGuid
+  href: api/EasyTechToolUI.CanvasTransitionManager.html#EasyTechToolUI_CanvasTransitionManager_CanvasTransitionManagerGuid
+  commentId: P:EasyTechToolUI.CanvasTransitionManager.CanvasTransitionManagerGuid
+  fullName: EasyTechToolUI.CanvasTransitionManager.CanvasTransitionManagerGuid
+  nameWithType: CanvasTransitionManager.CanvasTransitionManagerGuid
+- uid: EasyTechToolUI.CanvasTransitionManager.CanvasTransitionManagerGuid*
+  name: CanvasTransitionManagerGuid
+  href: api/EasyTechToolUI.CanvasTransitionManager.html#EasyTechToolUI_CanvasTransitionManager_CanvasTransitionManagerGuid_
+  commentId: Overload:EasyTechToolUI.CanvasTransitionManager.CanvasTransitionManagerGuid
+  isSpec: "True"
+  fullName: EasyTechToolUI.CanvasTransitionManager.CanvasTransitionManagerGuid
+  nameWithType: CanvasTransitionManager.CanvasTransitionManagerGuid
+- uid: EasyTechToolUI.CanvasTransitionManager.Canvases
+  name: Canvases
+  href: api/EasyTechToolUI.CanvasTransitionManager.html#EasyTechToolUI_CanvasTransitionManager_Canvases
+  commentId: P:EasyTechToolUI.CanvasTransitionManager.Canvases
+  fullName: EasyTechToolUI.CanvasTransitionManager.Canvases
+  nameWithType: CanvasTransitionManager.Canvases
+- uid: EasyTechToolUI.CanvasTransitionManager.Canvases*
+  name: Canvases
+  href: api/EasyTechToolUI.CanvasTransitionManager.html#EasyTechToolUI_CanvasTransitionManager_Canvases_
+  commentId: Overload:EasyTechToolUI.CanvasTransitionManager.Canvases
+  isSpec: "True"
+  fullName: EasyTechToolUI.CanvasTransitionManager.Canvases
+  nameWithType: CanvasTransitionManager.Canvases
+- uid: EasyTechToolUI.CanvasTransitionManager.CurCanvasIndex
+  name: CurCanvasIndex
+  href: api/EasyTechToolUI.CanvasTransitionManager.html#EasyTechToolUI_CanvasTransitionManager_CurCanvasIndex
+  commentId: P:EasyTechToolUI.CanvasTransitionManager.CurCanvasIndex
+  fullName: EasyTechToolUI.CanvasTransitionManager.CurCanvasIndex
+  nameWithType: CanvasTransitionManager.CurCanvasIndex
+- uid: EasyTechToolUI.CanvasTransitionManager.CurCanvasIndex*
+  name: CurCanvasIndex
+  href: api/EasyTechToolUI.CanvasTransitionManager.html#EasyTechToolUI_CanvasTransitionManager_CurCanvasIndex_
+  commentId: Overload:EasyTechToolUI.CanvasTransitionManager.CurCanvasIndex
+  isSpec: "True"
+  fullName: EasyTechToolUI.CanvasTransitionManager.CurCanvasIndex
+  nameWithType: CanvasTransitionManager.CurCanvasIndex
+- uid: EasyTechToolUI.CanvasTransitionManager.FirstScreenCanvasIndex
+  name: FirstScreenCanvasIndex
+  href: api/EasyTechToolUI.CanvasTransitionManager.html#EasyTechToolUI_CanvasTransitionManager_FirstScreenCanvasIndex
+  commentId: P:EasyTechToolUI.CanvasTransitionManager.FirstScreenCanvasIndex
+  fullName: EasyTechToolUI.CanvasTransitionManager.FirstScreenCanvasIndex
+  nameWithType: CanvasTransitionManager.FirstScreenCanvasIndex
+- uid: EasyTechToolUI.CanvasTransitionManager.FirstScreenCanvasIndex*
+  name: FirstScreenCanvasIndex
+  href: api/EasyTechToolUI.CanvasTransitionManager.html#EasyTechToolUI_CanvasTransitionManager_FirstScreenCanvasIndex_
+  commentId: Overload:EasyTechToolUI.CanvasTransitionManager.FirstScreenCanvasIndex
+  isSpec: "True"
+  fullName: EasyTechToolUI.CanvasTransitionManager.FirstScreenCanvasIndex
+  nameWithType: CanvasTransitionManager.FirstScreenCanvasIndex
+- uid: EasyTechToolUI.CanvasTransitionManager.ITransitionEventSub
+  name: CanvasTransitionManager.ITransitionEventSub
+  href: api/EasyTechToolUI.CanvasTransitionManager.ITransitionEventSub.html
+  commentId: T:EasyTechToolUI.CanvasTransitionManager.ITransitionEventSub
+  fullName: EasyTechToolUI.CanvasTransitionManager.ITransitionEventSub
+  nameWithType: CanvasTransitionManager.ITransitionEventSub
+- uid: EasyTechToolUI.CanvasTransitionManager.ITransitionEventSub.InitializeAwake(System.Guid@)
+  name: InitializeAwake(in Guid)
+  href: api/EasyTechToolUI.CanvasTransitionManager.ITransitionEventSub.html#EasyTechToolUI_CanvasTransitionManager_ITransitionEventSub_InitializeAwake_System_Guid__
+  commentId: M:EasyTechToolUI.CanvasTransitionManager.ITransitionEventSub.InitializeAwake(System.Guid@)
+  name.vb: InitializeAwake(Guid)
+  fullName: EasyTechToolUI.CanvasTransitionManager.ITransitionEventSub.InitializeAwake(in System.Guid)
+  fullName.vb: EasyTechToolUI.CanvasTransitionManager.ITransitionEventSub.InitializeAwake(System.Guid)
+  nameWithType: CanvasTransitionManager.ITransitionEventSub.InitializeAwake(in Guid)
+  nameWithType.vb: CanvasTransitionManager.ITransitionEventSub.InitializeAwake(Guid)
+- uid: EasyTechToolUI.CanvasTransitionManager.ITransitionEventSub.InitializeAwake*
+  name: InitializeAwake
+  href: api/EasyTechToolUI.CanvasTransitionManager.ITransitionEventSub.html#EasyTechToolUI_CanvasTransitionManager_ITransitionEventSub_InitializeAwake_
+  commentId: Overload:EasyTechToolUI.CanvasTransitionManager.ITransitionEventSub.InitializeAwake
+  isSpec: "True"
+  fullName: EasyTechToolUI.CanvasTransitionManager.ITransitionEventSub.InitializeAwake
+  nameWithType: CanvasTransitionManager.ITransitionEventSub.InitializeAwake
+- uid: EasyTechToolUI.CanvasTransitionManager.ITransitionEventSub.OnTransition(System.String@)
+  name: OnTransition(in string)
+  href: api/EasyTechToolUI.CanvasTransitionManager.ITransitionEventSub.html#EasyTechToolUI_CanvasTransitionManager_ITransitionEventSub_OnTransition_System_String__
+  commentId: M:EasyTechToolUI.CanvasTransitionManager.ITransitionEventSub.OnTransition(System.String@)
+  name.vb: OnTransition(String)
+  fullName: EasyTechToolUI.CanvasTransitionManager.ITransitionEventSub.OnTransition(in string)
+  fullName.vb: EasyTechToolUI.CanvasTransitionManager.ITransitionEventSub.OnTransition(String)
+  nameWithType: CanvasTransitionManager.ITransitionEventSub.OnTransition(in string)
+  nameWithType.vb: CanvasTransitionManager.ITransitionEventSub.OnTransition(String)
+- uid: EasyTechToolUI.CanvasTransitionManager.ITransitionEventSub.OnTransition*
+  name: OnTransition
+  href: api/EasyTechToolUI.CanvasTransitionManager.ITransitionEventSub.html#EasyTechToolUI_CanvasTransitionManager_ITransitionEventSub_OnTransition_
+  commentId: Overload:EasyTechToolUI.CanvasTransitionManager.ITransitionEventSub.OnTransition
+  isSpec: "True"
+  fullName: EasyTechToolUI.CanvasTransitionManager.ITransitionEventSub.OnTransition
+  nameWithType: CanvasTransitionManager.ITransitionEventSub.OnTransition
+- uid: EasyTechToolUI.CanvasTransitionManager.InitializeModule(System.Collections.Generic.List{System.Object}@)
+  name: InitializeModule(in List<object>)
+  href: api/EasyTechToolUI.CanvasTransitionManager.html#EasyTechToolUI_CanvasTransitionManager_InitializeModule_System_Collections_Generic_List_System_Object___
+  commentId: M:EasyTechToolUI.CanvasTransitionManager.InitializeModule(System.Collections.Generic.List{System.Object}@)
+  name.vb: InitializeModule(List(Of Object))
+  fullName: EasyTechToolUI.CanvasTransitionManager.InitializeModule(in System.Collections.Generic.List<object>)
+  fullName.vb: EasyTechToolUI.CanvasTransitionManager.InitializeModule(System.Collections.Generic.List(Of Object))
+  nameWithType: CanvasTransitionManager.InitializeModule(in List<object>)
+  nameWithType.vb: CanvasTransitionManager.InitializeModule(List(Of Object))
+- uid: EasyTechToolUI.CanvasTransitionManager.InitializeModule(System.Object@,System.Guid@)
+  name: InitializeModule(in object, in Guid)
+  href: api/EasyTechToolUI.CanvasTransitionManager.html#EasyTechToolUI_CanvasTransitionManager_InitializeModule_System_Object__System_Guid__
+  commentId: M:EasyTechToolUI.CanvasTransitionManager.InitializeModule(System.Object@,System.Guid@)
+  name.vb: InitializeModule(Object, Guid)
+  fullName: EasyTechToolUI.CanvasTransitionManager.InitializeModule(in object, in System.Guid)
+  fullName.vb: EasyTechToolUI.CanvasTransitionManager.InitializeModule(Object, System.Guid)
+  nameWithType: CanvasTransitionManager.InitializeModule(in object, in Guid)
+  nameWithType.vb: CanvasTransitionManager.InitializeModule(Object, Guid)
+- uid: EasyTechToolUI.CanvasTransitionManager.InitializeModule*
+  name: InitializeModule
+  href: api/EasyTechToolUI.CanvasTransitionManager.html#EasyTechToolUI_CanvasTransitionManager_InitializeModule_
+  commentId: Overload:EasyTechToolUI.CanvasTransitionManager.InitializeModule
+  isSpec: "True"
+  fullName: EasyTechToolUI.CanvasTransitionManager.InitializeModule
+  nameWithType: CanvasTransitionManager.InitializeModule
+- uid: EasyTechToolUI.CanvasTransitionManager.OpenCanvas(System.Int32)
+  name: OpenCanvas(int)
+  href: api/EasyTechToolUI.CanvasTransitionManager.html#EasyTechToolUI_CanvasTransitionManager_OpenCanvas_System_Int32_
+  commentId: M:EasyTechToolUI.CanvasTransitionManager.OpenCanvas(System.Int32)
+  name.vb: OpenCanvas(Integer)
+  fullName: EasyTechToolUI.CanvasTransitionManager.OpenCanvas(int)
+  fullName.vb: EasyTechToolUI.CanvasTransitionManager.OpenCanvas(Integer)
+  nameWithType: CanvasTransitionManager.OpenCanvas(int)
+  nameWithType.vb: CanvasTransitionManager.OpenCanvas(Integer)
+- uid: EasyTechToolUI.CanvasTransitionManager.OpenCanvas(System.Int32@,System.Object@)
+  name: OpenCanvas(in int, in object)
+  href: api/EasyTechToolUI.CanvasTransitionManager.html#EasyTechToolUI_CanvasTransitionManager_OpenCanvas_System_Int32__System_Object__
+  commentId: M:EasyTechToolUI.CanvasTransitionManager.OpenCanvas(System.Int32@,System.Object@)
+  name.vb: OpenCanvas(Integer, Object)
+  fullName: EasyTechToolUI.CanvasTransitionManager.OpenCanvas(in int, in object)
+  fullName.vb: EasyTechToolUI.CanvasTransitionManager.OpenCanvas(Integer, Object)
+  nameWithType: CanvasTransitionManager.OpenCanvas(in int, in object)
+  nameWithType.vb: CanvasTransitionManager.OpenCanvas(Integer, Object)
+- uid: EasyTechToolUI.CanvasTransitionManager.OpenCanvas*
+  name: OpenCanvas
+  href: api/EasyTechToolUI.CanvasTransitionManager.html#EasyTechToolUI_CanvasTransitionManager_OpenCanvas_
+  commentId: Overload:EasyTechToolUI.CanvasTransitionManager.OpenCanvas
+  isSpec: "True"
+  fullName: EasyTechToolUI.CanvasTransitionManager.OpenCanvas
+  nameWithType: CanvasTransitionManager.OpenCanvas
+- uid: EasyTechToolUI.CanvasTransitionManager.PageTransitionControll
+  name: PageTransitionControll
+  href: api/EasyTechToolUI.CanvasTransitionManager.html#EasyTechToolUI_CanvasTransitionManager_PageTransitionControll
+  commentId: P:EasyTechToolUI.CanvasTransitionManager.PageTransitionControll
+  fullName: EasyTechToolUI.CanvasTransitionManager.PageTransitionControll
+  nameWithType: CanvasTransitionManager.PageTransitionControll
+- uid: EasyTechToolUI.CanvasTransitionManager.PageTransitionControll*
+  name: PageTransitionControll
+  href: api/EasyTechToolUI.CanvasTransitionManager.html#EasyTechToolUI_CanvasTransitionManager_PageTransitionControll_
+  commentId: Overload:EasyTechToolUI.CanvasTransitionManager.PageTransitionControll
+  isSpec: "True"
+  fullName: EasyTechToolUI.CanvasTransitionManager.PageTransitionControll
+  nameWithType: CanvasTransitionManager.PageTransitionControll
+- uid: EasyTechToolUI.CanvasTransitionManager.PrevCanvasName
+  name: PrevCanvasName
+  href: api/EasyTechToolUI.CanvasTransitionManager.html#EasyTechToolUI_CanvasTransitionManager_PrevCanvasName
+  commentId: P:EasyTechToolUI.CanvasTransitionManager.PrevCanvasName
+  fullName: EasyTechToolUI.CanvasTransitionManager.PrevCanvasName
+  nameWithType: CanvasTransitionManager.PrevCanvasName
+- uid: EasyTechToolUI.CanvasTransitionManager.PrevCanvasName*
+  name: PrevCanvasName
+  href: api/EasyTechToolUI.CanvasTransitionManager.html#EasyTechToolUI_CanvasTransitionManager_PrevCanvasName_
+  commentId: Overload:EasyTechToolUI.CanvasTransitionManager.PrevCanvasName
+  isSpec: "True"
+  fullName: EasyTechToolUI.CanvasTransitionManager.PrevCanvasName
+  nameWithType: CanvasTransitionManager.PrevCanvasName
+- uid: EasyTechToolUI.CanvasTransitionManager.UpdateModuleState(System.Collections.Generic.List{System.Object}@)
+  name: UpdateModuleState(in List<object>)
+  href: api/EasyTechToolUI.CanvasTransitionManager.html#EasyTechToolUI_CanvasTransitionManager_UpdateModuleState_System_Collections_Generic_List_System_Object___
+  commentId: M:EasyTechToolUI.CanvasTransitionManager.UpdateModuleState(System.Collections.Generic.List{System.Object}@)
+  name.vb: UpdateModuleState(List(Of Object))
+  fullName: EasyTechToolUI.CanvasTransitionManager.UpdateModuleState(in System.Collections.Generic.List<object>)
+  fullName.vb: EasyTechToolUI.CanvasTransitionManager.UpdateModuleState(System.Collections.Generic.List(Of Object))
+  nameWithType: CanvasTransitionManager.UpdateModuleState(in List<object>)
+  nameWithType.vb: CanvasTransitionManager.UpdateModuleState(List(Of Object))
+- uid: EasyTechToolUI.CanvasTransitionManager.UpdateModuleState(System.Object@)
+  name: UpdateModuleState(in object)
+  href: api/EasyTechToolUI.CanvasTransitionManager.html#EasyTechToolUI_CanvasTransitionManager_UpdateModuleState_System_Object__
+  commentId: M:EasyTechToolUI.CanvasTransitionManager.UpdateModuleState(System.Object@)
+  name.vb: UpdateModuleState(Object)
+  fullName: EasyTechToolUI.CanvasTransitionManager.UpdateModuleState(in object)
+  fullName.vb: EasyTechToolUI.CanvasTransitionManager.UpdateModuleState(Object)
+  nameWithType: CanvasTransitionManager.UpdateModuleState(in object)
+  nameWithType.vb: CanvasTransitionManager.UpdateModuleState(Object)
+- uid: EasyTechToolUI.CanvasTransitionManager.UpdateModuleState*
+  name: UpdateModuleState
+  href: api/EasyTechToolUI.CanvasTransitionManager.html#EasyTechToolUI_CanvasTransitionManager_UpdateModuleState_
+  commentId: Overload:EasyTechToolUI.CanvasTransitionManager.UpdateModuleState
+  isSpec: "True"
+  fullName: EasyTechToolUI.CanvasTransitionManager.UpdateModuleState
+  nameWithType: CanvasTransitionManager.UpdateModuleState
+- uid: EasyTechToolUI.CanvasTransitionManagerBuffer
+  name: CanvasTransitionManagerBuffer
+  href: api/EasyTechToolUI.CanvasTransitionManagerBuffer.html
+  commentId: T:EasyTechToolUI.CanvasTransitionManagerBuffer
+  fullName: EasyTechToolUI.CanvasTransitionManagerBuffer
+  nameWithType: CanvasTransitionManagerBuffer
+- uid: EasyTechToolUI.CanvasTransitionManagerBuffer.AddCanvasTransitionManager(System.Guid@,EasyTechToolUI.CanvasTransitionManager@)
+  name: AddCanvasTransitionManager(in Guid, in CanvasTransitionManager)
+  href: api/EasyTechToolUI.CanvasTransitionManagerBuffer.html#EasyTechToolUI_CanvasTransitionManagerBuffer_AddCanvasTransitionManager_System_Guid__EasyTechToolUI_CanvasTransitionManager__
+  commentId: M:EasyTechToolUI.CanvasTransitionManagerBuffer.AddCanvasTransitionManager(System.Guid@,EasyTechToolUI.CanvasTransitionManager@)
+  name.vb: AddCanvasTransitionManager(Guid, CanvasTransitionManager)
+  fullName: EasyTechToolUI.CanvasTransitionManagerBuffer.AddCanvasTransitionManager(in System.Guid, in EasyTechToolUI.CanvasTransitionManager)
+  fullName.vb: EasyTechToolUI.CanvasTransitionManagerBuffer.AddCanvasTransitionManager(System.Guid, EasyTechToolUI.CanvasTransitionManager)
+  nameWithType: CanvasTransitionManagerBuffer.AddCanvasTransitionManager(in Guid, in CanvasTransitionManager)
+  nameWithType.vb: CanvasTransitionManagerBuffer.AddCanvasTransitionManager(Guid, CanvasTransitionManager)
+- uid: EasyTechToolUI.CanvasTransitionManagerBuffer.AddCanvasTransitionManager*
+  name: AddCanvasTransitionManager
+  href: api/EasyTechToolUI.CanvasTransitionManagerBuffer.html#EasyTechToolUI_CanvasTransitionManagerBuffer_AddCanvasTransitionManager_
+  commentId: Overload:EasyTechToolUI.CanvasTransitionManagerBuffer.AddCanvasTransitionManager
+  isSpec: "True"
+  fullName: EasyTechToolUI.CanvasTransitionManagerBuffer.AddCanvasTransitionManager
+  nameWithType: CanvasTransitionManagerBuffer.AddCanvasTransitionManager
+- uid: EasyTechToolUI.CanvasTransitionManagerBuffer.CanvasTransitionManagerGuids
+  name: CanvasTransitionManagerGuids
+  href: api/EasyTechToolUI.CanvasTransitionManagerBuffer.html#EasyTechToolUI_CanvasTransitionManagerBuffer_CanvasTransitionManagerGuids
+  commentId: P:EasyTechToolUI.CanvasTransitionManagerBuffer.CanvasTransitionManagerGuids
+  fullName: EasyTechToolUI.CanvasTransitionManagerBuffer.CanvasTransitionManagerGuids
+  nameWithType: CanvasTransitionManagerBuffer.CanvasTransitionManagerGuids
+- uid: EasyTechToolUI.CanvasTransitionManagerBuffer.CanvasTransitionManagerGuids*
+  name: CanvasTransitionManagerGuids
+  href: api/EasyTechToolUI.CanvasTransitionManagerBuffer.html#EasyTechToolUI_CanvasTransitionManagerBuffer_CanvasTransitionManagerGuids_
+  commentId: Overload:EasyTechToolUI.CanvasTransitionManagerBuffer.CanvasTransitionManagerGuids
+  isSpec: "True"
+  fullName: EasyTechToolUI.CanvasTransitionManagerBuffer.CanvasTransitionManagerGuids
+  nameWithType: CanvasTransitionManagerBuffer.CanvasTransitionManagerGuids
+- uid: EasyTechToolUI.CanvasTransitionManagerBuffer.CanvasTransitionManagers
+  name: CanvasTransitionManagers
+  href: api/EasyTechToolUI.CanvasTransitionManagerBuffer.html#EasyTechToolUI_CanvasTransitionManagerBuffer_CanvasTransitionManagers
+  commentId: P:EasyTechToolUI.CanvasTransitionManagerBuffer.CanvasTransitionManagers
+  fullName: EasyTechToolUI.CanvasTransitionManagerBuffer.CanvasTransitionManagers
+  nameWithType: CanvasTransitionManagerBuffer.CanvasTransitionManagers
+- uid: EasyTechToolUI.CanvasTransitionManagerBuffer.CanvasTransitionManagers*
+  name: CanvasTransitionManagers
+  href: api/EasyTechToolUI.CanvasTransitionManagerBuffer.html#EasyTechToolUI_CanvasTransitionManagerBuffer_CanvasTransitionManagers_
+  commentId: Overload:EasyTechToolUI.CanvasTransitionManagerBuffer.CanvasTransitionManagers
+  isSpec: "True"
+  fullName: EasyTechToolUI.CanvasTransitionManagerBuffer.CanvasTransitionManagers
+  nameWithType: CanvasTransitionManagerBuffer.CanvasTransitionManagers
+- uid: EasyTechToolUI.CanvasTransitionManagerBuffer.GetCanvasTransitionManager(System.Guid@)
+  name: GetCanvasTransitionManager(in Guid)
+  href: api/EasyTechToolUI.CanvasTransitionManagerBuffer.html#EasyTechToolUI_CanvasTransitionManagerBuffer_GetCanvasTransitionManager_System_Guid__
+  commentId: M:EasyTechToolUI.CanvasTransitionManagerBuffer.GetCanvasTransitionManager(System.Guid@)
+  name.vb: GetCanvasTransitionManager(Guid)
+  fullName: EasyTechToolUI.CanvasTransitionManagerBuffer.GetCanvasTransitionManager(in System.Guid)
+  fullName.vb: EasyTechToolUI.CanvasTransitionManagerBuffer.GetCanvasTransitionManager(System.Guid)
+  nameWithType: CanvasTransitionManagerBuffer.GetCanvasTransitionManager(in Guid)
+  nameWithType.vb: CanvasTransitionManagerBuffer.GetCanvasTransitionManager(Guid)
+- uid: EasyTechToolUI.CanvasTransitionManagerBuffer.GetCanvasTransitionManager*
+  name: GetCanvasTransitionManager
+  href: api/EasyTechToolUI.CanvasTransitionManagerBuffer.html#EasyTechToolUI_CanvasTransitionManagerBuffer_GetCanvasTransitionManager_
+  commentId: Overload:EasyTechToolUI.CanvasTransitionManagerBuffer.GetCanvasTransitionManager
+  isSpec: "True"
+  fullName: EasyTechToolUI.CanvasTransitionManagerBuffer.GetCanvasTransitionManager
+  nameWithType: CanvasTransitionManagerBuffer.GetCanvasTransitionManager
+- uid: EasyTechToolUI.CirculatingLayoutItemList
+  name: EasyTechToolUI.CirculatingLayoutItemList
+  href: api/EasyTechToolUI.CirculatingLayoutItemList.html
+  commentId: N:EasyTechToolUI.CirculatingLayoutItemList
+  fullName: EasyTechToolUI.CirculatingLayoutItemList
+  nameWithType: EasyTechToolUI.CirculatingLayoutItemList
+- uid: EasyTechToolUI.CirculatingLayoutItemList.CirculatingLayoutItemList
+  name: CirculatingLayoutItemList
+  href: api/EasyTechToolUI.CirculatingLayoutItemList.CirculatingLayoutItemList.html
+  commentId: T:EasyTechToolUI.CirculatingLayoutItemList.CirculatingLayoutItemList
+  fullName: EasyTechToolUI.CirculatingLayoutItemList.CirculatingLayoutItemList
+  nameWithType: CirculatingLayoutItemList
+- uid: EasyTechToolUI.CirculatingLayoutItemList.CirculatingLayoutItemList.AddItem
+  name: AddItem()
+  href: api/EasyTechToolUI.CirculatingLayoutItemList.CirculatingLayoutItemList.html#EasyTechToolUI_CirculatingLayoutItemList_CirculatingLayoutItemList_AddItem
+  commentId: M:EasyTechToolUI.CirculatingLayoutItemList.CirculatingLayoutItemList.AddItem
+  fullName: EasyTechToolUI.CirculatingLayoutItemList.CirculatingLayoutItemList.AddItem()
+  nameWithType: CirculatingLayoutItemList.AddItem()
+- uid: EasyTechToolUI.CirculatingLayoutItemList.CirculatingLayoutItemList.AddItem(System.Object@)
+  name: AddItem(in object)
+  href: api/EasyTechToolUI.CirculatingLayoutItemList.CirculatingLayoutItemList.html#EasyTechToolUI_CirculatingLayoutItemList_CirculatingLayoutItemList_AddItem_System_Object__
+  commentId: M:EasyTechToolUI.CirculatingLayoutItemList.CirculatingLayoutItemList.AddItem(System.Object@)
+  name.vb: AddItem(Object)
+  fullName: EasyTechToolUI.CirculatingLayoutItemList.CirculatingLayoutItemList.AddItem(in object)
+  fullName.vb: EasyTechToolUI.CirculatingLayoutItemList.CirculatingLayoutItemList.AddItem(Object)
+  nameWithType: CirculatingLayoutItemList.AddItem(in object)
+  nameWithType.vb: CirculatingLayoutItemList.AddItem(Object)
+- uid: EasyTechToolUI.CirculatingLayoutItemList.CirculatingLayoutItemList.AddItem*
+  name: AddItem
+  href: api/EasyTechToolUI.CirculatingLayoutItemList.CirculatingLayoutItemList.html#EasyTechToolUI_CirculatingLayoutItemList_CirculatingLayoutItemList_AddItem_
+  commentId: Overload:EasyTechToolUI.CirculatingLayoutItemList.CirculatingLayoutItemList.AddItem
+  isSpec: "True"
+  fullName: EasyTechToolUI.CirculatingLayoutItemList.CirculatingLayoutItemList.AddItem
+  nameWithType: CirculatingLayoutItemList.AddItem
+- uid: EasyTechToolUI.CirculatingLayoutItemList.CirculatingLayoutItemList.AttachedCanvasTransitionManagerGuid
+  name: AttachedCanvasTransitionManagerGuid
+  href: api/EasyTechToolUI.CirculatingLayoutItemList.CirculatingLayoutItemList.html#EasyTechToolUI_CirculatingLayoutItemList_CirculatingLayoutItemList_AttachedCanvasTransitionManagerGuid
+  commentId: P:EasyTechToolUI.CirculatingLayoutItemList.CirculatingLayoutItemList.AttachedCanvasTransitionManagerGuid
+  fullName: EasyTechToolUI.CirculatingLayoutItemList.CirculatingLayoutItemList.AttachedCanvasTransitionManagerGuid
+  nameWithType: CirculatingLayoutItemList.AttachedCanvasTransitionManagerGuid
+- uid: EasyTechToolUI.CirculatingLayoutItemList.CirculatingLayoutItemList.AttachedCanvasTransitionManagerGuid*
+  name: AttachedCanvasTransitionManagerGuid
+  href: api/EasyTechToolUI.CirculatingLayoutItemList.CirculatingLayoutItemList.html#EasyTechToolUI_CirculatingLayoutItemList_CirculatingLayoutItemList_AttachedCanvasTransitionManagerGuid_
+  commentId: Overload:EasyTechToolUI.CirculatingLayoutItemList.CirculatingLayoutItemList.AttachedCanvasTransitionManagerGuid
+  isSpec: "True"
+  fullName: EasyTechToolUI.CirculatingLayoutItemList.CirculatingLayoutItemList.AttachedCanvasTransitionManagerGuid
+  nameWithType: CirculatingLayoutItemList.AttachedCanvasTransitionManagerGuid
+- uid: EasyTechToolUI.CirculatingLayoutItemList.CirculatingLayoutItemList.ClearItems
+  name: ClearItems()
+  href: api/EasyTechToolUI.CirculatingLayoutItemList.CirculatingLayoutItemList.html#EasyTechToolUI_CirculatingLayoutItemList_CirculatingLayoutItemList_ClearItems
+  commentId: M:EasyTechToolUI.CirculatingLayoutItemList.CirculatingLayoutItemList.ClearItems
+  fullName: EasyTechToolUI.CirculatingLayoutItemList.CirculatingLayoutItemList.ClearItems()
+  nameWithType: CirculatingLayoutItemList.ClearItems()
+- uid: EasyTechToolUI.CirculatingLayoutItemList.CirculatingLayoutItemList.ClearItems*
+  name: ClearItems
+  href: api/EasyTechToolUI.CirculatingLayoutItemList.CirculatingLayoutItemList.html#EasyTechToolUI_CirculatingLayoutItemList_CirculatingLayoutItemList_ClearItems_
+  commentId: Overload:EasyTechToolUI.CirculatingLayoutItemList.CirculatingLayoutItemList.ClearItems
+  isSpec: "True"
+  fullName: EasyTechToolUI.CirculatingLayoutItemList.CirculatingLayoutItemList.ClearItems
+  nameWithType: CirculatingLayoutItemList.ClearItems
+- uid: EasyTechToolUI.CirculatingLayoutItemList.CirculatingLayoutItemList.CurAbsoluteSelectedItemIndex
+  name: CurAbsoluteSelectedItemIndex
+  href: api/EasyTechToolUI.CirculatingLayoutItemList.CirculatingLayoutItemList.html#EasyTechToolUI_CirculatingLayoutItemList_CirculatingLayoutItemList_CurAbsoluteSelectedItemIndex
+  commentId: P:EasyTechToolUI.CirculatingLayoutItemList.CirculatingLayoutItemList.CurAbsoluteSelectedItemIndex
+  fullName: EasyTechToolUI.CirculatingLayoutItemList.CirculatingLayoutItemList.CurAbsoluteSelectedItemIndex
+  nameWithType: CirculatingLayoutItemList.CurAbsoluteSelectedItemIndex
+- uid: EasyTechToolUI.CirculatingLayoutItemList.CirculatingLayoutItemList.CurAbsoluteSelectedItemIndex*
+  name: CurAbsoluteSelectedItemIndex
+  href: api/EasyTechToolUI.CirculatingLayoutItemList.CirculatingLayoutItemList.html#EasyTechToolUI_CirculatingLayoutItemList_CirculatingLayoutItemList_CurAbsoluteSelectedItemIndex_
+  commentId: Overload:EasyTechToolUI.CirculatingLayoutItemList.CirculatingLayoutItemList.CurAbsoluteSelectedItemIndex
+  isSpec: "True"
+  fullName: EasyTechToolUI.CirculatingLayoutItemList.CirculatingLayoutItemList.CurAbsoluteSelectedItemIndex
+  nameWithType: CirculatingLayoutItemList.CurAbsoluteSelectedItemIndex
+- uid: EasyTechToolUI.CirculatingLayoutItemList.CirculatingLayoutItemList.IItemStateUpdate
+  name: CirculatingLayoutItemList.IItemStateUpdate
+  href: api/EasyTechToolUI.CirculatingLayoutItemList.CirculatingLayoutItemList.IItemStateUpdate.html
+  commentId: T:EasyTechToolUI.CirculatingLayoutItemList.CirculatingLayoutItemList.IItemStateUpdate
+  fullName: EasyTechToolUI.CirculatingLayoutItemList.CirculatingLayoutItemList.IItemStateUpdate
+  nameWithType: CirculatingLayoutItemList.IItemStateUpdate
+- uid: EasyTechToolUI.CirculatingLayoutItemList.CirculatingLayoutItemList.IItemStateUpdate.InitializeItem(EasyTechToolUI.CirculatingLayoutItemList.CirculatingLayoutItemList@,System.Int32@,System.Object@)
+  name: InitializeItem(in CirculatingLayoutItemList, in int, in object)
+  href: api/EasyTechToolUI.CirculatingLayoutItemList.CirculatingLayoutItemList.IItemStateUpdate.html#EasyTechToolUI_CirculatingLayoutItemList_CirculatingLayoutItemList_IItemStateUpdate_InitializeItem_EasyTechToolUI_CirculatingLayoutItemList_CirculatingLayoutItemList__System_Int32__System_Object__
+  commentId: M:EasyTechToolUI.CirculatingLayoutItemList.CirculatingLayoutItemList.IItemStateUpdate.InitializeItem(EasyTechToolUI.CirculatingLayoutItemList.CirculatingLayoutItemList@,System.Int32@,System.Object@)
+  name.vb: InitializeItem(CirculatingLayoutItemList, Integer, Object)
+  fullName: EasyTechToolUI.CirculatingLayoutItemList.CirculatingLayoutItemList.IItemStateUpdate.InitializeItem(in EasyTechToolUI.CirculatingLayoutItemList.CirculatingLayoutItemList, in int, in object)
+  fullName.vb: EasyTechToolUI.CirculatingLayoutItemList.CirculatingLayoutItemList.IItemStateUpdate.InitializeItem(EasyTechToolUI.CirculatingLayoutItemList.CirculatingLayoutItemList, Integer, Object)
+  nameWithType: CirculatingLayoutItemList.IItemStateUpdate.InitializeItem(in CirculatingLayoutItemList, in int, in object)
+  nameWithType.vb: CirculatingLayoutItemList.IItemStateUpdate.InitializeItem(CirculatingLayoutItemList, Integer, Object)
+- uid: EasyTechToolUI.CirculatingLayoutItemList.CirculatingLayoutItemList.IItemStateUpdate.InitializeItem*
+  name: InitializeItem
+  href: api/EasyTechToolUI.CirculatingLayoutItemList.CirculatingLayoutItemList.IItemStateUpdate.html#EasyTechToolUI_CirculatingLayoutItemList_CirculatingLayoutItemList_IItemStateUpdate_InitializeItem_
+  commentId: Overload:EasyTechToolUI.CirculatingLayoutItemList.CirculatingLayoutItemList.IItemStateUpdate.InitializeItem
+  isSpec: "True"
+  fullName: EasyTechToolUI.CirculatingLayoutItemList.CirculatingLayoutItemList.IItemStateUpdate.InitializeItem
+  nameWithType: CirculatingLayoutItemList.IItemStateUpdate.InitializeItem
+- uid: EasyTechToolUI.CirculatingLayoutItemList.CirculatingLayoutItemList.IItemStateUpdate.UpdateItemState(System.Object@)
+  name: UpdateItemState(in object)
+  href: api/EasyTechToolUI.CirculatingLayoutItemList.CirculatingLayoutItemList.IItemStateUpdate.html#EasyTechToolUI_CirculatingLayoutItemList_CirculatingLayoutItemList_IItemStateUpdate_UpdateItemState_System_Object__
+  commentId: M:EasyTechToolUI.CirculatingLayoutItemList.CirculatingLayoutItemList.IItemStateUpdate.UpdateItemState(System.Object@)
+  name.vb: UpdateItemState(Object)
+  fullName: EasyTechToolUI.CirculatingLayoutItemList.CirculatingLayoutItemList.IItemStateUpdate.UpdateItemState(in object)
+  fullName.vb: EasyTechToolUI.CirculatingLayoutItemList.CirculatingLayoutItemList.IItemStateUpdate.UpdateItemState(Object)
+  nameWithType: CirculatingLayoutItemList.IItemStateUpdate.UpdateItemState(in object)
+  nameWithType.vb: CirculatingLayoutItemList.IItemStateUpdate.UpdateItemState(Object)
+- uid: EasyTechToolUI.CirculatingLayoutItemList.CirculatingLayoutItemList.IItemStateUpdate.UpdateItemState*
+  name: UpdateItemState
+  href: api/EasyTechToolUI.CirculatingLayoutItemList.CirculatingLayoutItemList.IItemStateUpdate.html#EasyTechToolUI_CirculatingLayoutItemList_CirculatingLayoutItemList_IItemStateUpdate_UpdateItemState_
+  commentId: Overload:EasyTechToolUI.CirculatingLayoutItemList.CirculatingLayoutItemList.IItemStateUpdate.UpdateItemState
+  isSpec: "True"
+  fullName: EasyTechToolUI.CirculatingLayoutItemList.CirculatingLayoutItemList.IItemStateUpdate.UpdateItemState
+  nameWithType: CirculatingLayoutItemList.IItemStateUpdate.UpdateItemState
+- uid: EasyTechToolUI.CirculatingLayoutItemList.CirculatingLayoutItemList.InitializeModule(System.Collections.Generic.List{System.Object}@)
+  name: InitializeModule(in List<object>)
+  href: api/EasyTechToolUI.CirculatingLayoutItemList.CirculatingLayoutItemList.html#EasyTechToolUI_CirculatingLayoutItemList_CirculatingLayoutItemList_InitializeModule_System_Collections_Generic_List_System_Object___
+  commentId: M:EasyTechToolUI.CirculatingLayoutItemList.CirculatingLayoutItemList.InitializeModule(System.Collections.Generic.List{System.Object}@)
+  name.vb: InitializeModule(List(Of Object))
+  fullName: EasyTechToolUI.CirculatingLayoutItemList.CirculatingLayoutItemList.InitializeModule(in System.Collections.Generic.List<object>)
+  fullName.vb: EasyTechToolUI.CirculatingLayoutItemList.CirculatingLayoutItemList.InitializeModule(System.Collections.Generic.List(Of Object))
+  nameWithType: CirculatingLayoutItemList.InitializeModule(in List<object>)
+  nameWithType.vb: CirculatingLayoutItemList.InitializeModule(List(Of Object))
+- uid: EasyTechToolUI.CirculatingLayoutItemList.CirculatingLayoutItemList.InitializeModule(System.Object@,System.Guid@)
+  name: InitializeModule(in object, in Guid)
+  href: api/EasyTechToolUI.CirculatingLayoutItemList.CirculatingLayoutItemList.html#EasyTechToolUI_CirculatingLayoutItemList_CirculatingLayoutItemList_InitializeModule_System_Object__System_Guid__
+  commentId: M:EasyTechToolUI.CirculatingLayoutItemList.CirculatingLayoutItemList.InitializeModule(System.Object@,System.Guid@)
+  name.vb: InitializeModule(Object, Guid)
+  fullName: EasyTechToolUI.CirculatingLayoutItemList.CirculatingLayoutItemList.InitializeModule(in object, in System.Guid)
+  fullName.vb: EasyTechToolUI.CirculatingLayoutItemList.CirculatingLayoutItemList.InitializeModule(Object, System.Guid)
+  nameWithType: CirculatingLayoutItemList.InitializeModule(in object, in Guid)
+  nameWithType.vb: CirculatingLayoutItemList.InitializeModule(Object, Guid)
+- uid: EasyTechToolUI.CirculatingLayoutItemList.CirculatingLayoutItemList.InitializeModule*
+  name: InitializeModule
+  href: api/EasyTechToolUI.CirculatingLayoutItemList.CirculatingLayoutItemList.html#EasyTechToolUI_CirculatingLayoutItemList_CirculatingLayoutItemList_InitializeModule_
+  commentId: Overload:EasyTechToolUI.CirculatingLayoutItemList.CirculatingLayoutItemList.InitializeModule
+  isSpec: "True"
+  fullName: EasyTechToolUI.CirculatingLayoutItemList.CirculatingLayoutItemList.InitializeModule
+  nameWithType: CirculatingLayoutItemList.InitializeModule
+- uid: EasyTechToolUI.CirculatingLayoutItemList.CirculatingLayoutItemList.Item
+  name: CirculatingLayoutItemList.Item
+  href: api/EasyTechToolUI.CirculatingLayoutItemList.CirculatingLayoutItemList.Item.html
+  commentId: T:EasyTechToolUI.CirculatingLayoutItemList.CirculatingLayoutItemList.Item
+  fullName: EasyTechToolUI.CirculatingLayoutItemList.CirculatingLayoutItemList.Item
+  nameWithType: CirculatingLayoutItemList.Item
+- uid: EasyTechToolUI.CirculatingLayoutItemList.CirculatingLayoutItemList.Item.AbsoluteItemIndex
+  name: AbsoluteItemIndex
+  href: api/EasyTechToolUI.CirculatingLayoutItemList.CirculatingLayoutItemList.Item.html#EasyTechToolUI_CirculatingLayoutItemList_CirculatingLayoutItemList_Item_AbsoluteItemIndex
+  commentId: P:EasyTechToolUI.CirculatingLayoutItemList.CirculatingLayoutItemList.Item.AbsoluteItemIndex
+  fullName: EasyTechToolUI.CirculatingLayoutItemList.CirculatingLayoutItemList.Item.AbsoluteItemIndex
+  nameWithType: CirculatingLayoutItemList.Item.AbsoluteItemIndex
+- uid: EasyTechToolUI.CirculatingLayoutItemList.CirculatingLayoutItemList.Item.AbsoluteItemIndex*
+  name: AbsoluteItemIndex
+  href: api/EasyTechToolUI.CirculatingLayoutItemList.CirculatingLayoutItemList.Item.html#EasyTechToolUI_CirculatingLayoutItemList_CirculatingLayoutItemList_Item_AbsoluteItemIndex_
+  commentId: Overload:EasyTechToolUI.CirculatingLayoutItemList.CirculatingLayoutItemList.Item.AbsoluteItemIndex
+  isSpec: "True"
+  fullName: EasyTechToolUI.CirculatingLayoutItemList.CirculatingLayoutItemList.Item.AbsoluteItemIndex
+  nameWithType: CirculatingLayoutItemList.Item.AbsoluteItemIndex
+- uid: EasyTechToolUI.CirculatingLayoutItemList.CirculatingLayoutItemList.Item.AttahcedCirculatingLayoutItemList
+  name: AttahcedCirculatingLayoutItemList
+  href: api/EasyTechToolUI.CirculatingLayoutItemList.CirculatingLayoutItemList.Item.html#EasyTechToolUI_CirculatingLayoutItemList_CirculatingLayoutItemList_Item_AttahcedCirculatingLayoutItemList
+  commentId: P:EasyTechToolUI.CirculatingLayoutItemList.CirculatingLayoutItemList.Item.AttahcedCirculatingLayoutItemList
+  fullName: EasyTechToolUI.CirculatingLayoutItemList.CirculatingLayoutItemList.Item.AttahcedCirculatingLayoutItemList
+  nameWithType: CirculatingLayoutItemList.Item.AttahcedCirculatingLayoutItemList
+- uid: EasyTechToolUI.CirculatingLayoutItemList.CirculatingLayoutItemList.Item.AttahcedCirculatingLayoutItemList*
+  name: AttahcedCirculatingLayoutItemList
+  href: api/EasyTechToolUI.CirculatingLayoutItemList.CirculatingLayoutItemList.Item.html#EasyTechToolUI_CirculatingLayoutItemList_CirculatingLayoutItemList_Item_AttahcedCirculatingLayoutItemList_
+  commentId: Overload:EasyTechToolUI.CirculatingLayoutItemList.CirculatingLayoutItemList.Item.AttahcedCirculatingLayoutItemList
+  isSpec: "True"
+  fullName: EasyTechToolUI.CirculatingLayoutItemList.CirculatingLayoutItemList.Item.AttahcedCirculatingLayoutItemList
+  nameWithType: CirculatingLayoutItemList.Item.AttahcedCirculatingLayoutItemList
+- uid: EasyTechToolUI.CirculatingLayoutItemList.CirculatingLayoutItemList.Item.InitializeItem(EasyTechToolUI.CirculatingLayoutItemList.CirculatingLayoutItemList@,System.Int32@,System.Object@)
+  name: InitializeItem(in CirculatingLayoutItemList, in int, in object)
+  href: api/EasyTechToolUI.CirculatingLayoutItemList.CirculatingLayoutItemList.Item.html#EasyTechToolUI_CirculatingLayoutItemList_CirculatingLayoutItemList_Item_InitializeItem_EasyTechToolUI_CirculatingLayoutItemList_CirculatingLayoutItemList__System_Int32__System_Object__
+  commentId: M:EasyTechToolUI.CirculatingLayoutItemList.CirculatingLayoutItemList.Item.InitializeItem(EasyTechToolUI.CirculatingLayoutItemList.CirculatingLayoutItemList@,System.Int32@,System.Object@)
+  name.vb: InitializeItem(CirculatingLayoutItemList, Integer, Object)
+  fullName: EasyTechToolUI.CirculatingLayoutItemList.CirculatingLayoutItemList.Item.InitializeItem(in EasyTechToolUI.CirculatingLayoutItemList.CirculatingLayoutItemList, in int, in object)
+  fullName.vb: EasyTechToolUI.CirculatingLayoutItemList.CirculatingLayoutItemList.Item.InitializeItem(EasyTechToolUI.CirculatingLayoutItemList.CirculatingLayoutItemList, Integer, Object)
+  nameWithType: CirculatingLayoutItemList.Item.InitializeItem(in CirculatingLayoutItemList, in int, in object)
+  nameWithType.vb: CirculatingLayoutItemList.Item.InitializeItem(CirculatingLayoutItemList, Integer, Object)
+- uid: EasyTechToolUI.CirculatingLayoutItemList.CirculatingLayoutItemList.Item.InitializeItem*
+  name: InitializeItem
+  href: api/EasyTechToolUI.CirculatingLayoutItemList.CirculatingLayoutItemList.Item.html#EasyTechToolUI_CirculatingLayoutItemList_CirculatingLayoutItemList_Item_InitializeItem_
+  commentId: Overload:EasyTechToolUI.CirculatingLayoutItemList.CirculatingLayoutItemList.Item.InitializeItem
+  isSpec: "True"
+  fullName: EasyTechToolUI.CirculatingLayoutItemList.CirculatingLayoutItemList.Item.InitializeItem
+  nameWithType: CirculatingLayoutItemList.Item.InitializeItem
+- uid: EasyTechToolUI.CirculatingLayoutItemList.CirculatingLayoutItemList.Item.OnItemSelected(System.Object@,System.Boolean@)
+  name: OnItemSelected(in object, in bool)
+  href: api/EasyTechToolUI.CirculatingLayoutItemList.CirculatingLayoutItemList.Item.html#EasyTechToolUI_CirculatingLayoutItemList_CirculatingLayoutItemList_Item_OnItemSelected_System_Object__System_Boolean__
+  commentId: M:EasyTechToolUI.CirculatingLayoutItemList.CirculatingLayoutItemList.Item.OnItemSelected(System.Object@,System.Boolean@)
+  name.vb: OnItemSelected(Object, Boolean)
+  fullName: EasyTechToolUI.CirculatingLayoutItemList.CirculatingLayoutItemList.Item.OnItemSelected(in object, in bool)
+  fullName.vb: EasyTechToolUI.CirculatingLayoutItemList.CirculatingLayoutItemList.Item.OnItemSelected(Object, Boolean)
+  nameWithType: CirculatingLayoutItemList.Item.OnItemSelected(in object, in bool)
+  nameWithType.vb: CirculatingLayoutItemList.Item.OnItemSelected(Object, Boolean)
+- uid: EasyTechToolUI.CirculatingLayoutItemList.CirculatingLayoutItemList.Item.OnItemSelected*
+  name: OnItemSelected
+  href: api/EasyTechToolUI.CirculatingLayoutItemList.CirculatingLayoutItemList.Item.html#EasyTechToolUI_CirculatingLayoutItemList_CirculatingLayoutItemList_Item_OnItemSelected_
+  commentId: Overload:EasyTechToolUI.CirculatingLayoutItemList.CirculatingLayoutItemList.Item.OnItemSelected
+  isSpec: "True"
+  fullName: EasyTechToolUI.CirculatingLayoutItemList.CirculatingLayoutItemList.Item.OnItemSelected
+  nameWithType: CirculatingLayoutItemList.Item.OnItemSelected
+- uid: EasyTechToolUI.CirculatingLayoutItemList.CirculatingLayoutItemList.Item.RemoveItem
+  name: RemoveItem()
+  href: api/EasyTechToolUI.CirculatingLayoutItemList.CirculatingLayoutItemList.Item.html#EasyTechToolUI_CirculatingLayoutItemList_CirculatingLayoutItemList_Item_RemoveItem
+  commentId: M:EasyTechToolUI.CirculatingLayoutItemList.CirculatingLayoutItemList.Item.RemoveItem
+  fullName: EasyTechToolUI.CirculatingLayoutItemList.CirculatingLayoutItemList.Item.RemoveItem()
+  nameWithType: CirculatingLayoutItemList.Item.RemoveItem()
+- uid: EasyTechToolUI.CirculatingLayoutItemList.CirculatingLayoutItemList.Item.RemoveItem*
+  name: RemoveItem
+  href: api/EasyTechToolUI.CirculatingLayoutItemList.CirculatingLayoutItemList.Item.html#EasyTechToolUI_CirculatingLayoutItemList_CirculatingLayoutItemList_Item_RemoveItem_
+  commentId: Overload:EasyTechToolUI.CirculatingLayoutItemList.CirculatingLayoutItemList.Item.RemoveItem
+  isSpec: "True"
+  fullName: EasyTechToolUI.CirculatingLayoutItemList.CirculatingLayoutItemList.Item.RemoveItem
+  nameWithType: CirculatingLayoutItemList.Item.RemoveItem
+- uid: EasyTechToolUI.CirculatingLayoutItemList.CirculatingLayoutItemList.Item.SelectItem(System.Boolean)
+  name: SelectItem(bool)
+  href: api/EasyTechToolUI.CirculatingLayoutItemList.CirculatingLayoutItemList.Item.html#EasyTechToolUI_CirculatingLayoutItemList_CirculatingLayoutItemList_Item_SelectItem_System_Boolean_
+  commentId: M:EasyTechToolUI.CirculatingLayoutItemList.CirculatingLayoutItemList.Item.SelectItem(System.Boolean)
+  name.vb: SelectItem(Boolean)
+  fullName: EasyTechToolUI.CirculatingLayoutItemList.CirculatingLayoutItemList.Item.SelectItem(bool)
+  fullName.vb: EasyTechToolUI.CirculatingLayoutItemList.CirculatingLayoutItemList.Item.SelectItem(Boolean)
+  nameWithType: CirculatingLayoutItemList.Item.SelectItem(bool)
+  nameWithType.vb: CirculatingLayoutItemList.Item.SelectItem(Boolean)
+- uid: EasyTechToolUI.CirculatingLayoutItemList.CirculatingLayoutItemList.Item.SelectItem*
+  name: SelectItem
+  href: api/EasyTechToolUI.CirculatingLayoutItemList.CirculatingLayoutItemList.Item.html#EasyTechToolUI_CirculatingLayoutItemList_CirculatingLayoutItemList_Item_SelectItem_
+  commentId: Overload:EasyTechToolUI.CirculatingLayoutItemList.CirculatingLayoutItemList.Item.SelectItem
+  isSpec: "True"
+  fullName: EasyTechToolUI.CirculatingLayoutItemList.CirculatingLayoutItemList.Item.SelectItem
+  nameWithType: CirculatingLayoutItemList.Item.SelectItem
+- uid: EasyTechToolUI.CirculatingLayoutItemList.CirculatingLayoutItemList.Item.UpdateItemState(System.Object@)
+  name: UpdateItemState(in object)
+  href: api/EasyTechToolUI.CirculatingLayoutItemList.CirculatingLayoutItemList.Item.html#EasyTechToolUI_CirculatingLayoutItemList_CirculatingLayoutItemList_Item_UpdateItemState_System_Object__
+  commentId: M:EasyTechToolUI.CirculatingLayoutItemList.CirculatingLayoutItemList.Item.UpdateItemState(System.Object@)
+  name.vb: UpdateItemState(Object)
+  fullName: EasyTechToolUI.CirculatingLayoutItemList.CirculatingLayoutItemList.Item.UpdateItemState(in object)
+  fullName.vb: EasyTechToolUI.CirculatingLayoutItemList.CirculatingLayoutItemList.Item.UpdateItemState(Object)
+  nameWithType: CirculatingLayoutItemList.Item.UpdateItemState(in object)
+  nameWithType.vb: CirculatingLayoutItemList.Item.UpdateItemState(Object)
+- uid: EasyTechToolUI.CirculatingLayoutItemList.CirculatingLayoutItemList.Item.UpdateItemState*
+  name: UpdateItemState
+  href: api/EasyTechToolUI.CirculatingLayoutItemList.CirculatingLayoutItemList.Item.html#EasyTechToolUI_CirculatingLayoutItemList_CirculatingLayoutItemList_Item_UpdateItemState_
+  commentId: Overload:EasyTechToolUI.CirculatingLayoutItemList.CirculatingLayoutItemList.Item.UpdateItemState
+  isSpec: "True"
+  fullName: EasyTechToolUI.CirculatingLayoutItemList.CirculatingLayoutItemList.Item.UpdateItemState
+  nameWithType: CirculatingLayoutItemList.Item.UpdateItemState
+- uid: EasyTechToolUI.CirculatingLayoutItemList.CirculatingLayoutItemList.ItemCount
+  name: ItemCount
+  href: api/EasyTechToolUI.CirculatingLayoutItemList.CirculatingLayoutItemList.html#EasyTechToolUI_CirculatingLayoutItemList_CirculatingLayoutItemList_ItemCount
+  commentId: P:EasyTechToolUI.CirculatingLayoutItemList.CirculatingLayoutItemList.ItemCount
+  fullName: EasyTechToolUI.CirculatingLayoutItemList.CirculatingLayoutItemList.ItemCount
+  nameWithType: CirculatingLayoutItemList.ItemCount
+- uid: EasyTechToolUI.CirculatingLayoutItemList.CirculatingLayoutItemList.ItemCount*
+  name: ItemCount
+  href: api/EasyTechToolUI.CirculatingLayoutItemList.CirculatingLayoutItemList.html#EasyTechToolUI_CirculatingLayoutItemList_CirculatingLayoutItemList_ItemCount_
+  commentId: Overload:EasyTechToolUI.CirculatingLayoutItemList.CirculatingLayoutItemList.ItemCount
+  isSpec: "True"
+  fullName: EasyTechToolUI.CirculatingLayoutItemList.CirculatingLayoutItemList.ItemCount
+  nameWithType: CirculatingLayoutItemList.ItemCount
+- uid: EasyTechToolUI.CirculatingLayoutItemList.CirculatingLayoutItemList.Items
+  name: Items
+  href: api/EasyTechToolUI.CirculatingLayoutItemList.CirculatingLayoutItemList.html#EasyTechToolUI_CirculatingLayoutItemList_CirculatingLayoutItemList_Items
+  commentId: P:EasyTechToolUI.CirculatingLayoutItemList.CirculatingLayoutItemList.Items
+  fullName: EasyTechToolUI.CirculatingLayoutItemList.CirculatingLayoutItemList.Items
+  nameWithType: CirculatingLayoutItemList.Items
+- uid: EasyTechToolUI.CirculatingLayoutItemList.CirculatingLayoutItemList.Items*
+  name: Items
+  href: api/EasyTechToolUI.CirculatingLayoutItemList.CirculatingLayoutItemList.html#EasyTechToolUI_CirculatingLayoutItemList_CirculatingLayoutItemList_Items_
+  commentId: Overload:EasyTechToolUI.CirculatingLayoutItemList.CirculatingLayoutItemList.Items
+  isSpec: "True"
+  fullName: EasyTechToolUI.CirculatingLayoutItemList.CirculatingLayoutItemList.Items
+  nameWithType: CirculatingLayoutItemList.Items
+- uid: EasyTechToolUI.CirculatingLayoutItemList.CirculatingLayoutItemList.RemoveItemAt(System.Int32@)
+  name: RemoveItemAt(in int)
+  href: api/EasyTechToolUI.CirculatingLayoutItemList.CirculatingLayoutItemList.html#EasyTechToolUI_CirculatingLayoutItemList_CirculatingLayoutItemList_RemoveItemAt_System_Int32__
+  commentId: M:EasyTechToolUI.CirculatingLayoutItemList.CirculatingLayoutItemList.RemoveItemAt(System.Int32@)
+  name.vb: RemoveItemAt(Integer)
+  fullName: EasyTechToolUI.CirculatingLayoutItemList.CirculatingLayoutItemList.RemoveItemAt(in int)
+  fullName.vb: EasyTechToolUI.CirculatingLayoutItemList.CirculatingLayoutItemList.RemoveItemAt(Integer)
+  nameWithType: CirculatingLayoutItemList.RemoveItemAt(in int)
+  nameWithType.vb: CirculatingLayoutItemList.RemoveItemAt(Integer)
+- uid: EasyTechToolUI.CirculatingLayoutItemList.CirculatingLayoutItemList.RemoveItemAt*
+  name: RemoveItemAt
+  href: api/EasyTechToolUI.CirculatingLayoutItemList.CirculatingLayoutItemList.html#EasyTechToolUI_CirculatingLayoutItemList_CirculatingLayoutItemList_RemoveItemAt_
+  commentId: Overload:EasyTechToolUI.CirculatingLayoutItemList.CirculatingLayoutItemList.RemoveItemAt
+  isSpec: "True"
+  fullName: EasyTechToolUI.CirculatingLayoutItemList.CirculatingLayoutItemList.RemoveItemAt
+  nameWithType: CirculatingLayoutItemList.RemoveItemAt
+- uid: EasyTechToolUI.CirculatingLayoutItemList.CirculatingLayoutItemList.ReorderItem
+  name: ReorderItem()
+  href: api/EasyTechToolUI.CirculatingLayoutItemList.CirculatingLayoutItemList.html#EasyTechToolUI_CirculatingLayoutItemList_CirculatingLayoutItemList_ReorderItem
+  commentId: M:EasyTechToolUI.CirculatingLayoutItemList.CirculatingLayoutItemList.ReorderItem
+  fullName: EasyTechToolUI.CirculatingLayoutItemList.CirculatingLayoutItemList.ReorderItem()
+  nameWithType: CirculatingLayoutItemList.ReorderItem()
+- uid: EasyTechToolUI.CirculatingLayoutItemList.CirculatingLayoutItemList.ReorderItem*
+  name: ReorderItem
+  href: api/EasyTechToolUI.CirculatingLayoutItemList.CirculatingLayoutItemList.html#EasyTechToolUI_CirculatingLayoutItemList_CirculatingLayoutItemList_ReorderItem_
+  commentId: Overload:EasyTechToolUI.CirculatingLayoutItemList.CirculatingLayoutItemList.ReorderItem
+  isSpec: "True"
+  fullName: EasyTechToolUI.CirculatingLayoutItemList.CirculatingLayoutItemList.ReorderItem
+  nameWithType: CirculatingLayoutItemList.ReorderItem
+- uid: EasyTechToolUI.CirculatingLayoutItemList.CirculatingLayoutItemList.UpdateModuleState(System.Collections.Generic.List{System.Object}@)
+  name: UpdateModuleState(in List<object>)
+  href: api/EasyTechToolUI.CirculatingLayoutItemList.CirculatingLayoutItemList.html#EasyTechToolUI_CirculatingLayoutItemList_CirculatingLayoutItemList_UpdateModuleState_System_Collections_Generic_List_System_Object___
+  commentId: M:EasyTechToolUI.CirculatingLayoutItemList.CirculatingLayoutItemList.UpdateModuleState(System.Collections.Generic.List{System.Object}@)
+  name.vb: UpdateModuleState(List(Of Object))
+  fullName: EasyTechToolUI.CirculatingLayoutItemList.CirculatingLayoutItemList.UpdateModuleState(in System.Collections.Generic.List<object>)
+  fullName.vb: EasyTechToolUI.CirculatingLayoutItemList.CirculatingLayoutItemList.UpdateModuleState(System.Collections.Generic.List(Of Object))
+  nameWithType: CirculatingLayoutItemList.UpdateModuleState(in List<object>)
+  nameWithType.vb: CirculatingLayoutItemList.UpdateModuleState(List(Of Object))
+- uid: EasyTechToolUI.CirculatingLayoutItemList.CirculatingLayoutItemList.UpdateModuleState(System.Object@)
+  name: UpdateModuleState(in object)
+  href: api/EasyTechToolUI.CirculatingLayoutItemList.CirculatingLayoutItemList.html#EasyTechToolUI_CirculatingLayoutItemList_CirculatingLayoutItemList_UpdateModuleState_System_Object__
+  commentId: M:EasyTechToolUI.CirculatingLayoutItemList.CirculatingLayoutItemList.UpdateModuleState(System.Object@)
+  name.vb: UpdateModuleState(Object)
+  fullName: EasyTechToolUI.CirculatingLayoutItemList.CirculatingLayoutItemList.UpdateModuleState(in object)
+  fullName.vb: EasyTechToolUI.CirculatingLayoutItemList.CirculatingLayoutItemList.UpdateModuleState(Object)
+  nameWithType: CirculatingLayoutItemList.UpdateModuleState(in object)
+  nameWithType.vb: CirculatingLayoutItemList.UpdateModuleState(Object)
+- uid: EasyTechToolUI.CirculatingLayoutItemList.CirculatingLayoutItemList.UpdateModuleState*
+  name: UpdateModuleState
+  href: api/EasyTechToolUI.CirculatingLayoutItemList.CirculatingLayoutItemList.html#EasyTechToolUI_CirculatingLayoutItemList_CirculatingLayoutItemList_UpdateModuleState_
+  commentId: Overload:EasyTechToolUI.CirculatingLayoutItemList.CirculatingLayoutItemList.UpdateModuleState
+  isSpec: "True"
+  fullName: EasyTechToolUI.CirculatingLayoutItemList.CirculatingLayoutItemList.UpdateModuleState
+  nameWithType: CirculatingLayoutItemList.UpdateModuleState
+- uid: EasyTechToolUI.EdgyModulePrototype
+  name: EdgyModulePrototype
+  href: api/EasyTechToolUI.EdgyModulePrototype.html
+  commentId: T:EasyTechToolUI.EdgyModulePrototype
+  fullName: EasyTechToolUI.EdgyModulePrototype
+  nameWithType: EdgyModulePrototype
+- uid: EasyTechToolUI.EdgyModulePrototype.InitializeModule(System.Object@,System.Guid@)
+  name: InitializeModule(in object, in Guid)
+  href: api/EasyTechToolUI.EdgyModulePrototype.html#EasyTechToolUI_EdgyModulePrototype_InitializeModule_System_Object__System_Guid__
+  commentId: M:EasyTechToolUI.EdgyModulePrototype.InitializeModule(System.Object@,System.Guid@)
+  name.vb: InitializeModule(Object, Guid)
+  fullName: EasyTechToolUI.EdgyModulePrototype.InitializeModule(in object, in System.Guid)
+  fullName.vb: EasyTechToolUI.EdgyModulePrototype.InitializeModule(Object, System.Guid)
+  nameWithType: EdgyModulePrototype.InitializeModule(in object, in Guid)
+  nameWithType.vb: EdgyModulePrototype.InitializeModule(Object, Guid)
+- uid: EasyTechToolUI.EdgyModulePrototype.InitializeModule*
+  name: InitializeModule
+  href: api/EasyTechToolUI.EdgyModulePrototype.html#EasyTechToolUI_EdgyModulePrototype_InitializeModule_
+  commentId: Overload:EasyTechToolUI.EdgyModulePrototype.InitializeModule
+  isSpec: "True"
+  fullName: EasyTechToolUI.EdgyModulePrototype.InitializeModule
+  nameWithType: EdgyModulePrototype.InitializeModule
+- uid: EasyTechToolUI.EdgyModulePrototype.UpdateModuleState(System.Object@)
+  name: UpdateModuleState(in object)
+  href: api/EasyTechToolUI.EdgyModulePrototype.html#EasyTechToolUI_EdgyModulePrototype_UpdateModuleState_System_Object__
+  commentId: M:EasyTechToolUI.EdgyModulePrototype.UpdateModuleState(System.Object@)
+  name.vb: UpdateModuleState(Object)
+  fullName: EasyTechToolUI.EdgyModulePrototype.UpdateModuleState(in object)
+  fullName.vb: EasyTechToolUI.EdgyModulePrototype.UpdateModuleState(Object)
+  nameWithType: EdgyModulePrototype.UpdateModuleState(in object)
+  nameWithType.vb: EdgyModulePrototype.UpdateModuleState(Object)
+- uid: EasyTechToolUI.EdgyModulePrototype.UpdateModuleState*
+  name: UpdateModuleState
+  href: api/EasyTechToolUI.EdgyModulePrototype.html#EasyTechToolUI_EdgyModulePrototype_UpdateModuleState_
+  commentId: Overload:EasyTechToolUI.EdgyModulePrototype.UpdateModuleState
+  isSpec: "True"
+  fullName: EasyTechToolUI.EdgyModulePrototype.UpdateModuleState
+  nameWithType: EdgyModulePrototype.UpdateModuleState
+- uid: EasyTechToolUI.FreeLayoutItemPlane
+  name: EasyTechToolUI.FreeLayoutItemPlane
+  href: api/EasyTechToolUI.FreeLayoutItemPlane.html
+  commentId: N:EasyTechToolUI.FreeLayoutItemPlane
+  fullName: EasyTechToolUI.FreeLayoutItemPlane
+  nameWithType: EasyTechToolUI.FreeLayoutItemPlane
+- uid: EasyTechToolUI.FreeLayoutItemPlane.FreeLayoutItemPlane
+  name: FreeLayoutItemPlane
+  href: api/EasyTechToolUI.FreeLayoutItemPlane.FreeLayoutItemPlane.html
+  commentId: T:EasyTechToolUI.FreeLayoutItemPlane.FreeLayoutItemPlane
+  fullName: EasyTechToolUI.FreeLayoutItemPlane.FreeLayoutItemPlane
+  nameWithType: FreeLayoutItemPlane
+- uid: EasyTechToolUI.FreeLayoutItemPlane.FreeLayoutItemPlane.AddItem
+  name: AddItem()
+  href: api/EasyTechToolUI.FreeLayoutItemPlane.FreeLayoutItemPlane.html#EasyTechToolUI_FreeLayoutItemPlane_FreeLayoutItemPlane_AddItem
+  commentId: M:EasyTechToolUI.FreeLayoutItemPlane.FreeLayoutItemPlane.AddItem
+  fullName: EasyTechToolUI.FreeLayoutItemPlane.FreeLayoutItemPlane.AddItem()
+  nameWithType: FreeLayoutItemPlane.AddItem()
+- uid: EasyTechToolUI.FreeLayoutItemPlane.FreeLayoutItemPlane.AddItem(System.Object@)
+  name: AddItem(in object)
+  href: api/EasyTechToolUI.FreeLayoutItemPlane.FreeLayoutItemPlane.html#EasyTechToolUI_FreeLayoutItemPlane_FreeLayoutItemPlane_AddItem_System_Object__
+  commentId: M:EasyTechToolUI.FreeLayoutItemPlane.FreeLayoutItemPlane.AddItem(System.Object@)
+  name.vb: AddItem(Object)
+  fullName: EasyTechToolUI.FreeLayoutItemPlane.FreeLayoutItemPlane.AddItem(in object)
+  fullName.vb: EasyTechToolUI.FreeLayoutItemPlane.FreeLayoutItemPlane.AddItem(Object)
+  nameWithType: FreeLayoutItemPlane.AddItem(in object)
+  nameWithType.vb: FreeLayoutItemPlane.AddItem(Object)
+- uid: EasyTechToolUI.FreeLayoutItemPlane.FreeLayoutItemPlane.AddItem*
+  name: AddItem
+  href: api/EasyTechToolUI.FreeLayoutItemPlane.FreeLayoutItemPlane.html#EasyTechToolUI_FreeLayoutItemPlane_FreeLayoutItemPlane_AddItem_
+  commentId: Overload:EasyTechToolUI.FreeLayoutItemPlane.FreeLayoutItemPlane.AddItem
+  isSpec: "True"
+  fullName: EasyTechToolUI.FreeLayoutItemPlane.FreeLayoutItemPlane.AddItem
+  nameWithType: FreeLayoutItemPlane.AddItem
+- uid: EasyTechToolUI.FreeLayoutItemPlane.FreeLayoutItemPlane.AttachedCanvasTransitionManagerGuid
+  name: AttachedCanvasTransitionManagerGuid
+  href: api/EasyTechToolUI.FreeLayoutItemPlane.FreeLayoutItemPlane.html#EasyTechToolUI_FreeLayoutItemPlane_FreeLayoutItemPlane_AttachedCanvasTransitionManagerGuid
+  commentId: P:EasyTechToolUI.FreeLayoutItemPlane.FreeLayoutItemPlane.AttachedCanvasTransitionManagerGuid
+  fullName: EasyTechToolUI.FreeLayoutItemPlane.FreeLayoutItemPlane.AttachedCanvasTransitionManagerGuid
+  nameWithType: FreeLayoutItemPlane.AttachedCanvasTransitionManagerGuid
+- uid: EasyTechToolUI.FreeLayoutItemPlane.FreeLayoutItemPlane.AttachedCanvasTransitionManagerGuid*
+  name: AttachedCanvasTransitionManagerGuid
+  href: api/EasyTechToolUI.FreeLayoutItemPlane.FreeLayoutItemPlane.html#EasyTechToolUI_FreeLayoutItemPlane_FreeLayoutItemPlane_AttachedCanvasTransitionManagerGuid_
+  commentId: Overload:EasyTechToolUI.FreeLayoutItemPlane.FreeLayoutItemPlane.AttachedCanvasTransitionManagerGuid
+  isSpec: "True"
+  fullName: EasyTechToolUI.FreeLayoutItemPlane.FreeLayoutItemPlane.AttachedCanvasTransitionManagerGuid
+  nameWithType: FreeLayoutItemPlane.AttachedCanvasTransitionManagerGuid
+- uid: EasyTechToolUI.FreeLayoutItemPlane.FreeLayoutItemPlane.ClearItems
+  name: ClearItems()
+  href: api/EasyTechToolUI.FreeLayoutItemPlane.FreeLayoutItemPlane.html#EasyTechToolUI_FreeLayoutItemPlane_FreeLayoutItemPlane_ClearItems
+  commentId: M:EasyTechToolUI.FreeLayoutItemPlane.FreeLayoutItemPlane.ClearItems
+  fullName: EasyTechToolUI.FreeLayoutItemPlane.FreeLayoutItemPlane.ClearItems()
+  nameWithType: FreeLayoutItemPlane.ClearItems()
+- uid: EasyTechToolUI.FreeLayoutItemPlane.FreeLayoutItemPlane.ClearItems*
+  name: ClearItems
+  href: api/EasyTechToolUI.FreeLayoutItemPlane.FreeLayoutItemPlane.html#EasyTechToolUI_FreeLayoutItemPlane_FreeLayoutItemPlane_ClearItems_
+  commentId: Overload:EasyTechToolUI.FreeLayoutItemPlane.FreeLayoutItemPlane.ClearItems
+  isSpec: "True"
+  fullName: EasyTechToolUI.FreeLayoutItemPlane.FreeLayoutItemPlane.ClearItems
+  nameWithType: FreeLayoutItemPlane.ClearItems
+- uid: EasyTechToolUI.FreeLayoutItemPlane.FreeLayoutItemPlane.CurSelectedItemIndex
+  name: CurSelectedItemIndex
+  href: api/EasyTechToolUI.FreeLayoutItemPlane.FreeLayoutItemPlane.html#EasyTechToolUI_FreeLayoutItemPlane_FreeLayoutItemPlane_CurSelectedItemIndex
+  commentId: P:EasyTechToolUI.FreeLayoutItemPlane.FreeLayoutItemPlane.CurSelectedItemIndex
+  fullName: EasyTechToolUI.FreeLayoutItemPlane.FreeLayoutItemPlane.CurSelectedItemIndex
+  nameWithType: FreeLayoutItemPlane.CurSelectedItemIndex
+- uid: EasyTechToolUI.FreeLayoutItemPlane.FreeLayoutItemPlane.CurSelectedItemIndex*
+  name: CurSelectedItemIndex
+  href: api/EasyTechToolUI.FreeLayoutItemPlane.FreeLayoutItemPlane.html#EasyTechToolUI_FreeLayoutItemPlane_FreeLayoutItemPlane_CurSelectedItemIndex_
+  commentId: Overload:EasyTechToolUI.FreeLayoutItemPlane.FreeLayoutItemPlane.CurSelectedItemIndex
+  isSpec: "True"
+  fullName: EasyTechToolUI.FreeLayoutItemPlane.FreeLayoutItemPlane.CurSelectedItemIndex
+  nameWithType: FreeLayoutItemPlane.CurSelectedItemIndex
+- uid: EasyTechToolUI.FreeLayoutItemPlane.FreeLayoutItemPlane.GetItemIndex(EasyTechToolUI.FreeLayoutItemPlane.FreeLayoutItemPlane.Item@)
+  name: GetItemIndex(in Item)
+  href: api/EasyTechToolUI.FreeLayoutItemPlane.FreeLayoutItemPlane.html#EasyTechToolUI_FreeLayoutItemPlane_FreeLayoutItemPlane_GetItemIndex_EasyTechToolUI_FreeLayoutItemPlane_FreeLayoutItemPlane_Item__
+  commentId: M:EasyTechToolUI.FreeLayoutItemPlane.FreeLayoutItemPlane.GetItemIndex(EasyTechToolUI.FreeLayoutItemPlane.FreeLayoutItemPlane.Item@)
+  name.vb: GetItemIndex(Item)
+  fullName: EasyTechToolUI.FreeLayoutItemPlane.FreeLayoutItemPlane.GetItemIndex(in EasyTechToolUI.FreeLayoutItemPlane.FreeLayoutItemPlane.Item)
+  fullName.vb: EasyTechToolUI.FreeLayoutItemPlane.FreeLayoutItemPlane.GetItemIndex(EasyTechToolUI.FreeLayoutItemPlane.FreeLayoutItemPlane.Item)
+  nameWithType: FreeLayoutItemPlane.GetItemIndex(in FreeLayoutItemPlane.Item)
+  nameWithType.vb: FreeLayoutItemPlane.GetItemIndex(FreeLayoutItemPlane.Item)
+- uid: EasyTechToolUI.FreeLayoutItemPlane.FreeLayoutItemPlane.GetItemIndex*
+  name: GetItemIndex
+  href: api/EasyTechToolUI.FreeLayoutItemPlane.FreeLayoutItemPlane.html#EasyTechToolUI_FreeLayoutItemPlane_FreeLayoutItemPlane_GetItemIndex_
+  commentId: Overload:EasyTechToolUI.FreeLayoutItemPlane.FreeLayoutItemPlane.GetItemIndex
+  isSpec: "True"
+  fullName: EasyTechToolUI.FreeLayoutItemPlane.FreeLayoutItemPlane.GetItemIndex
+  nameWithType: FreeLayoutItemPlane.GetItemIndex
+- uid: EasyTechToolUI.FreeLayoutItemPlane.FreeLayoutItemPlane.IItemStateUpdate
+  name: FreeLayoutItemPlane.IItemStateUpdate
+  href: api/EasyTechToolUI.FreeLayoutItemPlane.FreeLayoutItemPlane.IItemStateUpdate.html
+  commentId: T:EasyTechToolUI.FreeLayoutItemPlane.FreeLayoutItemPlane.IItemStateUpdate
+  fullName: EasyTechToolUI.FreeLayoutItemPlane.FreeLayoutItemPlane.IItemStateUpdate
+  nameWithType: FreeLayoutItemPlane.IItemStateUpdate
+- uid: EasyTechToolUI.FreeLayoutItemPlane.FreeLayoutItemPlane.IItemStateUpdate.InitializeItem(EasyTechToolUI.FreeLayoutItemPlane.FreeLayoutItemPlane@,System.Object@)
+  name: InitializeItem(in FreeLayoutItemPlane, in object)
+  href: api/EasyTechToolUI.FreeLayoutItemPlane.FreeLayoutItemPlane.IItemStateUpdate.html#EasyTechToolUI_FreeLayoutItemPlane_FreeLayoutItemPlane_IItemStateUpdate_InitializeItem_EasyTechToolUI_FreeLayoutItemPlane_FreeLayoutItemPlane__System_Object__
+  commentId: M:EasyTechToolUI.FreeLayoutItemPlane.FreeLayoutItemPlane.IItemStateUpdate.InitializeItem(EasyTechToolUI.FreeLayoutItemPlane.FreeLayoutItemPlane@,System.Object@)
+  name.vb: InitializeItem(FreeLayoutItemPlane, Object)
+  fullName: EasyTechToolUI.FreeLayoutItemPlane.FreeLayoutItemPlane.IItemStateUpdate.InitializeItem(in EasyTechToolUI.FreeLayoutItemPlane.FreeLayoutItemPlane, in object)
+  fullName.vb: EasyTechToolUI.FreeLayoutItemPlane.FreeLayoutItemPlane.IItemStateUpdate.InitializeItem(EasyTechToolUI.FreeLayoutItemPlane.FreeLayoutItemPlane, Object)
+  nameWithType: FreeLayoutItemPlane.IItemStateUpdate.InitializeItem(in FreeLayoutItemPlane, in object)
+  nameWithType.vb: FreeLayoutItemPlane.IItemStateUpdate.InitializeItem(FreeLayoutItemPlane, Object)
+- uid: EasyTechToolUI.FreeLayoutItemPlane.FreeLayoutItemPlane.IItemStateUpdate.InitializeItem*
+  name: InitializeItem
+  href: api/EasyTechToolUI.FreeLayoutItemPlane.FreeLayoutItemPlane.IItemStateUpdate.html#EasyTechToolUI_FreeLayoutItemPlane_FreeLayoutItemPlane_IItemStateUpdate_InitializeItem_
+  commentId: Overload:EasyTechToolUI.FreeLayoutItemPlane.FreeLayoutItemPlane.IItemStateUpdate.InitializeItem
+  isSpec: "True"
+  fullName: EasyTechToolUI.FreeLayoutItemPlane.FreeLayoutItemPlane.IItemStateUpdate.InitializeItem
+  nameWithType: FreeLayoutItemPlane.IItemStateUpdate.InitializeItem
+- uid: EasyTechToolUI.FreeLayoutItemPlane.FreeLayoutItemPlane.IItemStateUpdate.UpdateItemState(System.Object@)
+  name: UpdateItemState(in object)
+  href: api/EasyTechToolUI.FreeLayoutItemPlane.FreeLayoutItemPlane.IItemStateUpdate.html#EasyTechToolUI_FreeLayoutItemPlane_FreeLayoutItemPlane_IItemStateUpdate_UpdateItemState_System_Object__
+  commentId: M:EasyTechToolUI.FreeLayoutItemPlane.FreeLayoutItemPlane.IItemStateUpdate.UpdateItemState(System.Object@)
+  name.vb: UpdateItemState(Object)
+  fullName: EasyTechToolUI.FreeLayoutItemPlane.FreeLayoutItemPlane.IItemStateUpdate.UpdateItemState(in object)
+  fullName.vb: EasyTechToolUI.FreeLayoutItemPlane.FreeLayoutItemPlane.IItemStateUpdate.UpdateItemState(Object)
+  nameWithType: FreeLayoutItemPlane.IItemStateUpdate.UpdateItemState(in object)
+  nameWithType.vb: FreeLayoutItemPlane.IItemStateUpdate.UpdateItemState(Object)
+- uid: EasyTechToolUI.FreeLayoutItemPlane.FreeLayoutItemPlane.IItemStateUpdate.UpdateItemState*
+  name: UpdateItemState
+  href: api/EasyTechToolUI.FreeLayoutItemPlane.FreeLayoutItemPlane.IItemStateUpdate.html#EasyTechToolUI_FreeLayoutItemPlane_FreeLayoutItemPlane_IItemStateUpdate_UpdateItemState_
+  commentId: Overload:EasyTechToolUI.FreeLayoutItemPlane.FreeLayoutItemPlane.IItemStateUpdate.UpdateItemState
+  isSpec: "True"
+  fullName: EasyTechToolUI.FreeLayoutItemPlane.FreeLayoutItemPlane.IItemStateUpdate.UpdateItemState
+  nameWithType: FreeLayoutItemPlane.IItemStateUpdate.UpdateItemState
+- uid: EasyTechToolUI.FreeLayoutItemPlane.FreeLayoutItemPlane.InitializeModule(System.Collections.Generic.List{System.Object}@)
+  name: InitializeModule(in List<object>)
+  href: api/EasyTechToolUI.FreeLayoutItemPlane.FreeLayoutItemPlane.html#EasyTechToolUI_FreeLayoutItemPlane_FreeLayoutItemPlane_InitializeModule_System_Collections_Generic_List_System_Object___
+  commentId: M:EasyTechToolUI.FreeLayoutItemPlane.FreeLayoutItemPlane.InitializeModule(System.Collections.Generic.List{System.Object}@)
+  name.vb: InitializeModule(List(Of Object))
+  fullName: EasyTechToolUI.FreeLayoutItemPlane.FreeLayoutItemPlane.InitializeModule(in System.Collections.Generic.List<object>)
+  fullName.vb: EasyTechToolUI.FreeLayoutItemPlane.FreeLayoutItemPlane.InitializeModule(System.Collections.Generic.List(Of Object))
+  nameWithType: FreeLayoutItemPlane.InitializeModule(in List<object>)
+  nameWithType.vb: FreeLayoutItemPlane.InitializeModule(List(Of Object))
+- uid: EasyTechToolUI.FreeLayoutItemPlane.FreeLayoutItemPlane.InitializeModule(System.Object@,System.Guid@)
+  name: InitializeModule(in object, in Guid)
+  href: api/EasyTechToolUI.FreeLayoutItemPlane.FreeLayoutItemPlane.html#EasyTechToolUI_FreeLayoutItemPlane_FreeLayoutItemPlane_InitializeModule_System_Object__System_Guid__
+  commentId: M:EasyTechToolUI.FreeLayoutItemPlane.FreeLayoutItemPlane.InitializeModule(System.Object@,System.Guid@)
+  name.vb: InitializeModule(Object, Guid)
+  fullName: EasyTechToolUI.FreeLayoutItemPlane.FreeLayoutItemPlane.InitializeModule(in object, in System.Guid)
+  fullName.vb: EasyTechToolUI.FreeLayoutItemPlane.FreeLayoutItemPlane.InitializeModule(Object, System.Guid)
+  nameWithType: FreeLayoutItemPlane.InitializeModule(in object, in Guid)
+  nameWithType.vb: FreeLayoutItemPlane.InitializeModule(Object, Guid)
+- uid: EasyTechToolUI.FreeLayoutItemPlane.FreeLayoutItemPlane.InitializeModule*
+  name: InitializeModule
+  href: api/EasyTechToolUI.FreeLayoutItemPlane.FreeLayoutItemPlane.html#EasyTechToolUI_FreeLayoutItemPlane_FreeLayoutItemPlane_InitializeModule_
+  commentId: Overload:EasyTechToolUI.FreeLayoutItemPlane.FreeLayoutItemPlane.InitializeModule
+  isSpec: "True"
+  fullName: EasyTechToolUI.FreeLayoutItemPlane.FreeLayoutItemPlane.InitializeModule
+  nameWithType: FreeLayoutItemPlane.InitializeModule
+- uid: EasyTechToolUI.FreeLayoutItemPlane.FreeLayoutItemPlane.Item
+  name: FreeLayoutItemPlane.Item
+  href: api/EasyTechToolUI.FreeLayoutItemPlane.FreeLayoutItemPlane.Item.html
+  commentId: T:EasyTechToolUI.FreeLayoutItemPlane.FreeLayoutItemPlane.Item
+  fullName: EasyTechToolUI.FreeLayoutItemPlane.FreeLayoutItemPlane.Item
+  nameWithType: FreeLayoutItemPlane.Item
+- uid: EasyTechToolUI.FreeLayoutItemPlane.FreeLayoutItemPlane.Item.AttahcedFreeLayoutItemPlane
+  name: AttahcedFreeLayoutItemPlane
+  href: api/EasyTechToolUI.FreeLayoutItemPlane.FreeLayoutItemPlane.Item.html#EasyTechToolUI_FreeLayoutItemPlane_FreeLayoutItemPlane_Item_AttahcedFreeLayoutItemPlane
+  commentId: P:EasyTechToolUI.FreeLayoutItemPlane.FreeLayoutItemPlane.Item.AttahcedFreeLayoutItemPlane
+  fullName: EasyTechToolUI.FreeLayoutItemPlane.FreeLayoutItemPlane.Item.AttahcedFreeLayoutItemPlane
+  nameWithType: FreeLayoutItemPlane.Item.AttahcedFreeLayoutItemPlane
+- uid: EasyTechToolUI.FreeLayoutItemPlane.FreeLayoutItemPlane.Item.AttahcedFreeLayoutItemPlane*
+  name: AttahcedFreeLayoutItemPlane
+  href: api/EasyTechToolUI.FreeLayoutItemPlane.FreeLayoutItemPlane.Item.html#EasyTechToolUI_FreeLayoutItemPlane_FreeLayoutItemPlane_Item_AttahcedFreeLayoutItemPlane_
+  commentId: Overload:EasyTechToolUI.FreeLayoutItemPlane.FreeLayoutItemPlane.Item.AttahcedFreeLayoutItemPlane
+  isSpec: "True"
+  fullName: EasyTechToolUI.FreeLayoutItemPlane.FreeLayoutItemPlane.Item.AttahcedFreeLayoutItemPlane
+  nameWithType: FreeLayoutItemPlane.Item.AttahcedFreeLayoutItemPlane
+- uid: EasyTechToolUI.FreeLayoutItemPlane.FreeLayoutItemPlane.Item.InitializeItem(EasyTechToolUI.FreeLayoutItemPlane.FreeLayoutItemPlane@,System.Object@)
+  name: InitializeItem(in FreeLayoutItemPlane, in object)
+  href: api/EasyTechToolUI.FreeLayoutItemPlane.FreeLayoutItemPlane.Item.html#EasyTechToolUI_FreeLayoutItemPlane_FreeLayoutItemPlane_Item_InitializeItem_EasyTechToolUI_FreeLayoutItemPlane_FreeLayoutItemPlane__System_Object__
+  commentId: M:EasyTechToolUI.FreeLayoutItemPlane.FreeLayoutItemPlane.Item.InitializeItem(EasyTechToolUI.FreeLayoutItemPlane.FreeLayoutItemPlane@,System.Object@)
+  name.vb: InitializeItem(FreeLayoutItemPlane, Object)
+  fullName: EasyTechToolUI.FreeLayoutItemPlane.FreeLayoutItemPlane.Item.InitializeItem(in EasyTechToolUI.FreeLayoutItemPlane.FreeLayoutItemPlane, in object)
+  fullName.vb: EasyTechToolUI.FreeLayoutItemPlane.FreeLayoutItemPlane.Item.InitializeItem(EasyTechToolUI.FreeLayoutItemPlane.FreeLayoutItemPlane, Object)
+  nameWithType: FreeLayoutItemPlane.Item.InitializeItem(in FreeLayoutItemPlane, in object)
+  nameWithType.vb: FreeLayoutItemPlane.Item.InitializeItem(FreeLayoutItemPlane, Object)
+- uid: EasyTechToolUI.FreeLayoutItemPlane.FreeLayoutItemPlane.Item.InitializeItem*
+  name: InitializeItem
+  href: api/EasyTechToolUI.FreeLayoutItemPlane.FreeLayoutItemPlane.Item.html#EasyTechToolUI_FreeLayoutItemPlane_FreeLayoutItemPlane_Item_InitializeItem_
+  commentId: Overload:EasyTechToolUI.FreeLayoutItemPlane.FreeLayoutItemPlane.Item.InitializeItem
+  isSpec: "True"
+  fullName: EasyTechToolUI.FreeLayoutItemPlane.FreeLayoutItemPlane.Item.InitializeItem
+  nameWithType: FreeLayoutItemPlane.Item.InitializeItem
+- uid: EasyTechToolUI.FreeLayoutItemPlane.FreeLayoutItemPlane.Item.OnItemSelected(System.Object@,System.Boolean@)
+  name: OnItemSelected(in object, in bool)
+  href: api/EasyTechToolUI.FreeLayoutItemPlane.FreeLayoutItemPlane.Item.html#EasyTechToolUI_FreeLayoutItemPlane_FreeLayoutItemPlane_Item_OnItemSelected_System_Object__System_Boolean__
+  commentId: M:EasyTechToolUI.FreeLayoutItemPlane.FreeLayoutItemPlane.Item.OnItemSelected(System.Object@,System.Boolean@)
+  name.vb: OnItemSelected(Object, Boolean)
+  fullName: EasyTechToolUI.FreeLayoutItemPlane.FreeLayoutItemPlane.Item.OnItemSelected(in object, in bool)
+  fullName.vb: EasyTechToolUI.FreeLayoutItemPlane.FreeLayoutItemPlane.Item.OnItemSelected(Object, Boolean)
+  nameWithType: FreeLayoutItemPlane.Item.OnItemSelected(in object, in bool)
+  nameWithType.vb: FreeLayoutItemPlane.Item.OnItemSelected(Object, Boolean)
+- uid: EasyTechToolUI.FreeLayoutItemPlane.FreeLayoutItemPlane.Item.OnItemSelected*
+  name: OnItemSelected
+  href: api/EasyTechToolUI.FreeLayoutItemPlane.FreeLayoutItemPlane.Item.html#EasyTechToolUI_FreeLayoutItemPlane_FreeLayoutItemPlane_Item_OnItemSelected_
+  commentId: Overload:EasyTechToolUI.FreeLayoutItemPlane.FreeLayoutItemPlane.Item.OnItemSelected
+  isSpec: "True"
+  fullName: EasyTechToolUI.FreeLayoutItemPlane.FreeLayoutItemPlane.Item.OnItemSelected
+  nameWithType: FreeLayoutItemPlane.Item.OnItemSelected
+- uid: EasyTechToolUI.FreeLayoutItemPlane.FreeLayoutItemPlane.Item.RemoveItem
+  name: RemoveItem()
+  href: api/EasyTechToolUI.FreeLayoutItemPlane.FreeLayoutItemPlane.Item.html#EasyTechToolUI_FreeLayoutItemPlane_FreeLayoutItemPlane_Item_RemoveItem
+  commentId: M:EasyTechToolUI.FreeLayoutItemPlane.FreeLayoutItemPlane.Item.RemoveItem
+  fullName: EasyTechToolUI.FreeLayoutItemPlane.FreeLayoutItemPlane.Item.RemoveItem()
+  nameWithType: FreeLayoutItemPlane.Item.RemoveItem()
+- uid: EasyTechToolUI.FreeLayoutItemPlane.FreeLayoutItemPlane.Item.RemoveItem*
+  name: RemoveItem
+  href: api/EasyTechToolUI.FreeLayoutItemPlane.FreeLayoutItemPlane.Item.html#EasyTechToolUI_FreeLayoutItemPlane_FreeLayoutItemPlane_Item_RemoveItem_
+  commentId: Overload:EasyTechToolUI.FreeLayoutItemPlane.FreeLayoutItemPlane.Item.RemoveItem
+  isSpec: "True"
+  fullName: EasyTechToolUI.FreeLayoutItemPlane.FreeLayoutItemPlane.Item.RemoveItem
+  nameWithType: FreeLayoutItemPlane.Item.RemoveItem
+- uid: EasyTechToolUI.FreeLayoutItemPlane.FreeLayoutItemPlane.Item.SelectItem(System.Boolean)
+  name: SelectItem(bool)
+  href: api/EasyTechToolUI.FreeLayoutItemPlane.FreeLayoutItemPlane.Item.html#EasyTechToolUI_FreeLayoutItemPlane_FreeLayoutItemPlane_Item_SelectItem_System_Boolean_
+  commentId: M:EasyTechToolUI.FreeLayoutItemPlane.FreeLayoutItemPlane.Item.SelectItem(System.Boolean)
+  name.vb: SelectItem(Boolean)
+  fullName: EasyTechToolUI.FreeLayoutItemPlane.FreeLayoutItemPlane.Item.SelectItem(bool)
+  fullName.vb: EasyTechToolUI.FreeLayoutItemPlane.FreeLayoutItemPlane.Item.SelectItem(Boolean)
+  nameWithType: FreeLayoutItemPlane.Item.SelectItem(bool)
+  nameWithType.vb: FreeLayoutItemPlane.Item.SelectItem(Boolean)
+- uid: EasyTechToolUI.FreeLayoutItemPlane.FreeLayoutItemPlane.Item.SelectItem*
+  name: SelectItem
+  href: api/EasyTechToolUI.FreeLayoutItemPlane.FreeLayoutItemPlane.Item.html#EasyTechToolUI_FreeLayoutItemPlane_FreeLayoutItemPlane_Item_SelectItem_
+  commentId: Overload:EasyTechToolUI.FreeLayoutItemPlane.FreeLayoutItemPlane.Item.SelectItem
+  isSpec: "True"
+  fullName: EasyTechToolUI.FreeLayoutItemPlane.FreeLayoutItemPlane.Item.SelectItem
+  nameWithType: FreeLayoutItemPlane.Item.SelectItem
+- uid: EasyTechToolUI.FreeLayoutItemPlane.FreeLayoutItemPlane.Item.UpdateItemState(System.Object@)
+  name: UpdateItemState(in object)
+  href: api/EasyTechToolUI.FreeLayoutItemPlane.FreeLayoutItemPlane.Item.html#EasyTechToolUI_FreeLayoutItemPlane_FreeLayoutItemPlane_Item_UpdateItemState_System_Object__
+  commentId: M:EasyTechToolUI.FreeLayoutItemPlane.FreeLayoutItemPlane.Item.UpdateItemState(System.Object@)
+  name.vb: UpdateItemState(Object)
+  fullName: EasyTechToolUI.FreeLayoutItemPlane.FreeLayoutItemPlane.Item.UpdateItemState(in object)
+  fullName.vb: EasyTechToolUI.FreeLayoutItemPlane.FreeLayoutItemPlane.Item.UpdateItemState(Object)
+  nameWithType: FreeLayoutItemPlane.Item.UpdateItemState(in object)
+  nameWithType.vb: FreeLayoutItemPlane.Item.UpdateItemState(Object)
+- uid: EasyTechToolUI.FreeLayoutItemPlane.FreeLayoutItemPlane.Item.UpdateItemState*
+  name: UpdateItemState
+  href: api/EasyTechToolUI.FreeLayoutItemPlane.FreeLayoutItemPlane.Item.html#EasyTechToolUI_FreeLayoutItemPlane_FreeLayoutItemPlane_Item_UpdateItemState_
+  commentId: Overload:EasyTechToolUI.FreeLayoutItemPlane.FreeLayoutItemPlane.Item.UpdateItemState
+  isSpec: "True"
+  fullName: EasyTechToolUI.FreeLayoutItemPlane.FreeLayoutItemPlane.Item.UpdateItemState
+  nameWithType: FreeLayoutItemPlane.Item.UpdateItemState
+- uid: EasyTechToolUI.FreeLayoutItemPlane.FreeLayoutItemPlane.ItemCount
+  name: ItemCount
+  href: api/EasyTechToolUI.FreeLayoutItemPlane.FreeLayoutItemPlane.html#EasyTechToolUI_FreeLayoutItemPlane_FreeLayoutItemPlane_ItemCount
+  commentId: P:EasyTechToolUI.FreeLayoutItemPlane.FreeLayoutItemPlane.ItemCount
+  fullName: EasyTechToolUI.FreeLayoutItemPlane.FreeLayoutItemPlane.ItemCount
+  nameWithType: FreeLayoutItemPlane.ItemCount
+- uid: EasyTechToolUI.FreeLayoutItemPlane.FreeLayoutItemPlane.ItemCount*
+  name: ItemCount
+  href: api/EasyTechToolUI.FreeLayoutItemPlane.FreeLayoutItemPlane.html#EasyTechToolUI_FreeLayoutItemPlane_FreeLayoutItemPlane_ItemCount_
+  commentId: Overload:EasyTechToolUI.FreeLayoutItemPlane.FreeLayoutItemPlane.ItemCount
+  isSpec: "True"
+  fullName: EasyTechToolUI.FreeLayoutItemPlane.FreeLayoutItemPlane.ItemCount
+  nameWithType: FreeLayoutItemPlane.ItemCount
+- uid: EasyTechToolUI.FreeLayoutItemPlane.FreeLayoutItemPlane.Items
+  name: Items
+  href: api/EasyTechToolUI.FreeLayoutItemPlane.FreeLayoutItemPlane.html#EasyTechToolUI_FreeLayoutItemPlane_FreeLayoutItemPlane_Items
+  commentId: P:EasyTechToolUI.FreeLayoutItemPlane.FreeLayoutItemPlane.Items
+  fullName: EasyTechToolUI.FreeLayoutItemPlane.FreeLayoutItemPlane.Items
+  nameWithType: FreeLayoutItemPlane.Items
+- uid: EasyTechToolUI.FreeLayoutItemPlane.FreeLayoutItemPlane.Items*
+  name: Items
+  href: api/EasyTechToolUI.FreeLayoutItemPlane.FreeLayoutItemPlane.html#EasyTechToolUI_FreeLayoutItemPlane_FreeLayoutItemPlane_Items_
+  commentId: Overload:EasyTechToolUI.FreeLayoutItemPlane.FreeLayoutItemPlane.Items
+  isSpec: "True"
+  fullName: EasyTechToolUI.FreeLayoutItemPlane.FreeLayoutItemPlane.Items
+  nameWithType: FreeLayoutItemPlane.Items
+- uid: EasyTechToolUI.FreeLayoutItemPlane.FreeLayoutItemPlane.MaxItemCountEvent
+  name: FreeLayoutItemPlane.MaxItemCountEvent
+  href: api/EasyTechToolUI.FreeLayoutItemPlane.FreeLayoutItemPlane.MaxItemCountEvent.html
+  commentId: T:EasyTechToolUI.FreeLayoutItemPlane.FreeLayoutItemPlane.MaxItemCountEvent
+  fullName: EasyTechToolUI.FreeLayoutItemPlane.FreeLayoutItemPlane.MaxItemCountEvent
+  nameWithType: FreeLayoutItemPlane.MaxItemCountEvent
+- uid: EasyTechToolUI.FreeLayoutItemPlane.FreeLayoutItemPlane.MaxItemCountEventHandler
+  name: MaxItemCountEventHandler
+  href: api/EasyTechToolUI.FreeLayoutItemPlane.FreeLayoutItemPlane.html#EasyTechToolUI_FreeLayoutItemPlane_FreeLayoutItemPlane_MaxItemCountEventHandler
+  commentId: P:EasyTechToolUI.FreeLayoutItemPlane.FreeLayoutItemPlane.MaxItemCountEventHandler
+  fullName: EasyTechToolUI.FreeLayoutItemPlane.FreeLayoutItemPlane.MaxItemCountEventHandler
+  nameWithType: FreeLayoutItemPlane.MaxItemCountEventHandler
+- uid: EasyTechToolUI.FreeLayoutItemPlane.FreeLayoutItemPlane.MaxItemCountEventHandler*
+  name: MaxItemCountEventHandler
+  href: api/EasyTechToolUI.FreeLayoutItemPlane.FreeLayoutItemPlane.html#EasyTechToolUI_FreeLayoutItemPlane_FreeLayoutItemPlane_MaxItemCountEventHandler_
+  commentId: Overload:EasyTechToolUI.FreeLayoutItemPlane.FreeLayoutItemPlane.MaxItemCountEventHandler
+  isSpec: "True"
+  fullName: EasyTechToolUI.FreeLayoutItemPlane.FreeLayoutItemPlane.MaxItemCountEventHandler
+  nameWithType: FreeLayoutItemPlane.MaxItemCountEventHandler
+- uid: EasyTechToolUI.FreeLayoutItemPlane.FreeLayoutItemPlane.RemoveItemAt(System.Int32@)
+  name: RemoveItemAt(in int)
+  href: api/EasyTechToolUI.FreeLayoutItemPlane.FreeLayoutItemPlane.html#EasyTechToolUI_FreeLayoutItemPlane_FreeLayoutItemPlane_RemoveItemAt_System_Int32__
+  commentId: M:EasyTechToolUI.FreeLayoutItemPlane.FreeLayoutItemPlane.RemoveItemAt(System.Int32@)
+  name.vb: RemoveItemAt(Integer)
+  fullName: EasyTechToolUI.FreeLayoutItemPlane.FreeLayoutItemPlane.RemoveItemAt(in int)
+  fullName.vb: EasyTechToolUI.FreeLayoutItemPlane.FreeLayoutItemPlane.RemoveItemAt(Integer)
+  nameWithType: FreeLayoutItemPlane.RemoveItemAt(in int)
+  nameWithType.vb: FreeLayoutItemPlane.RemoveItemAt(Integer)
+- uid: EasyTechToolUI.FreeLayoutItemPlane.FreeLayoutItemPlane.RemoveItemAt*
+  name: RemoveItemAt
+  href: api/EasyTechToolUI.FreeLayoutItemPlane.FreeLayoutItemPlane.html#EasyTechToolUI_FreeLayoutItemPlane_FreeLayoutItemPlane_RemoveItemAt_
+  commentId: Overload:EasyTechToolUI.FreeLayoutItemPlane.FreeLayoutItemPlane.RemoveItemAt
+  isSpec: "True"
+  fullName: EasyTechToolUI.FreeLayoutItemPlane.FreeLayoutItemPlane.RemoveItemAt
+  nameWithType: FreeLayoutItemPlane.RemoveItemAt
+- uid: EasyTechToolUI.FreeLayoutItemPlane.FreeLayoutItemPlane.UpdateModuleState(System.Collections.Generic.List{System.Object}@)
+  name: UpdateModuleState(in List<object>)
+  href: api/EasyTechToolUI.FreeLayoutItemPlane.FreeLayoutItemPlane.html#EasyTechToolUI_FreeLayoutItemPlane_FreeLayoutItemPlane_UpdateModuleState_System_Collections_Generic_List_System_Object___
+  commentId: M:EasyTechToolUI.FreeLayoutItemPlane.FreeLayoutItemPlane.UpdateModuleState(System.Collections.Generic.List{System.Object}@)
+  name.vb: UpdateModuleState(List(Of Object))
+  fullName: EasyTechToolUI.FreeLayoutItemPlane.FreeLayoutItemPlane.UpdateModuleState(in System.Collections.Generic.List<object>)
+  fullName.vb: EasyTechToolUI.FreeLayoutItemPlane.FreeLayoutItemPlane.UpdateModuleState(System.Collections.Generic.List(Of Object))
+  nameWithType: FreeLayoutItemPlane.UpdateModuleState(in List<object>)
+  nameWithType.vb: FreeLayoutItemPlane.UpdateModuleState(List(Of Object))
+- uid: EasyTechToolUI.FreeLayoutItemPlane.FreeLayoutItemPlane.UpdateModuleState(System.Object@)
+  name: UpdateModuleState(in object)
+  href: api/EasyTechToolUI.FreeLayoutItemPlane.FreeLayoutItemPlane.html#EasyTechToolUI_FreeLayoutItemPlane_FreeLayoutItemPlane_UpdateModuleState_System_Object__
+  commentId: M:EasyTechToolUI.FreeLayoutItemPlane.FreeLayoutItemPlane.UpdateModuleState(System.Object@)
+  name.vb: UpdateModuleState(Object)
+  fullName: EasyTechToolUI.FreeLayoutItemPlane.FreeLayoutItemPlane.UpdateModuleState(in object)
+  fullName.vb: EasyTechToolUI.FreeLayoutItemPlane.FreeLayoutItemPlane.UpdateModuleState(Object)
+  nameWithType: FreeLayoutItemPlane.UpdateModuleState(in object)
+  nameWithType.vb: FreeLayoutItemPlane.UpdateModuleState(Object)
+- uid: EasyTechToolUI.FreeLayoutItemPlane.FreeLayoutItemPlane.UpdateModuleState*
+  name: UpdateModuleState
+  href: api/EasyTechToolUI.FreeLayoutItemPlane.FreeLayoutItemPlane.html#EasyTechToolUI_FreeLayoutItemPlane_FreeLayoutItemPlane_UpdateModuleState_
+  commentId: Overload:EasyTechToolUI.FreeLayoutItemPlane.FreeLayoutItemPlane.UpdateModuleState
+  isSpec: "True"
+  fullName: EasyTechToolUI.FreeLayoutItemPlane.FreeLayoutItemPlane.UpdateModuleState
+  nameWithType: FreeLayoutItemPlane.UpdateModuleState
+- uid: EasyTechToolUI.IItemSelectedAction
+  name: IItemSelectedAction
+  href: api/EasyTechToolUI.IItemSelectedAction.html
+  commentId: T:EasyTechToolUI.IItemSelectedAction
+  fullName: EasyTechToolUI.IItemSelectedAction
+  nameWithType: IItemSelectedAction
+- uid: EasyTechToolUI.IItemSelectedAction.OnItemSelected(System.Object@,System.Boolean@)
+  name: OnItemSelected(in object, in bool)
+  href: api/EasyTechToolUI.IItemSelectedAction.html#EasyTechToolUI_IItemSelectedAction_OnItemSelected_System_Object__System_Boolean__
+  commentId: M:EasyTechToolUI.IItemSelectedAction.OnItemSelected(System.Object@,System.Boolean@)
+  name.vb: OnItemSelected(Object, Boolean)
+  fullName: EasyTechToolUI.IItemSelectedAction.OnItemSelected(in object, in bool)
+  fullName.vb: EasyTechToolUI.IItemSelectedAction.OnItemSelected(Object, Boolean)
+  nameWithType: IItemSelectedAction.OnItemSelected(in object, in bool)
+  nameWithType.vb: IItemSelectedAction.OnItemSelected(Object, Boolean)
+- uid: EasyTechToolUI.IItemSelectedAction.OnItemSelected*
+  name: OnItemSelected
+  href: api/EasyTechToolUI.IItemSelectedAction.html#EasyTechToolUI_IItemSelectedAction_OnItemSelected_
+  commentId: Overload:EasyTechToolUI.IItemSelectedAction.OnItemSelected
+  isSpec: "True"
+  fullName: EasyTechToolUI.IItemSelectedAction.OnItemSelected
+  nameWithType: IItemSelectedAction.OnItemSelected
+- uid: EasyTechToolUI.IModuleStateUpdate
+  name: IModuleStateUpdate
+  href: api/EasyTechToolUI.IModuleStateUpdate.html
+  commentId: T:EasyTechToolUI.IModuleStateUpdate
+  fullName: EasyTechToolUI.IModuleStateUpdate
+  nameWithType: IModuleStateUpdate
+- uid: EasyTechToolUI.IModuleStateUpdate.InitializeModule(System.Object@,System.Guid@)
+  name: InitializeModule(in object, in Guid)
+  href: api/EasyTechToolUI.IModuleStateUpdate.html#EasyTechToolUI_IModuleStateUpdate_InitializeModule_System_Object__System_Guid__
+  commentId: M:EasyTechToolUI.IModuleStateUpdate.InitializeModule(System.Object@,System.Guid@)
+  name.vb: InitializeModule(Object, Guid)
+  fullName: EasyTechToolUI.IModuleStateUpdate.InitializeModule(in object, in System.Guid)
+  fullName.vb: EasyTechToolUI.IModuleStateUpdate.InitializeModule(Object, System.Guid)
+  nameWithType: IModuleStateUpdate.InitializeModule(in object, in Guid)
+  nameWithType.vb: IModuleStateUpdate.InitializeModule(Object, Guid)
+- uid: EasyTechToolUI.IModuleStateUpdate.InitializeModule*
+  name: InitializeModule
+  href: api/EasyTechToolUI.IModuleStateUpdate.html#EasyTechToolUI_IModuleStateUpdate_InitializeModule_
+  commentId: Overload:EasyTechToolUI.IModuleStateUpdate.InitializeModule
+  isSpec: "True"
+  fullName: EasyTechToolUI.IModuleStateUpdate.InitializeModule
+  nameWithType: IModuleStateUpdate.InitializeModule
+- uid: EasyTechToolUI.IModuleStateUpdate.UpdateModuleState(System.Object@)
+  name: UpdateModuleState(in object)
+  href: api/EasyTechToolUI.IModuleStateUpdate.html#EasyTechToolUI_IModuleStateUpdate_UpdateModuleState_System_Object__
+  commentId: M:EasyTechToolUI.IModuleStateUpdate.UpdateModuleState(System.Object@)
+  name.vb: UpdateModuleState(Object)
+  fullName: EasyTechToolUI.IModuleStateUpdate.UpdateModuleState(in object)
+  fullName.vb: EasyTechToolUI.IModuleStateUpdate.UpdateModuleState(Object)
+  nameWithType: IModuleStateUpdate.UpdateModuleState(in object)
+  nameWithType.vb: IModuleStateUpdate.UpdateModuleState(Object)
+- uid: EasyTechToolUI.IModuleStateUpdate.UpdateModuleState*
+  name: UpdateModuleState
+  href: api/EasyTechToolUI.IModuleStateUpdate.html#EasyTechToolUI_IModuleStateUpdate_UpdateModuleState_
+  commentId: Overload:EasyTechToolUI.IModuleStateUpdate.UpdateModuleState
+  isSpec: "True"
+  fullName: EasyTechToolUI.IModuleStateUpdate.UpdateModuleState
+  nameWithType: IModuleStateUpdate.UpdateModuleState
+- uid: EasyTechToolUI.ItemGridPlane
+  name: EasyTechToolUI.ItemGridPlane
+  href: api/EasyTechToolUI.ItemGridPlane.html
+  commentId: N:EasyTechToolUI.ItemGridPlane
+  fullName: EasyTechToolUI.ItemGridPlane
+  nameWithType: EasyTechToolUI.ItemGridPlane
+- uid: EasyTechToolUI.ItemGridPlane.ItemGridPlane
+  name: ItemGridPlane
+  href: api/EasyTechToolUI.ItemGridPlane.ItemGridPlane.html
+  commentId: T:EasyTechToolUI.ItemGridPlane.ItemGridPlane
+  fullName: EasyTechToolUI.ItemGridPlane.ItemGridPlane
+  nameWithType: ItemGridPlane
+- uid: EasyTechToolUI.ItemGridPlane.ItemGridPlane.AbstractItemCellSize
+  name: AbstractItemCellSize
+  href: api/EasyTechToolUI.ItemGridPlane.ItemGridPlane.html#EasyTechToolUI_ItemGridPlane_ItemGridPlane_AbstractItemCellSize
+  commentId: P:EasyTechToolUI.ItemGridPlane.ItemGridPlane.AbstractItemCellSize
+  fullName: EasyTechToolUI.ItemGridPlane.ItemGridPlane.AbstractItemCellSize
+  nameWithType: ItemGridPlane.AbstractItemCellSize
+- uid: EasyTechToolUI.ItemGridPlane.ItemGridPlane.AbstractItemCellSize*
+  name: AbstractItemCellSize
+  href: api/EasyTechToolUI.ItemGridPlane.ItemGridPlane.html#EasyTechToolUI_ItemGridPlane_ItemGridPlane_AbstractItemCellSize_
+  commentId: Overload:EasyTechToolUI.ItemGridPlane.ItemGridPlane.AbstractItemCellSize
+  isSpec: "True"
+  fullName: EasyTechToolUI.ItemGridPlane.ItemGridPlane.AbstractItemCellSize
+  nameWithType: ItemGridPlane.AbstractItemCellSize
+- uid: EasyTechToolUI.ItemGridPlane.ItemGridPlane.AbstractItemPlacementRegulation
+  name: ItemGridPlane.AbstractItemPlacementRegulation
+  href: api/EasyTechToolUI.ItemGridPlane.ItemGridPlane.AbstractItemPlacementRegulation.html
+  commentId: T:EasyTechToolUI.ItemGridPlane.ItemGridPlane.AbstractItemPlacementRegulation
+  fullName: EasyTechToolUI.ItemGridPlane.ItemGridPlane.AbstractItemPlacementRegulation
+  nameWithType: ItemGridPlane.AbstractItemPlacementRegulation
+- uid: EasyTechToolUI.ItemGridPlane.ItemGridPlane.AbstractItemPlacementRegulation.LogErrorWhenInvalid
+  name: LogErrorWhenInvalid
+  href: api/EasyTechToolUI.ItemGridPlane.ItemGridPlane.AbstractItemPlacementRegulation.html#EasyTechToolUI_ItemGridPlane_ItemGridPlane_AbstractItemPlacementRegulation_LogErrorWhenInvalid
+  commentId: F:EasyTechToolUI.ItemGridPlane.ItemGridPlane.AbstractItemPlacementRegulation.LogErrorWhenInvalid
+  fullName: EasyTechToolUI.ItemGridPlane.ItemGridPlane.AbstractItemPlacementRegulation.LogErrorWhenInvalid
+  nameWithType: ItemGridPlane.AbstractItemPlacementRegulation.LogErrorWhenInvalid
+- uid: EasyTechToolUI.ItemGridPlane.ItemGridPlane.AbstractItemPlacementRegulation.NoRegulation
+  name: NoRegulation
+  href: api/EasyTechToolUI.ItemGridPlane.ItemGridPlane.AbstractItemPlacementRegulation.html#EasyTechToolUI_ItemGridPlane_ItemGridPlane_AbstractItemPlacementRegulation_NoRegulation
+  commentId: F:EasyTechToolUI.ItemGridPlane.ItemGridPlane.AbstractItemPlacementRegulation.NoRegulation
+  fullName: EasyTechToolUI.ItemGridPlane.ItemGridPlane.AbstractItemPlacementRegulation.NoRegulation
+  nameWithType: ItemGridPlane.AbstractItemPlacementRegulation.NoRegulation
+- uid: EasyTechToolUI.ItemGridPlane.ItemGridPlane.AbstractItemPlacementRegulation.SliceItemSizeToFit
+  name: SliceItemSizeToFit
+  href: api/EasyTechToolUI.ItemGridPlane.ItemGridPlane.AbstractItemPlacementRegulation.html#EasyTechToolUI_ItemGridPlane_ItemGridPlane_AbstractItemPlacementRegulation_SliceItemSizeToFit
+  commentId: F:EasyTechToolUI.ItemGridPlane.ItemGridPlane.AbstractItemPlacementRegulation.SliceItemSizeToFit
+  fullName: EasyTechToolUI.ItemGridPlane.ItemGridPlane.AbstractItemPlacementRegulation.SliceItemSizeToFit
+  nameWithType: ItemGridPlane.AbstractItemPlacementRegulation.SliceItemSizeToFit
+- uid: EasyTechToolUI.ItemGridPlane.ItemGridPlane.AbstractItemPlacementRegulation.WarningWhenInvalid
+  name: WarningWhenInvalid
+  href: api/EasyTechToolUI.ItemGridPlane.ItemGridPlane.AbstractItemPlacementRegulation.html#EasyTechToolUI_ItemGridPlane_ItemGridPlane_AbstractItemPlacementRegulation_WarningWhenInvalid
+  commentId: F:EasyTechToolUI.ItemGridPlane.ItemGridPlane.AbstractItemPlacementRegulation.WarningWhenInvalid
+  fullName: EasyTechToolUI.ItemGridPlane.ItemGridPlane.AbstractItemPlacementRegulation.WarningWhenInvalid
+  nameWithType: ItemGridPlane.AbstractItemPlacementRegulation.WarningWhenInvalid
+- uid: EasyTechToolUI.ItemGridPlane.ItemGridPlane.AbstractItemPlacementRegulationType
+  name: AbstractItemPlacementRegulationType
+  href: api/EasyTechToolUI.ItemGridPlane.ItemGridPlane.html#EasyTechToolUI_ItemGridPlane_ItemGridPlane_AbstractItemPlacementRegulationType
+  commentId: P:EasyTechToolUI.ItemGridPlane.ItemGridPlane.AbstractItemPlacementRegulationType
+  fullName: EasyTechToolUI.ItemGridPlane.ItemGridPlane.AbstractItemPlacementRegulationType
+  nameWithType: ItemGridPlane.AbstractItemPlacementRegulationType
+- uid: EasyTechToolUI.ItemGridPlane.ItemGridPlane.AbstractItemPlacementRegulationType*
+  name: AbstractItemPlacementRegulationType
+  href: api/EasyTechToolUI.ItemGridPlane.ItemGridPlane.html#EasyTechToolUI_ItemGridPlane_ItemGridPlane_AbstractItemPlacementRegulationType_
+  commentId: Overload:EasyTechToolUI.ItemGridPlane.ItemGridPlane.AbstractItemPlacementRegulationType
+  isSpec: "True"
+  fullName: EasyTechToolUI.ItemGridPlane.ItemGridPlane.AbstractItemPlacementRegulationType
+  nameWithType: ItemGridPlane.AbstractItemPlacementRegulationType
+- uid: EasyTechToolUI.ItemGridPlane.ItemGridPlane.AbstractItemSpacing
+  name: AbstractItemSpacing
+  href: api/EasyTechToolUI.ItemGridPlane.ItemGridPlane.html#EasyTechToolUI_ItemGridPlane_ItemGridPlane_AbstractItemSpacing
+  commentId: P:EasyTechToolUI.ItemGridPlane.ItemGridPlane.AbstractItemSpacing
+  fullName: EasyTechToolUI.ItemGridPlane.ItemGridPlane.AbstractItemSpacing
+  nameWithType: ItemGridPlane.AbstractItemSpacing
+- uid: EasyTechToolUI.ItemGridPlane.ItemGridPlane.AbstractItemSpacing*
+  name: AbstractItemSpacing
+  href: api/EasyTechToolUI.ItemGridPlane.ItemGridPlane.html#EasyTechToolUI_ItemGridPlane_ItemGridPlane_AbstractItemSpacing_
+  commentId: Overload:EasyTechToolUI.ItemGridPlane.ItemGridPlane.AbstractItemSpacing
+  isSpec: "True"
+  fullName: EasyTechToolUI.ItemGridPlane.ItemGridPlane.AbstractItemSpacing
+  nameWithType: ItemGridPlane.AbstractItemSpacing
+- uid: EasyTechToolUI.ItemGridPlane.ItemGridPlane.AdjustedItemPlaneSize
+  name: AdjustedItemPlaneSize
+  href: api/EasyTechToolUI.ItemGridPlane.ItemGridPlane.html#EasyTechToolUI_ItemGridPlane_ItemGridPlane_AdjustedItemPlaneSize
+  commentId: P:EasyTechToolUI.ItemGridPlane.ItemGridPlane.AdjustedItemPlaneSize
+  fullName: EasyTechToolUI.ItemGridPlane.ItemGridPlane.AdjustedItemPlaneSize
+  nameWithType: ItemGridPlane.AdjustedItemPlaneSize
+- uid: EasyTechToolUI.ItemGridPlane.ItemGridPlane.AdjustedItemPlaneSize*
+  name: AdjustedItemPlaneSize
+  href: api/EasyTechToolUI.ItemGridPlane.ItemGridPlane.html#EasyTechToolUI_ItemGridPlane_ItemGridPlane_AdjustedItemPlaneSize_
+  commentId: Overload:EasyTechToolUI.ItemGridPlane.ItemGridPlane.AdjustedItemPlaneSize
+  isSpec: "True"
+  fullName: EasyTechToolUI.ItemGridPlane.ItemGridPlane.AdjustedItemPlaneSize
+  nameWithType: ItemGridPlane.AdjustedItemPlaneSize
+- uid: EasyTechToolUI.ItemGridPlane.ItemGridPlane.AttachedCanvasTransitionManagerGuid
+  name: AttachedCanvasTransitionManagerGuid
+  href: api/EasyTechToolUI.ItemGridPlane.ItemGridPlane.html#EasyTechToolUI_ItemGridPlane_ItemGridPlane_AttachedCanvasTransitionManagerGuid
+  commentId: P:EasyTechToolUI.ItemGridPlane.ItemGridPlane.AttachedCanvasTransitionManagerGuid
+  fullName: EasyTechToolUI.ItemGridPlane.ItemGridPlane.AttachedCanvasTransitionManagerGuid
+  nameWithType: ItemGridPlane.AttachedCanvasTransitionManagerGuid
+- uid: EasyTechToolUI.ItemGridPlane.ItemGridPlane.AttachedCanvasTransitionManagerGuid*
+  name: AttachedCanvasTransitionManagerGuid
+  href: api/EasyTechToolUI.ItemGridPlane.ItemGridPlane.html#EasyTechToolUI_ItemGridPlane_ItemGridPlane_AttachedCanvasTransitionManagerGuid_
+  commentId: Overload:EasyTechToolUI.ItemGridPlane.ItemGridPlane.AttachedCanvasTransitionManagerGuid
+  isSpec: "True"
+  fullName: EasyTechToolUI.ItemGridPlane.ItemGridPlane.AttachedCanvasTransitionManagerGuid
+  nameWithType: ItemGridPlane.AttachedCanvasTransitionManagerGuid
+- uid: EasyTechToolUI.ItemGridPlane.ItemGridPlane.ClearItemPlane
+  name: ClearItemPlane()
+  href: api/EasyTechToolUI.ItemGridPlane.ItemGridPlane.html#EasyTechToolUI_ItemGridPlane_ItemGridPlane_ClearItemPlane
+  commentId: M:EasyTechToolUI.ItemGridPlane.ItemGridPlane.ClearItemPlane
+  fullName: EasyTechToolUI.ItemGridPlane.ItemGridPlane.ClearItemPlane()
+  nameWithType: ItemGridPlane.ClearItemPlane()
+- uid: EasyTechToolUI.ItemGridPlane.ItemGridPlane.ClearItemPlane*
+  name: ClearItemPlane
+  href: api/EasyTechToolUI.ItemGridPlane.ItemGridPlane.html#EasyTechToolUI_ItemGridPlane_ItemGridPlane_ClearItemPlane_
+  commentId: Overload:EasyTechToolUI.ItemGridPlane.ItemGridPlane.ClearItemPlane
+  isSpec: "True"
+  fullName: EasyTechToolUI.ItemGridPlane.ItemGridPlane.ClearItemPlane
+  nameWithType: ItemGridPlane.ClearItemPlane
+- uid: EasyTechToolUI.ItemGridPlane.ItemGridPlane.CurSelectedItemPos
+  name: CurSelectedItemPos
+  href: api/EasyTechToolUI.ItemGridPlane.ItemGridPlane.html#EasyTechToolUI_ItemGridPlane_ItemGridPlane_CurSelectedItemPos
+  commentId: P:EasyTechToolUI.ItemGridPlane.ItemGridPlane.CurSelectedItemPos
+  fullName: EasyTechToolUI.ItemGridPlane.ItemGridPlane.CurSelectedItemPos
+  nameWithType: ItemGridPlane.CurSelectedItemPos
+- uid: EasyTechToolUI.ItemGridPlane.ItemGridPlane.CurSelectedItemPos*
+  name: CurSelectedItemPos
+  href: api/EasyTechToolUI.ItemGridPlane.ItemGridPlane.html#EasyTechToolUI_ItemGridPlane_ItemGridPlane_CurSelectedItemPos_
+  commentId: Overload:EasyTechToolUI.ItemGridPlane.ItemGridPlane.CurSelectedItemPos
+  isSpec: "True"
+  fullName: EasyTechToolUI.ItemGridPlane.ItemGridPlane.CurSelectedItemPos
+  nameWithType: ItemGridPlane.CurSelectedItemPos
+- uid: EasyTechToolUI.ItemGridPlane.ItemGridPlane.GetItemPos(EasyTechToolUI.ItemGridPlane.ItemGridPlane.Item@)
+  name: GetItemPos(in Item)
+  href: api/EasyTechToolUI.ItemGridPlane.ItemGridPlane.html#EasyTechToolUI_ItemGridPlane_ItemGridPlane_GetItemPos_EasyTechToolUI_ItemGridPlane_ItemGridPlane_Item__
+  commentId: M:EasyTechToolUI.ItemGridPlane.ItemGridPlane.GetItemPos(EasyTechToolUI.ItemGridPlane.ItemGridPlane.Item@)
+  name.vb: GetItemPos(Item)
+  fullName: EasyTechToolUI.ItemGridPlane.ItemGridPlane.GetItemPos(in EasyTechToolUI.ItemGridPlane.ItemGridPlane.Item)
+  fullName.vb: EasyTechToolUI.ItemGridPlane.ItemGridPlane.GetItemPos(EasyTechToolUI.ItemGridPlane.ItemGridPlane.Item)
+  nameWithType: ItemGridPlane.GetItemPos(in ItemGridPlane.Item)
+  nameWithType.vb: ItemGridPlane.GetItemPos(ItemGridPlane.Item)
+- uid: EasyTechToolUI.ItemGridPlane.ItemGridPlane.GetItemPos*
+  name: GetItemPos
+  href: api/EasyTechToolUI.ItemGridPlane.ItemGridPlane.html#EasyTechToolUI_ItemGridPlane_ItemGridPlane_GetItemPos_
+  commentId: Overload:EasyTechToolUI.ItemGridPlane.ItemGridPlane.GetItemPos
+  isSpec: "True"
+  fullName: EasyTechToolUI.ItemGridPlane.ItemGridPlane.GetItemPos
+  nameWithType: ItemGridPlane.GetItemPos
+- uid: EasyTechToolUI.ItemGridPlane.ItemGridPlane.GridLayoutGroup
+  name: GridLayoutGroup
+  href: api/EasyTechToolUI.ItemGridPlane.ItemGridPlane.html#EasyTechToolUI_ItemGridPlane_ItemGridPlane_GridLayoutGroup
+  commentId: P:EasyTechToolUI.ItemGridPlane.ItemGridPlane.GridLayoutGroup
+  fullName: EasyTechToolUI.ItemGridPlane.ItemGridPlane.GridLayoutGroup
+  nameWithType: ItemGridPlane.GridLayoutGroup
+- uid: EasyTechToolUI.ItemGridPlane.ItemGridPlane.GridLayoutGroup*
+  name: GridLayoutGroup
+  href: api/EasyTechToolUI.ItemGridPlane.ItemGridPlane.html#EasyTechToolUI_ItemGridPlane_ItemGridPlane_GridLayoutGroup_
+  commentId: Overload:EasyTechToolUI.ItemGridPlane.ItemGridPlane.GridLayoutGroup
+  isSpec: "True"
+  fullName: EasyTechToolUI.ItemGridPlane.ItemGridPlane.GridLayoutGroup
+  nameWithType: ItemGridPlane.GridLayoutGroup
+- uid: EasyTechToolUI.ItemGridPlane.ItemGridPlane.IItemStateUpdate
+  name: ItemGridPlane.IItemStateUpdate
+  href: api/EasyTechToolUI.ItemGridPlane.ItemGridPlane.IItemStateUpdate.html
+  commentId: T:EasyTechToolUI.ItemGridPlane.ItemGridPlane.IItemStateUpdate
+  fullName: EasyTechToolUI.ItemGridPlane.ItemGridPlane.IItemStateUpdate
+  nameWithType: ItemGridPlane.IItemStateUpdate
+- uid: EasyTechToolUI.ItemGridPlane.ItemGridPlane.IItemStateUpdate.InitializeItem(EasyTechToolUI.ItemGridPlane.ItemGridPlane@,System.Int32@,System.Object@)
+  name: InitializeItem(in ItemGridPlane, in int, in object)
+  href: api/EasyTechToolUI.ItemGridPlane.ItemGridPlane.IItemStateUpdate.html#EasyTechToolUI_ItemGridPlane_ItemGridPlane_IItemStateUpdate_InitializeItem_EasyTechToolUI_ItemGridPlane_ItemGridPlane__System_Int32__System_Object__
+  commentId: M:EasyTechToolUI.ItemGridPlane.ItemGridPlane.IItemStateUpdate.InitializeItem(EasyTechToolUI.ItemGridPlane.ItemGridPlane@,System.Int32@,System.Object@)
+  name.vb: InitializeItem(ItemGridPlane, Integer, Object)
+  fullName: EasyTechToolUI.ItemGridPlane.ItemGridPlane.IItemStateUpdate.InitializeItem(in EasyTechToolUI.ItemGridPlane.ItemGridPlane, in int, in object)
+  fullName.vb: EasyTechToolUI.ItemGridPlane.ItemGridPlane.IItemStateUpdate.InitializeItem(EasyTechToolUI.ItemGridPlane.ItemGridPlane, Integer, Object)
+  nameWithType: ItemGridPlane.IItemStateUpdate.InitializeItem(in ItemGridPlane, in int, in object)
+  nameWithType.vb: ItemGridPlane.IItemStateUpdate.InitializeItem(ItemGridPlane, Integer, Object)
+- uid: EasyTechToolUI.ItemGridPlane.ItemGridPlane.IItemStateUpdate.InitializeItem*
+  name: InitializeItem
+  href: api/EasyTechToolUI.ItemGridPlane.ItemGridPlane.IItemStateUpdate.html#EasyTechToolUI_ItemGridPlane_ItemGridPlane_IItemStateUpdate_InitializeItem_
+  commentId: Overload:EasyTechToolUI.ItemGridPlane.ItemGridPlane.IItemStateUpdate.InitializeItem
+  isSpec: "True"
+  fullName: EasyTechToolUI.ItemGridPlane.ItemGridPlane.IItemStateUpdate.InitializeItem
+  nameWithType: ItemGridPlane.IItemStateUpdate.InitializeItem
+- uid: EasyTechToolUI.ItemGridPlane.ItemGridPlane.IItemStateUpdate.UpdateItemState(System.Object@)
+  name: UpdateItemState(in object)
+  href: api/EasyTechToolUI.ItemGridPlane.ItemGridPlane.IItemStateUpdate.html#EasyTechToolUI_ItemGridPlane_ItemGridPlane_IItemStateUpdate_UpdateItemState_System_Object__
+  commentId: M:EasyTechToolUI.ItemGridPlane.ItemGridPlane.IItemStateUpdate.UpdateItemState(System.Object@)
+  name.vb: UpdateItemState(Object)
+  fullName: EasyTechToolUI.ItemGridPlane.ItemGridPlane.IItemStateUpdate.UpdateItemState(in object)
+  fullName.vb: EasyTechToolUI.ItemGridPlane.ItemGridPlane.IItemStateUpdate.UpdateItemState(Object)
+  nameWithType: ItemGridPlane.IItemStateUpdate.UpdateItemState(in object)
+  nameWithType.vb: ItemGridPlane.IItemStateUpdate.UpdateItemState(Object)
+- uid: EasyTechToolUI.ItemGridPlane.ItemGridPlane.IItemStateUpdate.UpdateItemState*
+  name: UpdateItemState
+  href: api/EasyTechToolUI.ItemGridPlane.ItemGridPlane.IItemStateUpdate.html#EasyTechToolUI_ItemGridPlane_ItemGridPlane_IItemStateUpdate_UpdateItemState_
+  commentId: Overload:EasyTechToolUI.ItemGridPlane.ItemGridPlane.IItemStateUpdate.UpdateItemState
+  isSpec: "True"
+  fullName: EasyTechToolUI.ItemGridPlane.ItemGridPlane.IItemStateUpdate.UpdateItemState
+  nameWithType: ItemGridPlane.IItemStateUpdate.UpdateItemState
+- uid: EasyTechToolUI.ItemGridPlane.ItemGridPlane.InitializeModule(System.Object@,System.Guid@)
+  name: InitializeModule(in object, in Guid)
+  href: api/EasyTechToolUI.ItemGridPlane.ItemGridPlane.html#EasyTechToolUI_ItemGridPlane_ItemGridPlane_InitializeModule_System_Object__System_Guid__
+  commentId: M:EasyTechToolUI.ItemGridPlane.ItemGridPlane.InitializeModule(System.Object@,System.Guid@)
+  name.vb: InitializeModule(Object, Guid)
+  fullName: EasyTechToolUI.ItemGridPlane.ItemGridPlane.InitializeModule(in object, in System.Guid)
+  fullName.vb: EasyTechToolUI.ItemGridPlane.ItemGridPlane.InitializeModule(Object, System.Guid)
+  nameWithType: ItemGridPlane.InitializeModule(in object, in Guid)
+  nameWithType.vb: ItemGridPlane.InitializeModule(Object, Guid)
+- uid: EasyTechToolUI.ItemGridPlane.ItemGridPlane.InitializeModule(System.Object[0:,0:]@)
+  name: InitializeModule(in object[,])
+  href: api/EasyTechToolUI.ItemGridPlane.ItemGridPlane.html#EasyTechToolUI_ItemGridPlane_ItemGridPlane_InitializeModule_System_Object_0__0____
+  commentId: M:EasyTechToolUI.ItemGridPlane.ItemGridPlane.InitializeModule(System.Object[0:,0:]@)
+  name.vb: InitializeModule(Object(,))
+  fullName: EasyTechToolUI.ItemGridPlane.ItemGridPlane.InitializeModule(in object[,])
+  fullName.vb: EasyTechToolUI.ItemGridPlane.ItemGridPlane.InitializeModule(Object(,))
+  nameWithType: ItemGridPlane.InitializeModule(in object[,])
+  nameWithType.vb: ItemGridPlane.InitializeModule(Object(,))
+- uid: EasyTechToolUI.ItemGridPlane.ItemGridPlane.InitializeModule*
+  name: InitializeModule
+  href: api/EasyTechToolUI.ItemGridPlane.ItemGridPlane.html#EasyTechToolUI_ItemGridPlane_ItemGridPlane_InitializeModule_
+  commentId: Overload:EasyTechToolUI.ItemGridPlane.ItemGridPlane.InitializeModule
+  isSpec: "True"
+  fullName: EasyTechToolUI.ItemGridPlane.ItemGridPlane.InitializeModule
+  nameWithType: ItemGridPlane.InitializeModule
+- uid: EasyTechToolUI.ItemGridPlane.ItemGridPlane.Item
+  name: ItemGridPlane.Item
+  href: api/EasyTechToolUI.ItemGridPlane.ItemGridPlane.Item.html
+  commentId: T:EasyTechToolUI.ItemGridPlane.ItemGridPlane.Item
+  fullName: EasyTechToolUI.ItemGridPlane.ItemGridPlane.Item
+  nameWithType: ItemGridPlane.Item
+- uid: EasyTechToolUI.ItemGridPlane.ItemGridPlane.Item.AttahcedItemGridPlane
+  name: AttahcedItemGridPlane
+  href: api/EasyTechToolUI.ItemGridPlane.ItemGridPlane.Item.html#EasyTechToolUI_ItemGridPlane_ItemGridPlane_Item_AttahcedItemGridPlane
+  commentId: P:EasyTechToolUI.ItemGridPlane.ItemGridPlane.Item.AttahcedItemGridPlane
+  fullName: EasyTechToolUI.ItemGridPlane.ItemGridPlane.Item.AttahcedItemGridPlane
+  nameWithType: ItemGridPlane.Item.AttahcedItemGridPlane
+- uid: EasyTechToolUI.ItemGridPlane.ItemGridPlane.Item.AttahcedItemGridPlane*
+  name: AttahcedItemGridPlane
+  href: api/EasyTechToolUI.ItemGridPlane.ItemGridPlane.Item.html#EasyTechToolUI_ItemGridPlane_ItemGridPlane_Item_AttahcedItemGridPlane_
+  commentId: Overload:EasyTechToolUI.ItemGridPlane.ItemGridPlane.Item.AttahcedItemGridPlane
+  isSpec: "True"
+  fullName: EasyTechToolUI.ItemGridPlane.ItemGridPlane.Item.AttahcedItemGridPlane
+  nameWithType: ItemGridPlane.Item.AttahcedItemGridPlane
+- uid: EasyTechToolUI.ItemGridPlane.ItemGridPlane.Item.InitializeItem(EasyTechToolUI.ItemGridPlane.ItemGridPlane@,System.Int32@,System.Object@)
+  name: InitializeItem(in ItemGridPlane, in int, in object)
+  href: api/EasyTechToolUI.ItemGridPlane.ItemGridPlane.Item.html#EasyTechToolUI_ItemGridPlane_ItemGridPlane_Item_InitializeItem_EasyTechToolUI_ItemGridPlane_ItemGridPlane__System_Int32__System_Object__
+  commentId: M:EasyTechToolUI.ItemGridPlane.ItemGridPlane.Item.InitializeItem(EasyTechToolUI.ItemGridPlane.ItemGridPlane@,System.Int32@,System.Object@)
+  name.vb: InitializeItem(ItemGridPlane, Integer, Object)
+  fullName: EasyTechToolUI.ItemGridPlane.ItemGridPlane.Item.InitializeItem(in EasyTechToolUI.ItemGridPlane.ItemGridPlane, in int, in object)
+  fullName.vb: EasyTechToolUI.ItemGridPlane.ItemGridPlane.Item.InitializeItem(EasyTechToolUI.ItemGridPlane.ItemGridPlane, Integer, Object)
+  nameWithType: ItemGridPlane.Item.InitializeItem(in ItemGridPlane, in int, in object)
+  nameWithType.vb: ItemGridPlane.Item.InitializeItem(ItemGridPlane, Integer, Object)
+- uid: EasyTechToolUI.ItemGridPlane.ItemGridPlane.Item.InitializeItem*
+  name: InitializeItem
+  href: api/EasyTechToolUI.ItemGridPlane.ItemGridPlane.Item.html#EasyTechToolUI_ItemGridPlane_ItemGridPlane_Item_InitializeItem_
+  commentId: Overload:EasyTechToolUI.ItemGridPlane.ItemGridPlane.Item.InitializeItem
+  isSpec: "True"
+  fullName: EasyTechToolUI.ItemGridPlane.ItemGridPlane.Item.InitializeItem
+  nameWithType: ItemGridPlane.Item.InitializeItem
+- uid: EasyTechToolUI.ItemGridPlane.ItemGridPlane.Item.OnItemSelected(System.Object@,System.Boolean@)
+  name: OnItemSelected(in object, in bool)
+  href: api/EasyTechToolUI.ItemGridPlane.ItemGridPlane.Item.html#EasyTechToolUI_ItemGridPlane_ItemGridPlane_Item_OnItemSelected_System_Object__System_Boolean__
+  commentId: M:EasyTechToolUI.ItemGridPlane.ItemGridPlane.Item.OnItemSelected(System.Object@,System.Boolean@)
+  name.vb: OnItemSelected(Object, Boolean)
+  fullName: EasyTechToolUI.ItemGridPlane.ItemGridPlane.Item.OnItemSelected(in object, in bool)
+  fullName.vb: EasyTechToolUI.ItemGridPlane.ItemGridPlane.Item.OnItemSelected(Object, Boolean)
+  nameWithType: ItemGridPlane.Item.OnItemSelected(in object, in bool)
+  nameWithType.vb: ItemGridPlane.Item.OnItemSelected(Object, Boolean)
+- uid: EasyTechToolUI.ItemGridPlane.ItemGridPlane.Item.OnItemSelected*
+  name: OnItemSelected
+  href: api/EasyTechToolUI.ItemGridPlane.ItemGridPlane.Item.html#EasyTechToolUI_ItemGridPlane_ItemGridPlane_Item_OnItemSelected_
+  commentId: Overload:EasyTechToolUI.ItemGridPlane.ItemGridPlane.Item.OnItemSelected
+  isSpec: "True"
+  fullName: EasyTechToolUI.ItemGridPlane.ItemGridPlane.Item.OnItemSelected
+  nameWithType: ItemGridPlane.Item.OnItemSelected
+- uid: EasyTechToolUI.ItemGridPlane.ItemGridPlane.Item.SelectItem(System.Boolean)
+  name: SelectItem(bool)
+  href: api/EasyTechToolUI.ItemGridPlane.ItemGridPlane.Item.html#EasyTechToolUI_ItemGridPlane_ItemGridPlane_Item_SelectItem_System_Boolean_
+  commentId: M:EasyTechToolUI.ItemGridPlane.ItemGridPlane.Item.SelectItem(System.Boolean)
+  name.vb: SelectItem(Boolean)
+  fullName: EasyTechToolUI.ItemGridPlane.ItemGridPlane.Item.SelectItem(bool)
+  fullName.vb: EasyTechToolUI.ItemGridPlane.ItemGridPlane.Item.SelectItem(Boolean)
+  nameWithType: ItemGridPlane.Item.SelectItem(bool)
+  nameWithType.vb: ItemGridPlane.Item.SelectItem(Boolean)
+- uid: EasyTechToolUI.ItemGridPlane.ItemGridPlane.Item.SelectItem*
+  name: SelectItem
+  href: api/EasyTechToolUI.ItemGridPlane.ItemGridPlane.Item.html#EasyTechToolUI_ItemGridPlane_ItemGridPlane_Item_SelectItem_
+  commentId: Overload:EasyTechToolUI.ItemGridPlane.ItemGridPlane.Item.SelectItem
+  isSpec: "True"
+  fullName: EasyTechToolUI.ItemGridPlane.ItemGridPlane.Item.SelectItem
+  nameWithType: ItemGridPlane.Item.SelectItem
+- uid: EasyTechToolUI.ItemGridPlane.ItemGridPlane.Item.SpawnedItemIndex
+  name: SpawnedItemIndex
+  href: api/EasyTechToolUI.ItemGridPlane.ItemGridPlane.Item.html#EasyTechToolUI_ItemGridPlane_ItemGridPlane_Item_SpawnedItemIndex
+  commentId: P:EasyTechToolUI.ItemGridPlane.ItemGridPlane.Item.SpawnedItemIndex
+  fullName: EasyTechToolUI.ItemGridPlane.ItemGridPlane.Item.SpawnedItemIndex
+  nameWithType: ItemGridPlane.Item.SpawnedItemIndex
+- uid: EasyTechToolUI.ItemGridPlane.ItemGridPlane.Item.SpawnedItemIndex*
+  name: SpawnedItemIndex
+  href: api/EasyTechToolUI.ItemGridPlane.ItemGridPlane.Item.html#EasyTechToolUI_ItemGridPlane_ItemGridPlane_Item_SpawnedItemIndex_
+  commentId: Overload:EasyTechToolUI.ItemGridPlane.ItemGridPlane.Item.SpawnedItemIndex
+  isSpec: "True"
+  fullName: EasyTechToolUI.ItemGridPlane.ItemGridPlane.Item.SpawnedItemIndex
+  nameWithType: ItemGridPlane.Item.SpawnedItemIndex
+- uid: EasyTechToolUI.ItemGridPlane.ItemGridPlane.Item.UpdateItemState(System.Object@)
+  name: UpdateItemState(in object)
+  href: api/EasyTechToolUI.ItemGridPlane.ItemGridPlane.Item.html#EasyTechToolUI_ItemGridPlane_ItemGridPlane_Item_UpdateItemState_System_Object__
+  commentId: M:EasyTechToolUI.ItemGridPlane.ItemGridPlane.Item.UpdateItemState(System.Object@)
+  name.vb: UpdateItemState(Object)
+  fullName: EasyTechToolUI.ItemGridPlane.ItemGridPlane.Item.UpdateItemState(in object)
+  fullName.vb: EasyTechToolUI.ItemGridPlane.ItemGridPlane.Item.UpdateItemState(Object)
+  nameWithType: ItemGridPlane.Item.UpdateItemState(in object)
+  nameWithType.vb: ItemGridPlane.Item.UpdateItemState(Object)
+- uid: EasyTechToolUI.ItemGridPlane.ItemGridPlane.Item.UpdateItemState*
+  name: UpdateItemState
+  href: api/EasyTechToolUI.ItemGridPlane.ItemGridPlane.Item.html#EasyTechToolUI_ItemGridPlane_ItemGridPlane_Item_UpdateItemState_
+  commentId: Overload:EasyTechToolUI.ItemGridPlane.ItemGridPlane.Item.UpdateItemState
+  isSpec: "True"
+  fullName: EasyTechToolUI.ItemGridPlane.ItemGridPlane.Item.UpdateItemState
+  nameWithType: ItemGridPlane.Item.UpdateItemState
+- uid: EasyTechToolUI.ItemGridPlane.ItemGridPlane.ItemPlane
+  name: ItemPlane
+  href: api/EasyTechToolUI.ItemGridPlane.ItemGridPlane.html#EasyTechToolUI_ItemGridPlane_ItemGridPlane_ItemPlane
+  commentId: P:EasyTechToolUI.ItemGridPlane.ItemGridPlane.ItemPlane
+  fullName: EasyTechToolUI.ItemGridPlane.ItemGridPlane.ItemPlane
+  nameWithType: ItemGridPlane.ItemPlane
+- uid: EasyTechToolUI.ItemGridPlane.ItemGridPlane.ItemPlane*
+  name: ItemPlane
+  href: api/EasyTechToolUI.ItemGridPlane.ItemGridPlane.html#EasyTechToolUI_ItemGridPlane_ItemGridPlane_ItemPlane_
+  commentId: Overload:EasyTechToolUI.ItemGridPlane.ItemGridPlane.ItemPlane
+  isSpec: "True"
+  fullName: EasyTechToolUI.ItemGridPlane.ItemGridPlane.ItemPlane
+  nameWithType: ItemGridPlane.ItemPlane
+- uid: EasyTechToolUI.ItemGridPlane.ItemGridPlane.ItemPlaneSize
+  name: ItemPlaneSize
+  href: api/EasyTechToolUI.ItemGridPlane.ItemGridPlane.html#EasyTechToolUI_ItemGridPlane_ItemGridPlane_ItemPlaneSize
+  commentId: P:EasyTechToolUI.ItemGridPlane.ItemGridPlane.ItemPlaneSize
+  fullName: EasyTechToolUI.ItemGridPlane.ItemGridPlane.ItemPlaneSize
+  nameWithType: ItemGridPlane.ItemPlaneSize
+- uid: EasyTechToolUI.ItemGridPlane.ItemGridPlane.ItemPlaneSize*
+  name: ItemPlaneSize
+  href: api/EasyTechToolUI.ItemGridPlane.ItemGridPlane.html#EasyTechToolUI_ItemGridPlane_ItemGridPlane_ItemPlaneSize_
+  commentId: Overload:EasyTechToolUI.ItemGridPlane.ItemGridPlane.ItemPlaneSize
+  isSpec: "True"
+  fullName: EasyTechToolUI.ItemGridPlane.ItemGridPlane.ItemPlaneSize
+  nameWithType: ItemGridPlane.ItemPlaneSize
+- uid: EasyTechToolUI.ItemGridPlane.ItemGridPlane.ParentPlaneBaseSize
+  name: ParentPlaneBaseSize
+  href: api/EasyTechToolUI.ItemGridPlane.ItemGridPlane.html#EasyTechToolUI_ItemGridPlane_ItemGridPlane_ParentPlaneBaseSize
+  commentId: P:EasyTechToolUI.ItemGridPlane.ItemGridPlane.ParentPlaneBaseSize
+  fullName: EasyTechToolUI.ItemGridPlane.ItemGridPlane.ParentPlaneBaseSize
+  nameWithType: ItemGridPlane.ParentPlaneBaseSize
+- uid: EasyTechToolUI.ItemGridPlane.ItemGridPlane.ParentPlaneBaseSize*
+  name: ParentPlaneBaseSize
+  href: api/EasyTechToolUI.ItemGridPlane.ItemGridPlane.html#EasyTechToolUI_ItemGridPlane_ItemGridPlane_ParentPlaneBaseSize_
+  commentId: Overload:EasyTechToolUI.ItemGridPlane.ItemGridPlane.ParentPlaneBaseSize
+  isSpec: "True"
+  fullName: EasyTechToolUI.ItemGridPlane.ItemGridPlane.ParentPlaneBaseSize
+  nameWithType: ItemGridPlane.ParentPlaneBaseSize
+- uid: EasyTechToolUI.ItemGridPlane.ItemGridPlane.ResizeItemPlane(UnityEngine.Vector2Int@)
+  name: ResizeItemPlane(in Vector2Int)
+  href: api/EasyTechToolUI.ItemGridPlane.ItemGridPlane.html#EasyTechToolUI_ItemGridPlane_ItemGridPlane_ResizeItemPlane_UnityEngine_Vector2Int__
+  commentId: M:EasyTechToolUI.ItemGridPlane.ItemGridPlane.ResizeItemPlane(UnityEngine.Vector2Int@)
+  name.vb: ResizeItemPlane(Vector2Int)
+  fullName: EasyTechToolUI.ItemGridPlane.ItemGridPlane.ResizeItemPlane(in UnityEngine.Vector2Int)
+  fullName.vb: EasyTechToolUI.ItemGridPlane.ItemGridPlane.ResizeItemPlane(UnityEngine.Vector2Int)
+  nameWithType: ItemGridPlane.ResizeItemPlane(in Vector2Int)
+  nameWithType.vb: ItemGridPlane.ResizeItemPlane(Vector2Int)
+- uid: EasyTechToolUI.ItemGridPlane.ItemGridPlane.ResizeItemPlane*
+  name: ResizeItemPlane
+  href: api/EasyTechToolUI.ItemGridPlane.ItemGridPlane.html#EasyTechToolUI_ItemGridPlane_ItemGridPlane_ResizeItemPlane_
+  commentId: Overload:EasyTechToolUI.ItemGridPlane.ItemGridPlane.ResizeItemPlane
+  isSpec: "True"
+  fullName: EasyTechToolUI.ItemGridPlane.ItemGridPlane.ResizeItemPlane
+  nameWithType: ItemGridPlane.ResizeItemPlane
+- uid: EasyTechToolUI.ItemGridPlane.ItemGridPlane.UpdateModuleState(System.Object@)
+  name: UpdateModuleState(in object)
+  href: api/EasyTechToolUI.ItemGridPlane.ItemGridPlane.html#EasyTechToolUI_ItemGridPlane_ItemGridPlane_UpdateModuleState_System_Object__
+  commentId: M:EasyTechToolUI.ItemGridPlane.ItemGridPlane.UpdateModuleState(System.Object@)
+  name.vb: UpdateModuleState(Object)
+  fullName: EasyTechToolUI.ItemGridPlane.ItemGridPlane.UpdateModuleState(in object)
+  fullName.vb: EasyTechToolUI.ItemGridPlane.ItemGridPlane.UpdateModuleState(Object)
+  nameWithType: ItemGridPlane.UpdateModuleState(in object)
+  nameWithType.vb: ItemGridPlane.UpdateModuleState(Object)
+- uid: EasyTechToolUI.ItemGridPlane.ItemGridPlane.UpdateModuleState(System.Object[0:,0:]@)
+  name: UpdateModuleState(in object[,])
+  href: api/EasyTechToolUI.ItemGridPlane.ItemGridPlane.html#EasyTechToolUI_ItemGridPlane_ItemGridPlane_UpdateModuleState_System_Object_0__0____
+  commentId: M:EasyTechToolUI.ItemGridPlane.ItemGridPlane.UpdateModuleState(System.Object[0:,0:]@)
+  name.vb: UpdateModuleState(Object(,))
+  fullName: EasyTechToolUI.ItemGridPlane.ItemGridPlane.UpdateModuleState(in object[,])
+  fullName.vb: EasyTechToolUI.ItemGridPlane.ItemGridPlane.UpdateModuleState(Object(,))
+  nameWithType: ItemGridPlane.UpdateModuleState(in object[,])
+  nameWithType.vb: ItemGridPlane.UpdateModuleState(Object(,))
+- uid: EasyTechToolUI.ItemGridPlane.ItemGridPlane.UpdateModuleState*
+  name: UpdateModuleState
+  href: api/EasyTechToolUI.ItemGridPlane.ItemGridPlane.html#EasyTechToolUI_ItemGridPlane_ItemGridPlane_UpdateModuleState_
+  commentId: Overload:EasyTechToolUI.ItemGridPlane.ItemGridPlane.UpdateModuleState
+  isSpec: "True"
+  fullName: EasyTechToolUI.ItemGridPlane.ItemGridPlane.UpdateModuleState
+  nameWithType: ItemGridPlane.UpdateModuleState
+- uid: EasyTechToolUI.ItemViewList
+  name: EasyTechToolUI.ItemViewList
+  href: api/EasyTechToolUI.ItemViewList.html
+  commentId: N:EasyTechToolUI.ItemViewList
+  fullName: EasyTechToolUI.ItemViewList
+  nameWithType: EasyTechToolUI.ItemViewList
+- uid: EasyTechToolUI.ItemViewList.ItemViewList
+  name: ItemViewList
+  href: api/EasyTechToolUI.ItemViewList.ItemViewList.html
+  commentId: T:EasyTechToolUI.ItemViewList.ItemViewList
+  fullName: EasyTechToolUI.ItemViewList.ItemViewList
+  nameWithType: ItemViewList
+- uid: EasyTechToolUI.ItemViewList.ItemViewList.AddItem
+  name: AddItem()
+  href: api/EasyTechToolUI.ItemViewList.ItemViewList.html#EasyTechToolUI_ItemViewList_ItemViewList_AddItem
+  commentId: M:EasyTechToolUI.ItemViewList.ItemViewList.AddItem
+  fullName: EasyTechToolUI.ItemViewList.ItemViewList.AddItem()
+  nameWithType: ItemViewList.AddItem()
+- uid: EasyTechToolUI.ItemViewList.ItemViewList.AddItem(System.Object@)
+  name: AddItem(in object)
+  href: api/EasyTechToolUI.ItemViewList.ItemViewList.html#EasyTechToolUI_ItemViewList_ItemViewList_AddItem_System_Object__
+  commentId: M:EasyTechToolUI.ItemViewList.ItemViewList.AddItem(System.Object@)
+  name.vb: AddItem(Object)
+  fullName: EasyTechToolUI.ItemViewList.ItemViewList.AddItem(in object)
+  fullName.vb: EasyTechToolUI.ItemViewList.ItemViewList.AddItem(Object)
+  nameWithType: ItemViewList.AddItem(in object)
+  nameWithType.vb: ItemViewList.AddItem(Object)
+- uid: EasyTechToolUI.ItemViewList.ItemViewList.AddItem*
+  name: AddItem
+  href: api/EasyTechToolUI.ItemViewList.ItemViewList.html#EasyTechToolUI_ItemViewList_ItemViewList_AddItem_
+  commentId: Overload:EasyTechToolUI.ItemViewList.ItemViewList.AddItem
+  isSpec: "True"
+  fullName: EasyTechToolUI.ItemViewList.ItemViewList.AddItem
+  nameWithType: ItemViewList.AddItem
+- uid: EasyTechToolUI.ItemViewList.ItemViewList.AttachedCanvasTransitionManagerGuid
+  name: AttachedCanvasTransitionManagerGuid
+  href: api/EasyTechToolUI.ItemViewList.ItemViewList.html#EasyTechToolUI_ItemViewList_ItemViewList_AttachedCanvasTransitionManagerGuid
+  commentId: P:EasyTechToolUI.ItemViewList.ItemViewList.AttachedCanvasTransitionManagerGuid
+  fullName: EasyTechToolUI.ItemViewList.ItemViewList.AttachedCanvasTransitionManagerGuid
+  nameWithType: ItemViewList.AttachedCanvasTransitionManagerGuid
+- uid: EasyTechToolUI.ItemViewList.ItemViewList.AttachedCanvasTransitionManagerGuid*
+  name: AttachedCanvasTransitionManagerGuid
+  href: api/EasyTechToolUI.ItemViewList.ItemViewList.html#EasyTechToolUI_ItemViewList_ItemViewList_AttachedCanvasTransitionManagerGuid_
+  commentId: Overload:EasyTechToolUI.ItemViewList.ItemViewList.AttachedCanvasTransitionManagerGuid
+  isSpec: "True"
+  fullName: EasyTechToolUI.ItemViewList.ItemViewList.AttachedCanvasTransitionManagerGuid
+  nameWithType: ItemViewList.AttachedCanvasTransitionManagerGuid
+- uid: EasyTechToolUI.ItemViewList.ItemViewList.ClearItems
+  name: ClearItems()
+  href: api/EasyTechToolUI.ItemViewList.ItemViewList.html#EasyTechToolUI_ItemViewList_ItemViewList_ClearItems
+  commentId: M:EasyTechToolUI.ItemViewList.ItemViewList.ClearItems
+  fullName: EasyTechToolUI.ItemViewList.ItemViewList.ClearItems()
+  nameWithType: ItemViewList.ClearItems()
+- uid: EasyTechToolUI.ItemViewList.ItemViewList.ClearItems*
+  name: ClearItems
+  href: api/EasyTechToolUI.ItemViewList.ItemViewList.html#EasyTechToolUI_ItemViewList_ItemViewList_ClearItems_
+  commentId: Overload:EasyTechToolUI.ItemViewList.ItemViewList.ClearItems
+  isSpec: "True"
+  fullName: EasyTechToolUI.ItemViewList.ItemViewList.ClearItems
+  nameWithType: ItemViewList.ClearItems
+- uid: EasyTechToolUI.ItemViewList.ItemViewList.CurSelectedItemIndex
+  name: CurSelectedItemIndex
+  href: api/EasyTechToolUI.ItemViewList.ItemViewList.html#EasyTechToolUI_ItemViewList_ItemViewList_CurSelectedItemIndex
+  commentId: P:EasyTechToolUI.ItemViewList.ItemViewList.CurSelectedItemIndex
+  fullName: EasyTechToolUI.ItemViewList.ItemViewList.CurSelectedItemIndex
+  nameWithType: ItemViewList.CurSelectedItemIndex
+- uid: EasyTechToolUI.ItemViewList.ItemViewList.CurSelectedItemIndex*
+  name: CurSelectedItemIndex
+  href: api/EasyTechToolUI.ItemViewList.ItemViewList.html#EasyTechToolUI_ItemViewList_ItemViewList_CurSelectedItemIndex_
+  commentId: Overload:EasyTechToolUI.ItemViewList.ItemViewList.CurSelectedItemIndex
+  isSpec: "True"
+  fullName: EasyTechToolUI.ItemViewList.ItemViewList.CurSelectedItemIndex
+  nameWithType: ItemViewList.CurSelectedItemIndex
+- uid: EasyTechToolUI.ItemViewList.ItemViewList.GetItemIndex(EasyTechToolUI.ItemViewList.ItemViewList.Item@)
+  name: GetItemIndex(in Item)
+  href: api/EasyTechToolUI.ItemViewList.ItemViewList.html#EasyTechToolUI_ItemViewList_ItemViewList_GetItemIndex_EasyTechToolUI_ItemViewList_ItemViewList_Item__
+  commentId: M:EasyTechToolUI.ItemViewList.ItemViewList.GetItemIndex(EasyTechToolUI.ItemViewList.ItemViewList.Item@)
+  name.vb: GetItemIndex(Item)
+  fullName: EasyTechToolUI.ItemViewList.ItemViewList.GetItemIndex(in EasyTechToolUI.ItemViewList.ItemViewList.Item)
+  fullName.vb: EasyTechToolUI.ItemViewList.ItemViewList.GetItemIndex(EasyTechToolUI.ItemViewList.ItemViewList.Item)
+  nameWithType: ItemViewList.GetItemIndex(in ItemViewList.Item)
+  nameWithType.vb: ItemViewList.GetItemIndex(ItemViewList.Item)
+- uid: EasyTechToolUI.ItemViewList.ItemViewList.GetItemIndex*
+  name: GetItemIndex
+  href: api/EasyTechToolUI.ItemViewList.ItemViewList.html#EasyTechToolUI_ItemViewList_ItemViewList_GetItemIndex_
+  commentId: Overload:EasyTechToolUI.ItemViewList.ItemViewList.GetItemIndex
+  isSpec: "True"
+  fullName: EasyTechToolUI.ItemViewList.ItemViewList.GetItemIndex
+  nameWithType: ItemViewList.GetItemIndex
+- uid: EasyTechToolUI.ItemViewList.ItemViewList.IItemStateUpdate
+  name: ItemViewList.IItemStateUpdate
+  href: api/EasyTechToolUI.ItemViewList.ItemViewList.IItemStateUpdate.html
+  commentId: T:EasyTechToolUI.ItemViewList.ItemViewList.IItemStateUpdate
+  fullName: EasyTechToolUI.ItemViewList.ItemViewList.IItemStateUpdate
+  nameWithType: ItemViewList.IItemStateUpdate
+- uid: EasyTechToolUI.ItemViewList.ItemViewList.IItemStateUpdate.InitializeItem(EasyTechToolUI.ItemViewList.ItemViewList@,System.Object@)
+  name: InitializeItem(in ItemViewList, in object)
+  href: api/EasyTechToolUI.ItemViewList.ItemViewList.IItemStateUpdate.html#EasyTechToolUI_ItemViewList_ItemViewList_IItemStateUpdate_InitializeItem_EasyTechToolUI_ItemViewList_ItemViewList__System_Object__
+  commentId: M:EasyTechToolUI.ItemViewList.ItemViewList.IItemStateUpdate.InitializeItem(EasyTechToolUI.ItemViewList.ItemViewList@,System.Object@)
+  name.vb: InitializeItem(ItemViewList, Object)
+  fullName: EasyTechToolUI.ItemViewList.ItemViewList.IItemStateUpdate.InitializeItem(in EasyTechToolUI.ItemViewList.ItemViewList, in object)
+  fullName.vb: EasyTechToolUI.ItemViewList.ItemViewList.IItemStateUpdate.InitializeItem(EasyTechToolUI.ItemViewList.ItemViewList, Object)
+  nameWithType: ItemViewList.IItemStateUpdate.InitializeItem(in ItemViewList, in object)
+  nameWithType.vb: ItemViewList.IItemStateUpdate.InitializeItem(ItemViewList, Object)
+- uid: EasyTechToolUI.ItemViewList.ItemViewList.IItemStateUpdate.InitializeItem*
+  name: InitializeItem
+  href: api/EasyTechToolUI.ItemViewList.ItemViewList.IItemStateUpdate.html#EasyTechToolUI_ItemViewList_ItemViewList_IItemStateUpdate_InitializeItem_
+  commentId: Overload:EasyTechToolUI.ItemViewList.ItemViewList.IItemStateUpdate.InitializeItem
+  isSpec: "True"
+  fullName: EasyTechToolUI.ItemViewList.ItemViewList.IItemStateUpdate.InitializeItem
+  nameWithType: ItemViewList.IItemStateUpdate.InitializeItem
+- uid: EasyTechToolUI.ItemViewList.ItemViewList.IItemStateUpdate.UpdateItemState(System.Object@)
+  name: UpdateItemState(in object)
+  href: api/EasyTechToolUI.ItemViewList.ItemViewList.IItemStateUpdate.html#EasyTechToolUI_ItemViewList_ItemViewList_IItemStateUpdate_UpdateItemState_System_Object__
+  commentId: M:EasyTechToolUI.ItemViewList.ItemViewList.IItemStateUpdate.UpdateItemState(System.Object@)
+  name.vb: UpdateItemState(Object)
+  fullName: EasyTechToolUI.ItemViewList.ItemViewList.IItemStateUpdate.UpdateItemState(in object)
+  fullName.vb: EasyTechToolUI.ItemViewList.ItemViewList.IItemStateUpdate.UpdateItemState(Object)
+  nameWithType: ItemViewList.IItemStateUpdate.UpdateItemState(in object)
+  nameWithType.vb: ItemViewList.IItemStateUpdate.UpdateItemState(Object)
+- uid: EasyTechToolUI.ItemViewList.ItemViewList.IItemStateUpdate.UpdateItemState*
+  name: UpdateItemState
+  href: api/EasyTechToolUI.ItemViewList.ItemViewList.IItemStateUpdate.html#EasyTechToolUI_ItemViewList_ItemViewList_IItemStateUpdate_UpdateItemState_
+  commentId: Overload:EasyTechToolUI.ItemViewList.ItemViewList.IItemStateUpdate.UpdateItemState
+  isSpec: "True"
+  fullName: EasyTechToolUI.ItemViewList.ItemViewList.IItemStateUpdate.UpdateItemState
+  nameWithType: ItemViewList.IItemStateUpdate.UpdateItemState
+- uid: EasyTechToolUI.ItemViewList.ItemViewList.InitializeModule(System.Object@,System.Guid@)
+  name: InitializeModule(in object, in Guid)
+  href: api/EasyTechToolUI.ItemViewList.ItemViewList.html#EasyTechToolUI_ItemViewList_ItemViewList_InitializeModule_System_Object__System_Guid__
+  commentId: M:EasyTechToolUI.ItemViewList.ItemViewList.InitializeModule(System.Object@,System.Guid@)
+  name.vb: InitializeModule(Object, Guid)
+  fullName: EasyTechToolUI.ItemViewList.ItemViewList.InitializeModule(in object, in System.Guid)
+  fullName.vb: EasyTechToolUI.ItemViewList.ItemViewList.InitializeModule(Object, System.Guid)
+  nameWithType: ItemViewList.InitializeModule(in object, in Guid)
+  nameWithType.vb: ItemViewList.InitializeModule(Object, Guid)
+- uid: EasyTechToolUI.ItemViewList.ItemViewList.InitializeModule(System.Object[]@)
+  name: InitializeModule(in object[])
+  href: api/EasyTechToolUI.ItemViewList.ItemViewList.html#EasyTechToolUI_ItemViewList_ItemViewList_InitializeModule_System_Object____
+  commentId: M:EasyTechToolUI.ItemViewList.ItemViewList.InitializeModule(System.Object[]@)
+  name.vb: InitializeModule(Object())
+  fullName: EasyTechToolUI.ItemViewList.ItemViewList.InitializeModule(in object[])
+  fullName.vb: EasyTechToolUI.ItemViewList.ItemViewList.InitializeModule(Object())
+  nameWithType: ItemViewList.InitializeModule(in object[])
+  nameWithType.vb: ItemViewList.InitializeModule(Object())
+- uid: EasyTechToolUI.ItemViewList.ItemViewList.InitializeModule*
+  name: InitializeModule
+  href: api/EasyTechToolUI.ItemViewList.ItemViewList.html#EasyTechToolUI_ItemViewList_ItemViewList_InitializeModule_
+  commentId: Overload:EasyTechToolUI.ItemViewList.ItemViewList.InitializeModule
+  isSpec: "True"
+  fullName: EasyTechToolUI.ItemViewList.ItemViewList.InitializeModule
+  nameWithType: ItemViewList.InitializeModule
+- uid: EasyTechToolUI.ItemViewList.ItemViewList.Item
+  name: ItemViewList.Item
+  href: api/EasyTechToolUI.ItemViewList.ItemViewList.Item.html
+  commentId: T:EasyTechToolUI.ItemViewList.ItemViewList.Item
+  fullName: EasyTechToolUI.ItemViewList.ItemViewList.Item
+  nameWithType: ItemViewList.Item
+- uid: EasyTechToolUI.ItemViewList.ItemViewList.Item.AttahcedItemViewList
+  name: AttahcedItemViewList
+  href: api/EasyTechToolUI.ItemViewList.ItemViewList.Item.html#EasyTechToolUI_ItemViewList_ItemViewList_Item_AttahcedItemViewList
+  commentId: P:EasyTechToolUI.ItemViewList.ItemViewList.Item.AttahcedItemViewList
+  fullName: EasyTechToolUI.ItemViewList.ItemViewList.Item.AttahcedItemViewList
+  nameWithType: ItemViewList.Item.AttahcedItemViewList
+- uid: EasyTechToolUI.ItemViewList.ItemViewList.Item.AttahcedItemViewList*
+  name: AttahcedItemViewList
+  href: api/EasyTechToolUI.ItemViewList.ItemViewList.Item.html#EasyTechToolUI_ItemViewList_ItemViewList_Item_AttahcedItemViewList_
+  commentId: Overload:EasyTechToolUI.ItemViewList.ItemViewList.Item.AttahcedItemViewList
+  isSpec: "True"
+  fullName: EasyTechToolUI.ItemViewList.ItemViewList.Item.AttahcedItemViewList
+  nameWithType: ItemViewList.Item.AttahcedItemViewList
+- uid: EasyTechToolUI.ItemViewList.ItemViewList.Item.InitializeItem(EasyTechToolUI.ItemViewList.ItemViewList@,System.Object@)
+  name: InitializeItem(in ItemViewList, in object)
+  href: api/EasyTechToolUI.ItemViewList.ItemViewList.Item.html#EasyTechToolUI_ItemViewList_ItemViewList_Item_InitializeItem_EasyTechToolUI_ItemViewList_ItemViewList__System_Object__
+  commentId: M:EasyTechToolUI.ItemViewList.ItemViewList.Item.InitializeItem(EasyTechToolUI.ItemViewList.ItemViewList@,System.Object@)
+  name.vb: InitializeItem(ItemViewList, Object)
+  fullName: EasyTechToolUI.ItemViewList.ItemViewList.Item.InitializeItem(in EasyTechToolUI.ItemViewList.ItemViewList, in object)
+  fullName.vb: EasyTechToolUI.ItemViewList.ItemViewList.Item.InitializeItem(EasyTechToolUI.ItemViewList.ItemViewList, Object)
+  nameWithType: ItemViewList.Item.InitializeItem(in ItemViewList, in object)
+  nameWithType.vb: ItemViewList.Item.InitializeItem(ItemViewList, Object)
+- uid: EasyTechToolUI.ItemViewList.ItemViewList.Item.InitializeItem*
+  name: InitializeItem
+  href: api/EasyTechToolUI.ItemViewList.ItemViewList.Item.html#EasyTechToolUI_ItemViewList_ItemViewList_Item_InitializeItem_
+  commentId: Overload:EasyTechToolUI.ItemViewList.ItemViewList.Item.InitializeItem
+  isSpec: "True"
+  fullName: EasyTechToolUI.ItemViewList.ItemViewList.Item.InitializeItem
+  nameWithType: ItemViewList.Item.InitializeItem
+- uid: EasyTechToolUI.ItemViewList.ItemViewList.Item.OnItemSelected(System.Object@,System.Boolean@)
+  name: OnItemSelected(in object, in bool)
+  href: api/EasyTechToolUI.ItemViewList.ItemViewList.Item.html#EasyTechToolUI_ItemViewList_ItemViewList_Item_OnItemSelected_System_Object__System_Boolean__
+  commentId: M:EasyTechToolUI.ItemViewList.ItemViewList.Item.OnItemSelected(System.Object@,System.Boolean@)
+  name.vb: OnItemSelected(Object, Boolean)
+  fullName: EasyTechToolUI.ItemViewList.ItemViewList.Item.OnItemSelected(in object, in bool)
+  fullName.vb: EasyTechToolUI.ItemViewList.ItemViewList.Item.OnItemSelected(Object, Boolean)
+  nameWithType: ItemViewList.Item.OnItemSelected(in object, in bool)
+  nameWithType.vb: ItemViewList.Item.OnItemSelected(Object, Boolean)
+- uid: EasyTechToolUI.ItemViewList.ItemViewList.Item.OnItemSelected*
+  name: OnItemSelected
+  href: api/EasyTechToolUI.ItemViewList.ItemViewList.Item.html#EasyTechToolUI_ItemViewList_ItemViewList_Item_OnItemSelected_
+  commentId: Overload:EasyTechToolUI.ItemViewList.ItemViewList.Item.OnItemSelected
+  isSpec: "True"
+  fullName: EasyTechToolUI.ItemViewList.ItemViewList.Item.OnItemSelected
+  nameWithType: ItemViewList.Item.OnItemSelected
+- uid: EasyTechToolUI.ItemViewList.ItemViewList.Item.RemoveItem
+  name: RemoveItem()
+  href: api/EasyTechToolUI.ItemViewList.ItemViewList.Item.html#EasyTechToolUI_ItemViewList_ItemViewList_Item_RemoveItem
+  commentId: M:EasyTechToolUI.ItemViewList.ItemViewList.Item.RemoveItem
+  fullName: EasyTechToolUI.ItemViewList.ItemViewList.Item.RemoveItem()
+  nameWithType: ItemViewList.Item.RemoveItem()
+- uid: EasyTechToolUI.ItemViewList.ItemViewList.Item.RemoveItem*
+  name: RemoveItem
+  href: api/EasyTechToolUI.ItemViewList.ItemViewList.Item.html#EasyTechToolUI_ItemViewList_ItemViewList_Item_RemoveItem_
+  commentId: Overload:EasyTechToolUI.ItemViewList.ItemViewList.Item.RemoveItem
+  isSpec: "True"
+  fullName: EasyTechToolUI.ItemViewList.ItemViewList.Item.RemoveItem
+  nameWithType: ItemViewList.Item.RemoveItem
+- uid: EasyTechToolUI.ItemViewList.ItemViewList.Item.SelectItem(System.Boolean)
+  name: SelectItem(bool)
+  href: api/EasyTechToolUI.ItemViewList.ItemViewList.Item.html#EasyTechToolUI_ItemViewList_ItemViewList_Item_SelectItem_System_Boolean_
+  commentId: M:EasyTechToolUI.ItemViewList.ItemViewList.Item.SelectItem(System.Boolean)
+  name.vb: SelectItem(Boolean)
+  fullName: EasyTechToolUI.ItemViewList.ItemViewList.Item.SelectItem(bool)
+  fullName.vb: EasyTechToolUI.ItemViewList.ItemViewList.Item.SelectItem(Boolean)
+  nameWithType: ItemViewList.Item.SelectItem(bool)
+  nameWithType.vb: ItemViewList.Item.SelectItem(Boolean)
+- uid: EasyTechToolUI.ItemViewList.ItemViewList.Item.SelectItem*
+  name: SelectItem
+  href: api/EasyTechToolUI.ItemViewList.ItemViewList.Item.html#EasyTechToolUI_ItemViewList_ItemViewList_Item_SelectItem_
+  commentId: Overload:EasyTechToolUI.ItemViewList.ItemViewList.Item.SelectItem
+  isSpec: "True"
+  fullName: EasyTechToolUI.ItemViewList.ItemViewList.Item.SelectItem
+  nameWithType: ItemViewList.Item.SelectItem
+- uid: EasyTechToolUI.ItemViewList.ItemViewList.Item.UpdateItemState(System.Object@)
+  name: UpdateItemState(in object)
+  href: api/EasyTechToolUI.ItemViewList.ItemViewList.Item.html#EasyTechToolUI_ItemViewList_ItemViewList_Item_UpdateItemState_System_Object__
+  commentId: M:EasyTechToolUI.ItemViewList.ItemViewList.Item.UpdateItemState(System.Object@)
+  name.vb: UpdateItemState(Object)
+  fullName: EasyTechToolUI.ItemViewList.ItemViewList.Item.UpdateItemState(in object)
+  fullName.vb: EasyTechToolUI.ItemViewList.ItemViewList.Item.UpdateItemState(Object)
+  nameWithType: ItemViewList.Item.UpdateItemState(in object)
+  nameWithType.vb: ItemViewList.Item.UpdateItemState(Object)
+- uid: EasyTechToolUI.ItemViewList.ItemViewList.Item.UpdateItemState*
+  name: UpdateItemState
+  href: api/EasyTechToolUI.ItemViewList.ItemViewList.Item.html#EasyTechToolUI_ItemViewList_ItemViewList_Item_UpdateItemState_
+  commentId: Overload:EasyTechToolUI.ItemViewList.ItemViewList.Item.UpdateItemState
+  isSpec: "True"
+  fullName: EasyTechToolUI.ItemViewList.ItemViewList.Item.UpdateItemState
+  nameWithType: ItemViewList.Item.UpdateItemState
+- uid: EasyTechToolUI.ItemViewList.ItemViewList.ItemCount
+  name: ItemCount
+  href: api/EasyTechToolUI.ItemViewList.ItemViewList.html#EasyTechToolUI_ItemViewList_ItemViewList_ItemCount
+  commentId: P:EasyTechToolUI.ItemViewList.ItemViewList.ItemCount
+  fullName: EasyTechToolUI.ItemViewList.ItemViewList.ItemCount
+  nameWithType: ItemViewList.ItemCount
+- uid: EasyTechToolUI.ItemViewList.ItemViewList.ItemCount*
+  name: ItemCount
+  href: api/EasyTechToolUI.ItemViewList.ItemViewList.html#EasyTechToolUI_ItemViewList_ItemViewList_ItemCount_
+  commentId: Overload:EasyTechToolUI.ItemViewList.ItemViewList.ItemCount
+  isSpec: "True"
+  fullName: EasyTechToolUI.ItemViewList.ItemViewList.ItemCount
+  nameWithType: ItemViewList.ItemCount
+- uid: EasyTechToolUI.ItemViewList.ItemViewList.Items
+  name: Items
+  href: api/EasyTechToolUI.ItemViewList.ItemViewList.html#EasyTechToolUI_ItemViewList_ItemViewList_Items
+  commentId: P:EasyTechToolUI.ItemViewList.ItemViewList.Items
+  fullName: EasyTechToolUI.ItemViewList.ItemViewList.Items
+  nameWithType: ItemViewList.Items
+- uid: EasyTechToolUI.ItemViewList.ItemViewList.Items*
+  name: Items
+  href: api/EasyTechToolUI.ItemViewList.ItemViewList.html#EasyTechToolUI_ItemViewList_ItemViewList_Items_
+  commentId: Overload:EasyTechToolUI.ItemViewList.ItemViewList.Items
+  isSpec: "True"
+  fullName: EasyTechToolUI.ItemViewList.ItemViewList.Items
+  nameWithType: ItemViewList.Items
+- uid: EasyTechToolUI.ItemViewList.ItemViewList.RemoveItemAt(System.Int32@)
+  name: RemoveItemAt(in int)
+  href: api/EasyTechToolUI.ItemViewList.ItemViewList.html#EasyTechToolUI_ItemViewList_ItemViewList_RemoveItemAt_System_Int32__
+  commentId: M:EasyTechToolUI.ItemViewList.ItemViewList.RemoveItemAt(System.Int32@)
+  name.vb: RemoveItemAt(Integer)
+  fullName: EasyTechToolUI.ItemViewList.ItemViewList.RemoveItemAt(in int)
+  fullName.vb: EasyTechToolUI.ItemViewList.ItemViewList.RemoveItemAt(Integer)
+  nameWithType: ItemViewList.RemoveItemAt(in int)
+  nameWithType.vb: ItemViewList.RemoveItemAt(Integer)
+- uid: EasyTechToolUI.ItemViewList.ItemViewList.RemoveItemAt*
+  name: RemoveItemAt
+  href: api/EasyTechToolUI.ItemViewList.ItemViewList.html#EasyTechToolUI_ItemViewList_ItemViewList_RemoveItemAt_
+  commentId: Overload:EasyTechToolUI.ItemViewList.ItemViewList.RemoveItemAt
+  isSpec: "True"
+  fullName: EasyTechToolUI.ItemViewList.ItemViewList.RemoveItemAt
+  nameWithType: ItemViewList.RemoveItemAt
+- uid: EasyTechToolUI.ItemViewList.ItemViewList.UpdateModuleState(System.Object@)
+  name: UpdateModuleState(in object)
+  href: api/EasyTechToolUI.ItemViewList.ItemViewList.html#EasyTechToolUI_ItemViewList_ItemViewList_UpdateModuleState_System_Object__
+  commentId: M:EasyTechToolUI.ItemViewList.ItemViewList.UpdateModuleState(System.Object@)
+  name.vb: UpdateModuleState(Object)
+  fullName: EasyTechToolUI.ItemViewList.ItemViewList.UpdateModuleState(in object)
+  fullName.vb: EasyTechToolUI.ItemViewList.ItemViewList.UpdateModuleState(Object)
+  nameWithType: ItemViewList.UpdateModuleState(in object)
+  nameWithType.vb: ItemViewList.UpdateModuleState(Object)
+- uid: EasyTechToolUI.ItemViewList.ItemViewList.UpdateModuleState(System.Object[]@)
+  name: UpdateModuleState(in object[])
+  href: api/EasyTechToolUI.ItemViewList.ItemViewList.html#EasyTechToolUI_ItemViewList_ItemViewList_UpdateModuleState_System_Object____
+  commentId: M:EasyTechToolUI.ItemViewList.ItemViewList.UpdateModuleState(System.Object[]@)
+  name.vb: UpdateModuleState(Object())
+  fullName: EasyTechToolUI.ItemViewList.ItemViewList.UpdateModuleState(in object[])
+  fullName.vb: EasyTechToolUI.ItemViewList.ItemViewList.UpdateModuleState(Object())
+  nameWithType: ItemViewList.UpdateModuleState(in object[])
+  nameWithType.vb: ItemViewList.UpdateModuleState(Object())
+- uid: EasyTechToolUI.ItemViewList.ItemViewList.UpdateModuleState*
+  name: UpdateModuleState
+  href: api/EasyTechToolUI.ItemViewList.ItemViewList.html#EasyTechToolUI_ItemViewList_ItemViewList_UpdateModuleState_
+  commentId: Overload:EasyTechToolUI.ItemViewList.ItemViewList.UpdateModuleState
+  isSpec: "True"
+  fullName: EasyTechToolUI.ItemViewList.ItemViewList.UpdateModuleState
+  nameWithType: ItemViewList.UpdateModuleState
+- uid: EasyTechToolUI.LayoutGroup
+  name: EasyTechToolUI.LayoutGroup
+  href: api/EasyTechToolUI.LayoutGroup.html
+  commentId: N:EasyTechToolUI.LayoutGroup
+  fullName: EasyTechToolUI.LayoutGroup
+  nameWithType: EasyTechToolUI.LayoutGroup
+- uid: EasyTechToolUI.LayoutGroup.LayoutGroup
+  name: LayoutGroup
+  href: api/EasyTechToolUI.LayoutGroup.LayoutGroup.html
+  commentId: T:EasyTechToolUI.LayoutGroup.LayoutGroup
+  fullName: EasyTechToolUI.LayoutGroup.LayoutGroup
+  nameWithType: LayoutGroup
+- uid: EasyTechToolUI.LayoutGroup.LayoutGroup.EdgyModulePrototypes
+  name: EdgyModulePrototypes
+  href: api/EasyTechToolUI.LayoutGroup.LayoutGroup.html#EasyTechToolUI_LayoutGroup_LayoutGroup_EdgyModulePrototypes
+  commentId: P:EasyTechToolUI.LayoutGroup.LayoutGroup.EdgyModulePrototypes
+  fullName: EasyTechToolUI.LayoutGroup.LayoutGroup.EdgyModulePrototypes
+  nameWithType: LayoutGroup.EdgyModulePrototypes
+- uid: EasyTechToolUI.LayoutGroup.LayoutGroup.EdgyModulePrototypes*
+  name: EdgyModulePrototypes
+  href: api/EasyTechToolUI.LayoutGroup.LayoutGroup.html#EasyTechToolUI_LayoutGroup_LayoutGroup_EdgyModulePrototypes_
+  commentId: Overload:EasyTechToolUI.LayoutGroup.LayoutGroup.EdgyModulePrototypes
+  isSpec: "True"
+  fullName: EasyTechToolUI.LayoutGroup.LayoutGroup.EdgyModulePrototypes
+  nameWithType: LayoutGroup.EdgyModulePrototypes
+- uid: EasyTechToolUI.LayoutGroup.LayoutGroup.InitializeModule(System.Object@,System.Guid@)
+  name: InitializeModule(in object, in Guid)
+  href: api/EasyTechToolUI.LayoutGroup.LayoutGroup.html#EasyTechToolUI_LayoutGroup_LayoutGroup_InitializeModule_System_Object__System_Guid__
+  commentId: M:EasyTechToolUI.LayoutGroup.LayoutGroup.InitializeModule(System.Object@,System.Guid@)
+  name.vb: InitializeModule(Object, Guid)
+  fullName: EasyTechToolUI.LayoutGroup.LayoutGroup.InitializeModule(in object, in System.Guid)
+  fullName.vb: EasyTechToolUI.LayoutGroup.LayoutGroup.InitializeModule(Object, System.Guid)
+  nameWithType: LayoutGroup.InitializeModule(in object, in Guid)
+  nameWithType.vb: LayoutGroup.InitializeModule(Object, Guid)
+- uid: EasyTechToolUI.LayoutGroup.LayoutGroup.InitializeModule*
+  name: InitializeModule
+  href: api/EasyTechToolUI.LayoutGroup.LayoutGroup.html#EasyTechToolUI_LayoutGroup_LayoutGroup_InitializeModule_
+  commentId: Overload:EasyTechToolUI.LayoutGroup.LayoutGroup.InitializeModule
+  isSpec: "True"
+  fullName: EasyTechToolUI.LayoutGroup.LayoutGroup.InitializeModule
+  nameWithType: LayoutGroup.InitializeModule
+- uid: EasyTechToolUI.LayoutGroup.LayoutGroup.UpdateModuleState(System.Object@)
+  name: UpdateModuleState(in object)
+  href: api/EasyTechToolUI.LayoutGroup.LayoutGroup.html#EasyTechToolUI_LayoutGroup_LayoutGroup_UpdateModuleState_System_Object__
+  commentId: M:EasyTechToolUI.LayoutGroup.LayoutGroup.UpdateModuleState(System.Object@)
+  name.vb: UpdateModuleState(Object)
+  fullName: EasyTechToolUI.LayoutGroup.LayoutGroup.UpdateModuleState(in object)
+  fullName.vb: EasyTechToolUI.LayoutGroup.LayoutGroup.UpdateModuleState(Object)
+  nameWithType: LayoutGroup.UpdateModuleState(in object)
+  nameWithType.vb: LayoutGroup.UpdateModuleState(Object)
+- uid: EasyTechToolUI.LayoutGroup.LayoutGroup.UpdateModuleState*
+  name: UpdateModuleState
+  href: api/EasyTechToolUI.LayoutGroup.LayoutGroup.html#EasyTechToolUI_LayoutGroup_LayoutGroup_UpdateModuleState_
+  commentId: Overload:EasyTechToolUI.LayoutGroup.LayoutGroup.UpdateModuleState
+  isSpec: "True"
+  fullName: EasyTechToolUI.LayoutGroup.LayoutGroup.UpdateModuleState
+  nameWithType: LayoutGroup.UpdateModuleState
+- uid: EasyTechToolUI.SliderWrapper
+  name: EasyTechToolUI.SliderWrapper
+  href: api/EasyTechToolUI.SliderWrapper.html
+  commentId: N:EasyTechToolUI.SliderWrapper
+  fullName: EasyTechToolUI.SliderWrapper
+  nameWithType: EasyTechToolUI.SliderWrapper
+- uid: EasyTechToolUI.SliderWrapper.SliderWrapper
+  name: SliderWrapper
+  href: api/EasyTechToolUI.SliderWrapper.SliderWrapper.html
+  commentId: T:EasyTechToolUI.SliderWrapper.SliderWrapper
+  fullName: EasyTechToolUI.SliderWrapper.SliderWrapper
+  nameWithType: SliderWrapper
+- uid: EasyTechToolUI.SliderWrapper.SliderWrapper.AttachedCanvasTransitionManagerGuid
+  name: AttachedCanvasTransitionManagerGuid
+  href: api/EasyTechToolUI.SliderWrapper.SliderWrapper.html#EasyTechToolUI_SliderWrapper_SliderWrapper_AttachedCanvasTransitionManagerGuid
+  commentId: P:EasyTechToolUI.SliderWrapper.SliderWrapper.AttachedCanvasTransitionManagerGuid
+  fullName: EasyTechToolUI.SliderWrapper.SliderWrapper.AttachedCanvasTransitionManagerGuid
+  nameWithType: SliderWrapper.AttachedCanvasTransitionManagerGuid
+- uid: EasyTechToolUI.SliderWrapper.SliderWrapper.AttachedCanvasTransitionManagerGuid*
+  name: AttachedCanvasTransitionManagerGuid
+  href: api/EasyTechToolUI.SliderWrapper.SliderWrapper.html#EasyTechToolUI_SliderWrapper_SliderWrapper_AttachedCanvasTransitionManagerGuid_
+  commentId: Overload:EasyTechToolUI.SliderWrapper.SliderWrapper.AttachedCanvasTransitionManagerGuid
+  isSpec: "True"
+  fullName: EasyTechToolUI.SliderWrapper.SliderWrapper.AttachedCanvasTransitionManagerGuid
+  nameWithType: SliderWrapper.AttachedCanvasTransitionManagerGuid
+- uid: EasyTechToolUI.SliderWrapper.SliderWrapper.BdoLayoutGroupTransition
+  name: BdoLayoutGroupTransition
+  href: api/EasyTechToolUI.SliderWrapper.SliderWrapper.html#EasyTechToolUI_SliderWrapper_SliderWrapper_BdoLayoutGroupTransition
+  commentId: P:EasyTechToolUI.SliderWrapper.SliderWrapper.BdoLayoutGroupTransition
+  fullName: EasyTechToolUI.SliderWrapper.SliderWrapper.BdoLayoutGroupTransition
+  nameWithType: SliderWrapper.BdoLayoutGroupTransition
+- uid: EasyTechToolUI.SliderWrapper.SliderWrapper.BdoLayoutGroupTransition*
+  name: BdoLayoutGroupTransition
+  href: api/EasyTechToolUI.SliderWrapper.SliderWrapper.html#EasyTechToolUI_SliderWrapper_SliderWrapper_BdoLayoutGroupTransition_
+  commentId: Overload:EasyTechToolUI.SliderWrapper.SliderWrapper.BdoLayoutGroupTransition
+  isSpec: "True"
+  fullName: EasyTechToolUI.SliderWrapper.SliderWrapper.BdoLayoutGroupTransition
+  nameWithType: SliderWrapper.BdoLayoutGroupTransition
+- uid: EasyTechToolUI.SliderWrapper.SliderWrapper.CurSliderValue
+  name: CurSliderValue
+  href: api/EasyTechToolUI.SliderWrapper.SliderWrapper.html#EasyTechToolUI_SliderWrapper_SliderWrapper_CurSliderValue
+  commentId: P:EasyTechToolUI.SliderWrapper.SliderWrapper.CurSliderValue
+  fullName: EasyTechToolUI.SliderWrapper.SliderWrapper.CurSliderValue
+  nameWithType: SliderWrapper.CurSliderValue
+- uid: EasyTechToolUI.SliderWrapper.SliderWrapper.CurSliderValue*
+  name: CurSliderValue
+  href: api/EasyTechToolUI.SliderWrapper.SliderWrapper.html#EasyTechToolUI_SliderWrapper_SliderWrapper_CurSliderValue_
+  commentId: Overload:EasyTechToolUI.SliderWrapper.SliderWrapper.CurSliderValue
+  isSpec: "True"
+  fullName: EasyTechToolUI.SliderWrapper.SliderWrapper.CurSliderValue
+  nameWithType: SliderWrapper.CurSliderValue
+- uid: EasyTechToolUI.SliderWrapper.SliderWrapper.ExcuteOtherInstruction(System.Int32@)
+  name: ExcuteOtherInstruction(in int)
+  href: api/EasyTechToolUI.SliderWrapper.SliderWrapper.html#EasyTechToolUI_SliderWrapper_SliderWrapper_ExcuteOtherInstruction_System_Int32__
+  commentId: M:EasyTechToolUI.SliderWrapper.SliderWrapper.ExcuteOtherInstruction(System.Int32@)
+  name.vb: ExcuteOtherInstruction(Integer)
+  fullName: EasyTechToolUI.SliderWrapper.SliderWrapper.ExcuteOtherInstruction(in int)
+  fullName.vb: EasyTechToolUI.SliderWrapper.SliderWrapper.ExcuteOtherInstruction(Integer)
+  nameWithType: SliderWrapper.ExcuteOtherInstruction(in int)
+  nameWithType.vb: SliderWrapper.ExcuteOtherInstruction(Integer)
+- uid: EasyTechToolUI.SliderWrapper.SliderWrapper.ExcuteOtherInstruction*
+  name: ExcuteOtherInstruction
+  href: api/EasyTechToolUI.SliderWrapper.SliderWrapper.html#EasyTechToolUI_SliderWrapper_SliderWrapper_ExcuteOtherInstruction_
+  commentId: Overload:EasyTechToolUI.SliderWrapper.SliderWrapper.ExcuteOtherInstruction
+  isSpec: "True"
+  fullName: EasyTechToolUI.SliderWrapper.SliderWrapper.ExcuteOtherInstruction
+  nameWithType: SliderWrapper.ExcuteOtherInstruction
+- uid: EasyTechToolUI.SliderWrapper.SliderWrapper.InitializeModule(System.Object@,System.Guid@)
+  name: InitializeModule(in object, in Guid)
+  href: api/EasyTechToolUI.SliderWrapper.SliderWrapper.html#EasyTechToolUI_SliderWrapper_SliderWrapper_InitializeModule_System_Object__System_Guid__
+  commentId: M:EasyTechToolUI.SliderWrapper.SliderWrapper.InitializeModule(System.Object@,System.Guid@)
+  name.vb: InitializeModule(Object, Guid)
+  fullName: EasyTechToolUI.SliderWrapper.SliderWrapper.InitializeModule(in object, in System.Guid)
+  fullName.vb: EasyTechToolUI.SliderWrapper.SliderWrapper.InitializeModule(Object, System.Guid)
+  nameWithType: SliderWrapper.InitializeModule(in object, in Guid)
+  nameWithType.vb: SliderWrapper.InitializeModule(Object, Guid)
+- uid: EasyTechToolUI.SliderWrapper.SliderWrapper.InitializeModule*
+  name: InitializeModule
+  href: api/EasyTechToolUI.SliderWrapper.SliderWrapper.html#EasyTechToolUI_SliderWrapper_SliderWrapper_InitializeModule_
+  commentId: Overload:EasyTechToolUI.SliderWrapper.SliderWrapper.InitializeModule
+  isSpec: "True"
+  fullName: EasyTechToolUI.SliderWrapper.SliderWrapper.InitializeModule
+  nameWithType: SliderWrapper.InitializeModule
+- uid: EasyTechToolUI.SliderWrapper.SliderWrapper.MaxSliderValue
+  name: MaxSliderValue
+  href: api/EasyTechToolUI.SliderWrapper.SliderWrapper.html#EasyTechToolUI_SliderWrapper_SliderWrapper_MaxSliderValue
+  commentId: P:EasyTechToolUI.SliderWrapper.SliderWrapper.MaxSliderValue
+  fullName: EasyTechToolUI.SliderWrapper.SliderWrapper.MaxSliderValue
+  nameWithType: SliderWrapper.MaxSliderValue
+- uid: EasyTechToolUI.SliderWrapper.SliderWrapper.MaxSliderValue*
+  name: MaxSliderValue
+  href: api/EasyTechToolUI.SliderWrapper.SliderWrapper.html#EasyTechToolUI_SliderWrapper_SliderWrapper_MaxSliderValue_
+  commentId: Overload:EasyTechToolUI.SliderWrapper.SliderWrapper.MaxSliderValue
+  isSpec: "True"
+  fullName: EasyTechToolUI.SliderWrapper.SliderWrapper.MaxSliderValue
+  nameWithType: SliderWrapper.MaxSliderValue
+- uid: EasyTechToolUI.SliderWrapper.SliderWrapper.OnSliderValueChanged
+  name: OnSliderValueChanged()
+  href: api/EasyTechToolUI.SliderWrapper.SliderWrapper.html#EasyTechToolUI_SliderWrapper_SliderWrapper_OnSliderValueChanged
+  commentId: M:EasyTechToolUI.SliderWrapper.SliderWrapper.OnSliderValueChanged
+  fullName: EasyTechToolUI.SliderWrapper.SliderWrapper.OnSliderValueChanged()
+  nameWithType: SliderWrapper.OnSliderValueChanged()
+- uid: EasyTechToolUI.SliderWrapper.SliderWrapper.OnSliderValueChanged*
+  name: OnSliderValueChanged
+  href: api/EasyTechToolUI.SliderWrapper.SliderWrapper.html#EasyTechToolUI_SliderWrapper_SliderWrapper_OnSliderValueChanged_
+  commentId: Overload:EasyTechToolUI.SliderWrapper.SliderWrapper.OnSliderValueChanged
+  isSpec: "True"
+  fullName: EasyTechToolUI.SliderWrapper.SliderWrapper.OnSliderValueChanged
+  nameWithType: SliderWrapper.OnSliderValueChanged
+- uid: EasyTechToolUI.SliderWrapper.SliderWrapper.Option
+  name: Option
+  href: api/EasyTechToolUI.SliderWrapper.SliderWrapper.html#EasyTechToolUI_SliderWrapper_SliderWrapper_Option
+  commentId: P:EasyTechToolUI.SliderWrapper.SliderWrapper.Option
+  fullName: EasyTechToolUI.SliderWrapper.SliderWrapper.Option
+  nameWithType: SliderWrapper.Option
+- uid: EasyTechToolUI.SliderWrapper.SliderWrapper.Option*
+  name: Option
+  href: api/EasyTechToolUI.SliderWrapper.SliderWrapper.html#EasyTechToolUI_SliderWrapper_SliderWrapper_Option_
+  commentId: Overload:EasyTechToolUI.SliderWrapper.SliderWrapper.Option
+  isSpec: "True"
+  fullName: EasyTechToolUI.SliderWrapper.SliderWrapper.Option
+  nameWithType: SliderWrapper.Option
+- uid: EasyTechToolUI.SliderWrapper.SliderWrapper.SliderWrapperOption
+  name: SliderWrapper.SliderWrapperOption
+  href: api/EasyTechToolUI.SliderWrapper.SliderWrapper.SliderWrapperOption.html
+  commentId: T:EasyTechToolUI.SliderWrapper.SliderWrapper.SliderWrapperOption
+  fullName: EasyTechToolUI.SliderWrapper.SliderWrapper.SliderWrapperOption
+  nameWithType: SliderWrapper.SliderWrapperOption
+- uid: EasyTechToolUI.SliderWrapper.SliderWrapper.SliderWrapperOption.ForCanvasTransition
+  name: ForCanvasTransition
+  href: api/EasyTechToolUI.SliderWrapper.SliderWrapper.SliderWrapperOption.html#EasyTechToolUI_SliderWrapper_SliderWrapper_SliderWrapperOption_ForCanvasTransition
+  commentId: F:EasyTechToolUI.SliderWrapper.SliderWrapper.SliderWrapperOption.ForCanvasTransition
+  fullName: EasyTechToolUI.SliderWrapper.SliderWrapper.SliderWrapperOption.ForCanvasTransition
+  nameWithType: SliderWrapper.SliderWrapperOption.ForCanvasTransition
+- uid: EasyTechToolUI.SliderWrapper.SliderWrapper.SliderWrapperOption.ForLayoutGroupUpdate
+  name: ForLayoutGroupUpdate
+  href: api/EasyTechToolUI.SliderWrapper.SliderWrapper.SliderWrapperOption.html#EasyTechToolUI_SliderWrapper_SliderWrapper_SliderWrapperOption_ForLayoutGroupUpdate
+  commentId: F:EasyTechToolUI.SliderWrapper.SliderWrapper.SliderWrapperOption.ForLayoutGroupUpdate
+  fullName: EasyTechToolUI.SliderWrapper.SliderWrapper.SliderWrapperOption.ForLayoutGroupUpdate
+  nameWithType: SliderWrapper.SliderWrapperOption.ForLayoutGroupUpdate
+- uid: EasyTechToolUI.SliderWrapper.SliderWrapper.SliderWrapperOption.ForOtherInstruction
+  name: ForOtherInstruction
+  href: api/EasyTechToolUI.SliderWrapper.SliderWrapper.SliderWrapperOption.html#EasyTechToolUI_SliderWrapper_SliderWrapper_SliderWrapperOption_ForOtherInstruction
+  commentId: F:EasyTechToolUI.SliderWrapper.SliderWrapper.SliderWrapperOption.ForOtherInstruction
+  fullName: EasyTechToolUI.SliderWrapper.SliderWrapper.SliderWrapperOption.ForOtherInstruction
+  nameWithType: SliderWrapper.SliderWrapperOption.ForOtherInstruction
+- uid: EasyTechToolUI.SliderWrapper.SliderWrapper.SliderWrapperOption.NpOption
+  name: NpOption
+  href: api/EasyTechToolUI.SliderWrapper.SliderWrapper.SliderWrapperOption.html#EasyTechToolUI_SliderWrapper_SliderWrapper_SliderWrapperOption_NpOption
+  commentId: F:EasyTechToolUI.SliderWrapper.SliderWrapper.SliderWrapperOption.NpOption
+  fullName: EasyTechToolUI.SliderWrapper.SliderWrapper.SliderWrapperOption.NpOption
+  nameWithType: SliderWrapper.SliderWrapperOption.NpOption
+- uid: EasyTechToolUI.TransitionCanvasMonoBehaviour`1
+  name: TransitionCanvasMonoBehaviour<_TransitionCanvasCommonDataBuffer>
+  href: api/EasyTechToolUI.TransitionCanvasMonoBehaviour-1.html
+  commentId: T:EasyTechToolUI.TransitionCanvasMonoBehaviour`1
+  name.vb: TransitionCanvasMonoBehaviour(Of _TransitionCanvasCommonDataBuffer)
+  fullName: EasyTechToolUI.TransitionCanvasMonoBehaviour<_TransitionCanvasCommonDataBuffer>
+  fullName.vb: EasyTechToolUI.TransitionCanvasMonoBehaviour(Of _TransitionCanvasCommonDataBuffer)
+  nameWithType: TransitionCanvasMonoBehaviour<_TransitionCanvasCommonDataBuffer>
+  nameWithType.vb: TransitionCanvasMonoBehaviour(Of _TransitionCanvasCommonDataBuffer)
+- uid: EasyTechToolUI.TransitionCanvasMonoBehaviour`1.AttachedCanvasTransitionManagerGuid
+  name: AttachedCanvasTransitionManagerGuid
+  href: api/EasyTechToolUI.TransitionCanvasMonoBehaviour-1.html#EasyTechToolUI_TransitionCanvasMonoBehaviour_1_AttachedCanvasTransitionManagerGuid
+  commentId: P:EasyTechToolUI.TransitionCanvasMonoBehaviour`1.AttachedCanvasTransitionManagerGuid
+  fullName: EasyTechToolUI.TransitionCanvasMonoBehaviour<_TransitionCanvasCommonDataBuffer>.AttachedCanvasTransitionManagerGuid
+  fullName.vb: EasyTechToolUI.TransitionCanvasMonoBehaviour(Of _TransitionCanvasCommonDataBuffer).AttachedCanvasTransitionManagerGuid
+  nameWithType: TransitionCanvasMonoBehaviour<_TransitionCanvasCommonDataBuffer>.AttachedCanvasTransitionManagerGuid
+  nameWithType.vb: TransitionCanvasMonoBehaviour(Of _TransitionCanvasCommonDataBuffer).AttachedCanvasTransitionManagerGuid
+- uid: EasyTechToolUI.TransitionCanvasMonoBehaviour`1.AttachedCanvasTransitionManagerGuid*
+  name: AttachedCanvasTransitionManagerGuid
+  href: api/EasyTechToolUI.TransitionCanvasMonoBehaviour-1.html#EasyTechToolUI_TransitionCanvasMonoBehaviour_1_AttachedCanvasTransitionManagerGuid_
+  commentId: Overload:EasyTechToolUI.TransitionCanvasMonoBehaviour`1.AttachedCanvasTransitionManagerGuid
+  isSpec: "True"
+  fullName: EasyTechToolUI.TransitionCanvasMonoBehaviour<_TransitionCanvasCommonDataBuffer>.AttachedCanvasTransitionManagerGuid
+  fullName.vb: EasyTechToolUI.TransitionCanvasMonoBehaviour(Of _TransitionCanvasCommonDataBuffer).AttachedCanvasTransitionManagerGuid
+  nameWithType: TransitionCanvasMonoBehaviour<_TransitionCanvasCommonDataBuffer>.AttachedCanvasTransitionManagerGuid
+  nameWithType.vb: TransitionCanvasMonoBehaviour(Of _TransitionCanvasCommonDataBuffer).AttachedCanvasTransitionManagerGuid
+- uid: EasyTechToolUI.TransitionCanvasMonoBehaviour`1.CommonDataBuffer
+  name: CommonDataBuffer
+  href: api/EasyTechToolUI.TransitionCanvasMonoBehaviour-1.html#EasyTechToolUI_TransitionCanvasMonoBehaviour_1_CommonDataBuffer
+  commentId: P:EasyTechToolUI.TransitionCanvasMonoBehaviour`1.CommonDataBuffer
+  fullName: EasyTechToolUI.TransitionCanvasMonoBehaviour<_TransitionCanvasCommonDataBuffer>.CommonDataBuffer
+  fullName.vb: EasyTechToolUI.TransitionCanvasMonoBehaviour(Of _TransitionCanvasCommonDataBuffer).CommonDataBuffer
+  nameWithType: TransitionCanvasMonoBehaviour<_TransitionCanvasCommonDataBuffer>.CommonDataBuffer
+  nameWithType.vb: TransitionCanvasMonoBehaviour(Of _TransitionCanvasCommonDataBuffer).CommonDataBuffer
+- uid: EasyTechToolUI.TransitionCanvasMonoBehaviour`1.CommonDataBuffer*
+  name: CommonDataBuffer
+  href: api/EasyTechToolUI.TransitionCanvasMonoBehaviour-1.html#EasyTechToolUI_TransitionCanvasMonoBehaviour_1_CommonDataBuffer_
+  commentId: Overload:EasyTechToolUI.TransitionCanvasMonoBehaviour`1.CommonDataBuffer
+  isSpec: "True"
+  fullName: EasyTechToolUI.TransitionCanvasMonoBehaviour<_TransitionCanvasCommonDataBuffer>.CommonDataBuffer
+  fullName.vb: EasyTechToolUI.TransitionCanvasMonoBehaviour(Of _TransitionCanvasCommonDataBuffer).CommonDataBuffer
+  nameWithType: TransitionCanvasMonoBehaviour<_TransitionCanvasCommonDataBuffer>.CommonDataBuffer
+  nameWithType.vb: TransitionCanvasMonoBehaviour(Of _TransitionCanvasCommonDataBuffer).CommonDataBuffer
+- uid: EasyTechToolUI.TransitionCanvasMonoBehaviour`1.EdgyModulePrototypes
+  name: EdgyModulePrototypes
+  href: api/EasyTechToolUI.TransitionCanvasMonoBehaviour-1.html#EasyTechToolUI_TransitionCanvasMonoBehaviour_1_EdgyModulePrototypes
+  commentId: P:EasyTechToolUI.TransitionCanvasMonoBehaviour`1.EdgyModulePrototypes
+  fullName: EasyTechToolUI.TransitionCanvasMonoBehaviour<_TransitionCanvasCommonDataBuffer>.EdgyModulePrototypes
+  fullName.vb: EasyTechToolUI.TransitionCanvasMonoBehaviour(Of _TransitionCanvasCommonDataBuffer).EdgyModulePrototypes
+  nameWithType: TransitionCanvasMonoBehaviour<_TransitionCanvasCommonDataBuffer>.EdgyModulePrototypes
+  nameWithType.vb: TransitionCanvasMonoBehaviour(Of _TransitionCanvasCommonDataBuffer).EdgyModulePrototypes
+- uid: EasyTechToolUI.TransitionCanvasMonoBehaviour`1.EdgyModulePrototypes*
+  name: EdgyModulePrototypes
+  href: api/EasyTechToolUI.TransitionCanvasMonoBehaviour-1.html#EasyTechToolUI_TransitionCanvasMonoBehaviour_1_EdgyModulePrototypes_
+  commentId: Overload:EasyTechToolUI.TransitionCanvasMonoBehaviour`1.EdgyModulePrototypes
+  isSpec: "True"
+  fullName: EasyTechToolUI.TransitionCanvasMonoBehaviour<_TransitionCanvasCommonDataBuffer>.EdgyModulePrototypes
+  fullName.vb: EasyTechToolUI.TransitionCanvasMonoBehaviour(Of _TransitionCanvasCommonDataBuffer).EdgyModulePrototypes
+  nameWithType: TransitionCanvasMonoBehaviour<_TransitionCanvasCommonDataBuffer>.EdgyModulePrototypes
+  nameWithType.vb: TransitionCanvasMonoBehaviour(Of _TransitionCanvasCommonDataBuffer).EdgyModulePrototypes
+- uid: EasyTechToolUI.TransitionCanvasMonoBehaviour`1.InitializeAwake(System.Guid@)
+  name: InitializeAwake(in Guid)
+  href: api/EasyTechToolUI.TransitionCanvasMonoBehaviour-1.html#EasyTechToolUI_TransitionCanvasMonoBehaviour_1_InitializeAwake_System_Guid__
+  commentId: M:EasyTechToolUI.TransitionCanvasMonoBehaviour`1.InitializeAwake(System.Guid@)
+  name.vb: InitializeAwake(Guid)
+  fullName: EasyTechToolUI.TransitionCanvasMonoBehaviour<_TransitionCanvasCommonDataBuffer>.InitializeAwake(in System.Guid)
+  fullName.vb: EasyTechToolUI.TransitionCanvasMonoBehaviour(Of _TransitionCanvasCommonDataBuffer).InitializeAwake(System.Guid)
+  nameWithType: TransitionCanvasMonoBehaviour<_TransitionCanvasCommonDataBuffer>.InitializeAwake(in Guid)
+  nameWithType.vb: TransitionCanvasMonoBehaviour(Of _TransitionCanvasCommonDataBuffer).InitializeAwake(Guid)
+- uid: EasyTechToolUI.TransitionCanvasMonoBehaviour`1.InitializeAwake*
+  name: InitializeAwake
+  href: api/EasyTechToolUI.TransitionCanvasMonoBehaviour-1.html#EasyTechToolUI_TransitionCanvasMonoBehaviour_1_InitializeAwake_
+  commentId: Overload:EasyTechToolUI.TransitionCanvasMonoBehaviour`1.InitializeAwake
+  isSpec: "True"
+  fullName: EasyTechToolUI.TransitionCanvasMonoBehaviour<_TransitionCanvasCommonDataBuffer>.InitializeAwake
+  fullName.vb: EasyTechToolUI.TransitionCanvasMonoBehaviour(Of _TransitionCanvasCommonDataBuffer).InitializeAwake
+  nameWithType: TransitionCanvasMonoBehaviour<_TransitionCanvasCommonDataBuffer>.InitializeAwake
+  nameWithType.vb: TransitionCanvasMonoBehaviour(Of _TransitionCanvasCommonDataBuffer).InitializeAwake
+- uid: EasyTechToolUI.TransitionCanvasMonoBehaviour`1.InitializeModule(System.Collections.Generic.List{System.Object}@)
+  name: InitializeModule(in List<object>)
+  href: api/EasyTechToolUI.TransitionCanvasMonoBehaviour-1.html#EasyTechToolUI_TransitionCanvasMonoBehaviour_1_InitializeModule_System_Collections_Generic_List_System_Object___
+  commentId: M:EasyTechToolUI.TransitionCanvasMonoBehaviour`1.InitializeModule(System.Collections.Generic.List{System.Object}@)
+  name.vb: InitializeModule(List(Of Object))
+  fullName: EasyTechToolUI.TransitionCanvasMonoBehaviour<_TransitionCanvasCommonDataBuffer>.InitializeModule(in System.Collections.Generic.List<object>)
+  fullName.vb: EasyTechToolUI.TransitionCanvasMonoBehaviour(Of _TransitionCanvasCommonDataBuffer).InitializeModule(System.Collections.Generic.List(Of Object))
+  nameWithType: TransitionCanvasMonoBehaviour<_TransitionCanvasCommonDataBuffer>.InitializeModule(in List<object>)
+  nameWithType.vb: TransitionCanvasMonoBehaviour(Of _TransitionCanvasCommonDataBuffer).InitializeModule(List(Of Object))
+- uid: EasyTechToolUI.TransitionCanvasMonoBehaviour`1.InitializeModule(System.Object@,System.Guid@)
+  name: InitializeModule(in object, in Guid)
+  href: api/EasyTechToolUI.TransitionCanvasMonoBehaviour-1.html#EasyTechToolUI_TransitionCanvasMonoBehaviour_1_InitializeModule_System_Object__System_Guid__
+  commentId: M:EasyTechToolUI.TransitionCanvasMonoBehaviour`1.InitializeModule(System.Object@,System.Guid@)
+  name.vb: InitializeModule(Object, Guid)
+  fullName: EasyTechToolUI.TransitionCanvasMonoBehaviour<_TransitionCanvasCommonDataBuffer>.InitializeModule(in object, in System.Guid)
+  fullName.vb: EasyTechToolUI.TransitionCanvasMonoBehaviour(Of _TransitionCanvasCommonDataBuffer).InitializeModule(Object, System.Guid)
+  nameWithType: TransitionCanvasMonoBehaviour<_TransitionCanvasCommonDataBuffer>.InitializeModule(in object, in Guid)
+  nameWithType.vb: TransitionCanvasMonoBehaviour(Of _TransitionCanvasCommonDataBuffer).InitializeModule(Object, Guid)
+- uid: EasyTechToolUI.TransitionCanvasMonoBehaviour`1.InitializeModule*
+  name: InitializeModule
+  href: api/EasyTechToolUI.TransitionCanvasMonoBehaviour-1.html#EasyTechToolUI_TransitionCanvasMonoBehaviour_1_InitializeModule_
+  commentId: Overload:EasyTechToolUI.TransitionCanvasMonoBehaviour`1.InitializeModule
+  isSpec: "True"
+  fullName: EasyTechToolUI.TransitionCanvasMonoBehaviour<_TransitionCanvasCommonDataBuffer>.InitializeModule
+  fullName.vb: EasyTechToolUI.TransitionCanvasMonoBehaviour(Of _TransitionCanvasCommonDataBuffer).InitializeModule
+  nameWithType: TransitionCanvasMonoBehaviour<_TransitionCanvasCommonDataBuffer>.InitializeModule
+  nameWithType.vb: TransitionCanvasMonoBehaviour(Of _TransitionCanvasCommonDataBuffer).InitializeModule
+- uid: EasyTechToolUI.TransitionCanvasMonoBehaviour`1.OnTransition(System.String@)
+  name: OnTransition(in string)
+  href: api/EasyTechToolUI.TransitionCanvasMonoBehaviour-1.html#EasyTechToolUI_TransitionCanvasMonoBehaviour_1_OnTransition_System_String__
+  commentId: M:EasyTechToolUI.TransitionCanvasMonoBehaviour`1.OnTransition(System.String@)
+  name.vb: OnTransition(String)
+  fullName: EasyTechToolUI.TransitionCanvasMonoBehaviour<_TransitionCanvasCommonDataBuffer>.OnTransition(in string)
+  fullName.vb: EasyTechToolUI.TransitionCanvasMonoBehaviour(Of _TransitionCanvasCommonDataBuffer).OnTransition(String)
+  nameWithType: TransitionCanvasMonoBehaviour<_TransitionCanvasCommonDataBuffer>.OnTransition(in string)
+  nameWithType.vb: TransitionCanvasMonoBehaviour(Of _TransitionCanvasCommonDataBuffer).OnTransition(String)
+- uid: EasyTechToolUI.TransitionCanvasMonoBehaviour`1.OnTransition*
+  name: OnTransition
+  href: api/EasyTechToolUI.TransitionCanvasMonoBehaviour-1.html#EasyTechToolUI_TransitionCanvasMonoBehaviour_1_OnTransition_
+  commentId: Overload:EasyTechToolUI.TransitionCanvasMonoBehaviour`1.OnTransition
+  isSpec: "True"
+  fullName: EasyTechToolUI.TransitionCanvasMonoBehaviour<_TransitionCanvasCommonDataBuffer>.OnTransition
+  fullName.vb: EasyTechToolUI.TransitionCanvasMonoBehaviour(Of _TransitionCanvasCommonDataBuffer).OnTransition
+  nameWithType: TransitionCanvasMonoBehaviour<_TransitionCanvasCommonDataBuffer>.OnTransition
+  nameWithType.vb: TransitionCanvasMonoBehaviour(Of _TransitionCanvasCommonDataBuffer).OnTransition
+- uid: EasyTechToolUI.TransitionCanvasMonoBehaviour`1.UpdateModuleState(System.Collections.Generic.List{System.Object}@)
+  name: UpdateModuleState(in List<object>)
+  href: api/EasyTechToolUI.TransitionCanvasMonoBehaviour-1.html#EasyTechToolUI_TransitionCanvasMonoBehaviour_1_UpdateModuleState_System_Collections_Generic_List_System_Object___
+  commentId: M:EasyTechToolUI.TransitionCanvasMonoBehaviour`1.UpdateModuleState(System.Collections.Generic.List{System.Object}@)
+  name.vb: UpdateModuleState(List(Of Object))
+  fullName: EasyTechToolUI.TransitionCanvasMonoBehaviour<_TransitionCanvasCommonDataBuffer>.UpdateModuleState(in System.Collections.Generic.List<object>)
+  fullName.vb: EasyTechToolUI.TransitionCanvasMonoBehaviour(Of _TransitionCanvasCommonDataBuffer).UpdateModuleState(System.Collections.Generic.List(Of Object))
+  nameWithType: TransitionCanvasMonoBehaviour<_TransitionCanvasCommonDataBuffer>.UpdateModuleState(in List<object>)
+  nameWithType.vb: TransitionCanvasMonoBehaviour(Of _TransitionCanvasCommonDataBuffer).UpdateModuleState(List(Of Object))
+- uid: EasyTechToolUI.TransitionCanvasMonoBehaviour`1.UpdateModuleState(System.Object@)
+  name: UpdateModuleState(in object)
+  href: api/EasyTechToolUI.TransitionCanvasMonoBehaviour-1.html#EasyTechToolUI_TransitionCanvasMonoBehaviour_1_UpdateModuleState_System_Object__
+  commentId: M:EasyTechToolUI.TransitionCanvasMonoBehaviour`1.UpdateModuleState(System.Object@)
+  name.vb: UpdateModuleState(Object)
+  fullName: EasyTechToolUI.TransitionCanvasMonoBehaviour<_TransitionCanvasCommonDataBuffer>.UpdateModuleState(in object)
+  fullName.vb: EasyTechToolUI.TransitionCanvasMonoBehaviour(Of _TransitionCanvasCommonDataBuffer).UpdateModuleState(Object)
+  nameWithType: TransitionCanvasMonoBehaviour<_TransitionCanvasCommonDataBuffer>.UpdateModuleState(in object)
+  nameWithType.vb: TransitionCanvasMonoBehaviour(Of _TransitionCanvasCommonDataBuffer).UpdateModuleState(Object)
+- uid: EasyTechToolUI.TransitionCanvasMonoBehaviour`1.UpdateModuleState*
+  name: UpdateModuleState
+  href: api/EasyTechToolUI.TransitionCanvasMonoBehaviour-1.html#EasyTechToolUI_TransitionCanvasMonoBehaviour_1_UpdateModuleState_
+  commentId: Overload:EasyTechToolUI.TransitionCanvasMonoBehaviour`1.UpdateModuleState
+  isSpec: "True"
+  fullName: EasyTechToolUI.TransitionCanvasMonoBehaviour<_TransitionCanvasCommonDataBuffer>.UpdateModuleState
+  fullName.vb: EasyTechToolUI.TransitionCanvasMonoBehaviour(Of _TransitionCanvasCommonDataBuffer).UpdateModuleState
+  nameWithType: TransitionCanvasMonoBehaviour<_TransitionCanvasCommonDataBuffer>.UpdateModuleState
+  nameWithType.vb: TransitionCanvasMonoBehaviour(Of _TransitionCanvasCommonDataBuffer).UpdateModuleState

@@ -1,0 +1,111 @@
+### YamlMime:ManagedReference
+items:
+- uid: EasyTechToolUI.IItemSelectedAction
+  commentId: T:EasyTechToolUI.IItemSelectedAction
+  id: IItemSelectedAction
+  parent: EasyTechToolUI
+  children:
+  - EasyTechToolUI.IItemSelectedAction.OnItemSelected(System.Object@,System.Boolean@)
+  langs:
+  - csharp
+  - vb
+  name: IItemSelectedAction
+  nameWithType: IItemSelectedAction
+  fullName: EasyTechToolUI.IItemSelectedAction
+  type: Interface
+  source:
+    remote:
+      path: Public/Functor/IItemSelectedAction.cs
+      branch: master
+      repo: https://github.com/HyunsuYu/EasyTechToolUI.git
+    id: IItemSelectedAction
+    path: ../Public/Functor/IItemSelectedAction.cs
+    startLine: 14
+  assemblies:
+  - EasyTechToolUI
+  namespace: EasyTechToolUI
+  summary: The interface defined by the method for processing when an item in the UI element is selected
+  example: []
+  syntax:
+    content: public interface IItemSelectedAction
+    content.vb: Public Interface IItemSelectedAction
+- uid: EasyTechToolUI.IItemSelectedAction.OnItemSelected(System.Object@,System.Boolean@)
+  commentId: M:EasyTechToolUI.IItemSelectedAction.OnItemSelected(System.Object@,System.Boolean@)
+  id: OnItemSelected(System.Object@,System.Boolean@)
+  parent: EasyTechToolUI.IItemSelectedAction
+  langs:
+  - csharp
+  - vb
+  name: OnItemSelected(in object, in bool)
+  nameWithType: IItemSelectedAction.OnItemSelected(in object, in bool)
+  fullName: EasyTechToolUI.IItemSelectedAction.OnItemSelected(in object, in bool)
+  type: Method
+  source:
+    remote:
+      path: Public/Functor/IItemSelectedAction.cs
+      branch: master
+      repo: https://github.com/HyunsuYu/EasyTechToolUI.git
+    id: OnItemSelected
+    path: ../Public/Functor/IItemSelectedAction.cs
+    startLine: 21
+  assemblies:
+  - EasyTechToolUI
+  namespace: EasyTechToolUI
+  summary: Called when one of the UI elements to which the item belongs is selected
+  example: []
+  syntax:
+    content: void OnItemSelected(in object itemData, in bool bisSelected)
+    parameters:
+    - id: itemData
+      type: System.Object
+      description: A parameter seat for custom data that can be used as needed
+    - id: bisSelected
+      type: System.Boolean
+      description: Indicates whether the current item has been selected
+    content.vb: Sub OnItemSelected(itemData As Object, bisSelected As Boolean)
+  overload: EasyTechToolUI.IItemSelectedAction.OnItemSelected*
+  nameWithType.vb: IItemSelectedAction.OnItemSelected(Object, Boolean)
+  fullName.vb: EasyTechToolUI.IItemSelectedAction.OnItemSelected(Object, Boolean)
+  name.vb: OnItemSelected(Object, Boolean)
+references:
+- uid: EasyTechToolUI
+  commentId: N:EasyTechToolUI
+  href: EasyTechToolUI.html
+  name: EasyTechToolUI
+  nameWithType: EasyTechToolUI
+  fullName: EasyTechToolUI
+- uid: EasyTechToolUI.IItemSelectedAction.OnItemSelected*
+  commentId: Overload:EasyTechToolUI.IItemSelectedAction.OnItemSelected
+  href: EasyTechToolUI.IItemSelectedAction.html#EasyTechToolUI_IItemSelectedAction_OnItemSelected_System_Object__System_Boolean__
+  name: OnItemSelected
+  nameWithType: IItemSelectedAction.OnItemSelected
+  fullName: EasyTechToolUI.IItemSelectedAction.OnItemSelected
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System

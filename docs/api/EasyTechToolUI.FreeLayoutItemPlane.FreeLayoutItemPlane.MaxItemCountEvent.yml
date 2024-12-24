@@ -1,0 +1,53 @@
+### YamlMime:ManagedReference
+items:
+- uid: EasyTechToolUI.FreeLayoutItemPlane.FreeLayoutItemPlane.MaxItemCountEvent
+  commentId: T:EasyTechToolUI.FreeLayoutItemPlane.FreeLayoutItemPlane.MaxItemCountEvent
+  id: FreeLayoutItemPlane.MaxItemCountEvent
+  parent: EasyTechToolUI.FreeLayoutItemPlane
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: FreeLayoutItemPlane.MaxItemCountEvent
+  nameWithType: FreeLayoutItemPlane.MaxItemCountEvent
+  fullName: EasyTechToolUI.FreeLayoutItemPlane.FreeLayoutItemPlane.MaxItemCountEvent
+  type: Delegate
+  source:
+    remote:
+      path: Public/Data/FreeLayoutItemPlane.cs
+      branch: master
+      repo: https://github.com/HyunsuYu/EasyTechToolUI.git
+    id: MaxItemCountEvent
+    path: ../Public/Data/FreeLayoutItemPlane.cs
+    startLine: 70
+  assemblies:
+  - EasyTechToolUI
+  namespace: EasyTechToolUI.FreeLayoutItemPlane
+  summary: This event is called when item addition is faced on limit
+  example: []
+  syntax:
+    content: public delegate void FreeLayoutItemPlane.MaxItemCountEvent()
+    content.vb: Public Delegate Sub FreeLayoutItemPlane.MaxItemCountEvent()
+references:
+- uid: EasyTechToolUI.FreeLayoutItemPlane
+  commentId: N:EasyTechToolUI.FreeLayoutItemPlane
+  href: EasyTechToolUI.html
+  name: EasyTechToolUI.FreeLayoutItemPlane
+  nameWithType: EasyTechToolUI.FreeLayoutItemPlane
+  fullName: EasyTechToolUI.FreeLayoutItemPlane
+  spec.csharp:
+  - uid: EasyTechToolUI
+    name: EasyTechToolUI
+    href: EasyTechToolUI.html
+  - name: .
+  - uid: EasyTechToolUI.FreeLayoutItemPlane
+    name: FreeLayoutItemPlane
+    href: EasyTechToolUI.FreeLayoutItemPlane.html
+  spec.vb:
+  - uid: EasyTechToolUI
+    name: EasyTechToolUI
+    href: EasyTechToolUI.html
+  - name: .
+  - uid: EasyTechToolUI.FreeLayoutItemPlane
+    name: FreeLayoutItemPlane
+    href: EasyTechToolUI.FreeLayoutItemPlane.html

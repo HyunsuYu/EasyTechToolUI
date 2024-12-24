@@ -1,0 +1,93 @@
+### YamlMime:ManagedReference
+items:
+- uid: EasyTechToolUI.CirculatingLayoutItemList
+  commentId: N:EasyTechToolUI.CirculatingLayoutItemList
+  id: EasyTechToolUI.CirculatingLayoutItemList
+  children:
+  - EasyTechToolUI.CirculatingLayoutItemList.CirculatingLayoutItemList
+  - EasyTechToolUI.CirculatingLayoutItemList.CirculatingLayoutItemList.IItemStateUpdate
+  - EasyTechToolUI.CirculatingLayoutItemList.CirculatingLayoutItemList.Item
+  langs:
+  - csharp
+  - vb
+  name: EasyTechToolUI.CirculatingLayoutItemList
+  nameWithType: EasyTechToolUI.CirculatingLayoutItemList
+  fullName: EasyTechToolUI.CirculatingLayoutItemList
+  type: Namespace
+  assemblies:
+  - EasyTechToolUI
+references:
+- uid: EasyTechToolUI.CirculatingLayoutItemList.CirculatingLayoutItemList
+  commentId: T:EasyTechToolUI.CirculatingLayoutItemList.CirculatingLayoutItemList
+  parent: EasyTechToolUI.CirculatingLayoutItemList
+  href: EasyTechToolUI.CirculatingLayoutItemList.CirculatingLayoutItemList.html
+  name: CirculatingLayoutItemList
+  nameWithType: CirculatingLayoutItemList
+  fullName: EasyTechToolUI.CirculatingLayoutItemList.CirculatingLayoutItemList
+- uid: EasyTechToolUI.CirculatingLayoutItemList.CirculatingLayoutItemList.IItemStateUpdate
+  commentId: T:EasyTechToolUI.CirculatingLayoutItemList.CirculatingLayoutItemList.IItemStateUpdate
+  parent: EasyTechToolUI.CirculatingLayoutItemList
+  href: EasyTechToolUI.CirculatingLayoutItemList.CirculatingLayoutItemList.html
+  name: CirculatingLayoutItemList.IItemStateUpdate
+  nameWithType: CirculatingLayoutItemList.IItemStateUpdate
+  fullName: EasyTechToolUI.CirculatingLayoutItemList.CirculatingLayoutItemList.IItemStateUpdate
+  spec.csharp:
+  - uid: EasyTechToolUI.CirculatingLayoutItemList.CirculatingLayoutItemList
+    name: CirculatingLayoutItemList
+    href: EasyTechToolUI.CirculatingLayoutItemList.CirculatingLayoutItemList.html
+  - name: .
+  - uid: EasyTechToolUI.CirculatingLayoutItemList.CirculatingLayoutItemList.IItemStateUpdate
+    name: IItemStateUpdate
+    href: EasyTechToolUI.CirculatingLayoutItemList.CirculatingLayoutItemList.IItemStateUpdate.html
+  spec.vb:
+  - uid: EasyTechToolUI.CirculatingLayoutItemList.CirculatingLayoutItemList
+    name: CirculatingLayoutItemList
+    href: EasyTechToolUI.CirculatingLayoutItemList.CirculatingLayoutItemList.html
+  - name: .
+  - uid: EasyTechToolUI.CirculatingLayoutItemList.CirculatingLayoutItemList.IItemStateUpdate
+    name: IItemStateUpdate
+    href: EasyTechToolUI.CirculatingLayoutItemList.CirculatingLayoutItemList.IItemStateUpdate.html
+- uid: EasyTechToolUI.CirculatingLayoutItemList.CirculatingLayoutItemList.Item
+  commentId: T:EasyTechToolUI.CirculatingLayoutItemList.CirculatingLayoutItemList.Item
+  href: EasyTechToolUI.CirculatingLayoutItemList.CirculatingLayoutItemList.html
+  name: CirculatingLayoutItemList.Item
+  nameWithType: CirculatingLayoutItemList.Item
+  fullName: EasyTechToolUI.CirculatingLayoutItemList.CirculatingLayoutItemList.Item
+  spec.csharp:
+  - uid: EasyTechToolUI.CirculatingLayoutItemList.CirculatingLayoutItemList
+    name: CirculatingLayoutItemList
+    href: EasyTechToolUI.CirculatingLayoutItemList.CirculatingLayoutItemList.html
+  - name: .
+  - uid: EasyTechToolUI.CirculatingLayoutItemList.CirculatingLayoutItemList.Item
+    name: Item
+    href: EasyTechToolUI.CirculatingLayoutItemList.CirculatingLayoutItemList.Item.html
+  spec.vb:
+  - uid: EasyTechToolUI.CirculatingLayoutItemList.CirculatingLayoutItemList
+    name: CirculatingLayoutItemList
+    href: EasyTechToolUI.CirculatingLayoutItemList.CirculatingLayoutItemList.html
+  - name: .
+  - uid: EasyTechToolUI.CirculatingLayoutItemList.CirculatingLayoutItemList.Item
+    name: Item
+    href: EasyTechToolUI.CirculatingLayoutItemList.CirculatingLayoutItemList.Item.html
+- uid: EasyTechToolUI.CirculatingLayoutItemList
+  commentId: N:EasyTechToolUI.CirculatingLayoutItemList
+  href: EasyTechToolUI.html
+  name: EasyTechToolUI.CirculatingLayoutItemList
+  nameWithType: EasyTechToolUI.CirculatingLayoutItemList
+  fullName: EasyTechToolUI.CirculatingLayoutItemList
+  spec.csharp:
+  - uid: EasyTechToolUI
+    name: EasyTechToolUI
+    href: EasyTechToolUI.html
+  - name: .
+  - uid: EasyTechToolUI.CirculatingLayoutItemList
+    name: CirculatingLayoutItemList
+    href: EasyTechToolUI.CirculatingLayoutItemList.html
+  spec.vb:
+  - uid: EasyTechToolUI
+    name: EasyTechToolUI
+    href: EasyTechToolUI.html
+  - name: .
+  - uid: EasyTechToolUI.CirculatingLayoutItemList
+    name: CirculatingLayoutItemList
+    href: EasyTechToolUI.CirculatingLayoutItemList.html
