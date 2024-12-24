@@ -1,0 +1,118 @@
+### YamlMime:ManagedReference
+items:
+- uid: EasyTechToolUI.ItemGridPlane
+  commentId: N:EasyTechToolUI.ItemGridPlane
+  id: EasyTechToolUI.ItemGridPlane
+  children:
+  - EasyTechToolUI.ItemGridPlane.ItemGridPlane
+  - EasyTechToolUI.ItemGridPlane.ItemGridPlane.AbstractItemPlacementRegulation
+  - EasyTechToolUI.ItemGridPlane.ItemGridPlane.IItemStateUpdate
+  - EasyTechToolUI.ItemGridPlane.ItemGridPlane.Item
+  langs:
+  - csharp
+  - vb
+  name: EasyTechToolUI.ItemGridPlane
+  nameWithType: EasyTechToolUI.ItemGridPlane
+  fullName: EasyTechToolUI.ItemGridPlane
+  type: Namespace
+  assemblies:
+  - EasyTechToolUI
+references:
+- uid: EasyTechToolUI.ItemGridPlane.ItemGridPlane
+  commentId: T:EasyTechToolUI.ItemGridPlane.ItemGridPlane
+  parent: EasyTechToolUI.ItemGridPlane
+  href: EasyTechToolUI.ItemGridPlane.ItemGridPlane.html
+  name: ItemGridPlane
+  nameWithType: ItemGridPlane
+  fullName: EasyTechToolUI.ItemGridPlane.ItemGridPlane
+- uid: EasyTechToolUI.ItemGridPlane.ItemGridPlane.IItemStateUpdate
+  commentId: T:EasyTechToolUI.ItemGridPlane.ItemGridPlane.IItemStateUpdate
+  parent: EasyTechToolUI.ItemGridPlane
+  href: EasyTechToolUI.ItemGridPlane.ItemGridPlane.html
+  name: ItemGridPlane.IItemStateUpdate
+  nameWithType: ItemGridPlane.IItemStateUpdate
+  fullName: EasyTechToolUI.ItemGridPlane.ItemGridPlane.IItemStateUpdate
+  spec.csharp:
+  - uid: EasyTechToolUI.ItemGridPlane.ItemGridPlane
+    name: ItemGridPlane
+    href: EasyTechToolUI.ItemGridPlane.ItemGridPlane.html
+  - name: .
+  - uid: EasyTechToolUI.ItemGridPlane.ItemGridPlane.IItemStateUpdate
+    name: IItemStateUpdate
+    href: EasyTechToolUI.ItemGridPlane.ItemGridPlane.IItemStateUpdate.html
+  spec.vb:
+  - uid: EasyTechToolUI.ItemGridPlane.ItemGridPlane
+    name: ItemGridPlane
+    href: EasyTechToolUI.ItemGridPlane.ItemGridPlane.html
+  - name: .
+  - uid: EasyTechToolUI.ItemGridPlane.ItemGridPlane.IItemStateUpdate
+    name: IItemStateUpdate
+    href: EasyTechToolUI.ItemGridPlane.ItemGridPlane.IItemStateUpdate.html
+- uid: EasyTechToolUI.ItemGridPlane.ItemGridPlane.AbstractItemPlacementRegulation
+  commentId: T:EasyTechToolUI.ItemGridPlane.ItemGridPlane.AbstractItemPlacementRegulation
+  parent: EasyTechToolUI.ItemGridPlane
+  href: EasyTechToolUI.ItemGridPlane.ItemGridPlane.html
+  name: ItemGridPlane.AbstractItemPlacementRegulation
+  nameWithType: ItemGridPlane.AbstractItemPlacementRegulation
+  fullName: EasyTechToolUI.ItemGridPlane.ItemGridPlane.AbstractItemPlacementRegulation
+  spec.csharp:
+  - uid: EasyTechToolUI.ItemGridPlane.ItemGridPlane
+    name: ItemGridPlane
+    href: EasyTechToolUI.ItemGridPlane.ItemGridPlane.html
+  - name: .
+  - uid: EasyTechToolUI.ItemGridPlane.ItemGridPlane.AbstractItemPlacementRegulation
+    name: AbstractItemPlacementRegulation
+    href: EasyTechToolUI.ItemGridPlane.ItemGridPlane.AbstractItemPlacementRegulation.html
+  spec.vb:
+  - uid: EasyTechToolUI.ItemGridPlane.ItemGridPlane
+    name: ItemGridPlane
+    href: EasyTechToolUI.ItemGridPlane.ItemGridPlane.html
+  - name: .
+  - uid: EasyTechToolUI.ItemGridPlane.ItemGridPlane.AbstractItemPlacementRegulation
+    name: AbstractItemPlacementRegulation
+    href: EasyTechToolUI.ItemGridPlane.ItemGridPlane.AbstractItemPlacementRegulation.html
+- uid: EasyTechToolUI.ItemGridPlane.ItemGridPlane.Item
+  commentId: T:EasyTechToolUI.ItemGridPlane.ItemGridPlane.Item
+  parent: EasyTechToolUI.ItemGridPlane
+  href: EasyTechToolUI.ItemGridPlane.ItemGridPlane.html
+  name: ItemGridPlane.Item
+  nameWithType: ItemGridPlane.Item
+  fullName: EasyTechToolUI.ItemGridPlane.ItemGridPlane.Item
+  spec.csharp:
+  - uid: EasyTechToolUI.ItemGridPlane.ItemGridPlane
+    name: ItemGridPlane
+    href: EasyTechToolUI.ItemGridPlane.ItemGridPlane.html
+  - name: .
+  - uid: EasyTechToolUI.ItemGridPlane.ItemGridPlane.Item
+    name: Item
+    href: EasyTechToolUI.ItemGridPlane.ItemGridPlane.Item.html
+  spec.vb:
+  - uid: EasyTechToolUI.ItemGridPlane.ItemGridPlane
+    name: ItemGridPlane
+    href: EasyTechToolUI.ItemGridPlane.ItemGridPlane.html
+  - name: .
+  - uid: EasyTechToolUI.ItemGridPlane.ItemGridPlane.Item
+    name: Item
+    href: EasyTechToolUI.ItemGridPlane.ItemGridPlane.Item.html
+- uid: EasyTechToolUI.ItemGridPlane
+  commentId: N:EasyTechToolUI.ItemGridPlane
+  href: EasyTechToolUI.html
+  name: EasyTechToolUI.ItemGridPlane
+  nameWithType: EasyTechToolUI.ItemGridPlane
+  fullName: EasyTechToolUI.ItemGridPlane
+  spec.csharp:
+  - uid: EasyTechToolUI
+    name: EasyTechToolUI
+    href: EasyTechToolUI.html
+  - name: .
+  - uid: EasyTechToolUI.ItemGridPlane
+    name: ItemGridPlane
+    href: EasyTechToolUI.ItemGridPlane.html
+  spec.vb:
+  - uid: EasyTechToolUI
+    name: EasyTechToolUI
+    href: EasyTechToolUI.html
+  - name: .
+  - uid: EasyTechToolUI.ItemGridPlane
+    name: ItemGridPlane
+    href: EasyTechToolUI.ItemGridPlane.html

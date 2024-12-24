@@ -1,0 +1,72 @@
+### YamlMime:TableOfContent
+items:
+- uid: EasyTechToolUI
+  name: EasyTechToolUI
+  items:
+  - uid: EasyTechToolUI.CanvasTransitionManager
+    name: CanvasTransitionManager
+  - uid: EasyTechToolUI.CanvasTransitionManager.ITransitionEventSub
+    name: CanvasTransitionManager.ITransitionEventSub
+  - uid: EasyTechToolUI.CanvasTransitionManagerBuffer
+    name: CanvasTransitionManagerBuffer
+  - uid: EasyTechToolUI.EdgyModulePrototype
+    name: EdgyModulePrototype
+  - uid: EasyTechToolUI.IItemSelectedAction
+    name: IItemSelectedAction
+  - uid: EasyTechToolUI.IModuleStateUpdate
+    name: IModuleStateUpdate
+  - uid: EasyTechToolUI.TransitionCanvasMonoBehaviour`1
+    name: TransitionCanvasMonoBehaviour<_TransitionCanvasCommonDataBuffer>
+- uid: EasyTechToolUI.CirculatingLayoutItemList
+  name: EasyTechToolUI.CirculatingLayoutItemList
+  items:
+  - uid: EasyTechToolUI.CirculatingLayoutItemList.CirculatingLayoutItemList
+    name: CirculatingLayoutItemList
+  - uid: EasyTechToolUI.CirculatingLayoutItemList.CirculatingLayoutItemList.IItemStateUpdate
+    name: CirculatingLayoutItemList.IItemStateUpdate
+  - uid: EasyTechToolUI.CirculatingLayoutItemList.CirculatingLayoutItemList.Item
+    name: CirculatingLayoutItemList.Item
+- uid: EasyTechToolUI.FreeLayoutItemPlane
+  name: EasyTechToolUI.FreeLayoutItemPlane
+  items:
+  - uid: EasyTechToolUI.FreeLayoutItemPlane.FreeLayoutItemPlane
+    name: FreeLayoutItemPlane
+  - uid: EasyTechToolUI.FreeLayoutItemPlane.FreeLayoutItemPlane.IItemStateUpdate
+    name: FreeLayoutItemPlane.IItemStateUpdate
+  - uid: EasyTechToolUI.FreeLayoutItemPlane.FreeLayoutItemPlane.Item
+    name: FreeLayoutItemPlane.Item
+  - uid: EasyTechToolUI.FreeLayoutItemPlane.FreeLayoutItemPlane.MaxItemCountEvent
+    name: FreeLayoutItemPlane.MaxItemCountEvent
+- uid: EasyTechToolUI.ItemGridPlane
+  name: EasyTechToolUI.ItemGridPlane
+  items:
+  - uid: EasyTechToolUI.ItemGridPlane.ItemGridPlane
+    name: ItemGridPlane
+  - uid: EasyTechToolUI.ItemGridPlane.ItemGridPlane.AbstractItemPlacementRegulation
+    name: ItemGridPlane.AbstractItemPlacementRegulation
+  - uid: EasyTechToolUI.ItemGridPlane.ItemGridPlane.IItemStateUpdate
+    name: ItemGridPlane.IItemStateUpdate
+  - uid: EasyTechToolUI.ItemGridPlane.ItemGridPlane.Item
+    name: ItemGridPlane.Item
+- uid: EasyTechToolUI.ItemViewList
+  name: EasyTechToolUI.ItemViewList
+  items:
+  - uid: EasyTechToolUI.ItemViewList.ItemViewList
+    name: ItemViewList
+  - uid: EasyTechToolUI.ItemViewList.ItemViewList.IItemStateUpdate
+    name: ItemViewList.IItemStateUpdate
+  - uid: EasyTechToolUI.ItemViewList.ItemViewList.Item
+    name: ItemViewList.Item
+- uid: EasyTechToolUI.LayoutGroup
+  name: EasyTechToolUI.LayoutGroup
+  items:
+  - uid: EasyTechToolUI.LayoutGroup.LayoutGroup
+    name: LayoutGroup
+- uid: EasyTechToolUI.SliderWrapper
+  name: EasyTechToolUI.SliderWrapper
+  items:
+  - uid: EasyTechToolUI.SliderWrapper.SliderWrapper
+    name: SliderWrapper
+  - uid: EasyTechToolUI.SliderWrapper.SliderWrapper.SliderWrapperOption
+    name: SliderWrapper.SliderWrapperOption
+memberLayout: SamePage

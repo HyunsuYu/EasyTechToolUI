@@ -35,6 +35,18 @@ namespace EasyTechToolUI.SliderWrapper
         private Guid m_attachedCanvasTransitionManagerGuid;
 
 
+        public int MaxSliderValue
+        {
+            get
+            {
+                return (int)m_slider.maxValue;
+            }
+            set
+            {
+                m_slider.maxValue = value;
+            }
+        }
+
         public SliderWrapperOption Option
         {
             get

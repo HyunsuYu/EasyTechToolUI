@@ -157,7 +157,7 @@ namespace EasyTechToolUI.ItemViewList
 
             m_items.Add(item);
 
-            UpdateModuleState(null);
+            UpdateModuleState(null as object);
         }
 
         internal void RemoveItem(in Item itemComponentClass)
@@ -165,20 +165,25 @@ namespace EasyTechToolUI.ItemViewList
             Destroy(itemComponentClass.gameObject);
             m_items.Remove(itemComponentClass);
 
-            UpdateModuleState(null);
+            if (m_curSelectedItemIndex >= ItemCount - 1)
+            {
+                m_curSelectedItemIndex = ItemCount - 1;
+            }
+
+            UpdateModuleState(null as object);
         }
 
         public virtual void RemoveItemAt(in int index)
         {
-            if(m_curSelectedItemIndex == ItemCount - 1)
-            {
-                m_curSelectedItemIndex -= 1;
-            }
-
             Destroy(m_items[index].gameObject);
             m_items.RemoveAt(index);
 
-            UpdateModuleState(null);
+            if(m_curSelectedItemIndex >= ItemCount - 1)
+            {
+                m_curSelectedItemIndex = ItemCount - 1;
+            }
+
+            UpdateModuleState(null as object);
         }
 
         public virtual void ClearItems()
@@ -191,7 +196,7 @@ namespace EasyTechToolUI.ItemViewList
             }
             m_items.Clear();
 
-            UpdateModuleState(null);
+            UpdateModuleState(null as object);
         }
 
         public virtual int GetItemIndex(in Item itemComponentClass)
@@ -203,15 +208,15 @@ namespace EasyTechToolUI.ItemViewList
         {
             m_attachedCanvasTransitionManagerGuid = attachedCanvasTransitionManagerGuid;
 
-            InitializeModule(moduleInitData as List<object>);
+            InitializeModule(moduleInitData as object[]);
         }
-        protected void InitializeModule(in List<object> moduleInitDataPerItem)
+        protected void InitializeModule(in object[] moduleInitDataPerItem)
         {
             ClearItems();
 
-            if (moduleInitDataPerItem != null && moduleInitDataPerItem.Count == m_items.Count)
+            if (moduleInitDataPerItem != null && moduleInitDataPerItem.Length == ItemCount)
             {
-                for (int index = 0; index < m_items.Count; index++)
+                for (int index = 0; index < ItemCount; index++)
                 {
                     m_items[index].InitializeItem(this, moduleInitDataPerItem[index]);
                 }
@@ -227,13 +232,13 @@ namespace EasyTechToolUI.ItemViewList
 
         public override void UpdateModuleState(in object moduleUpdateData)
         {
-            UpdateModuleState(moduleUpdateData as List<object>);
+            UpdateModuleState(moduleUpdateData as object[]);
         }
-        protected void UpdateModuleState(in List<object> moduleUpdateDataPerItem)
+        protected void UpdateModuleState(in object[] moduleUpdateDataPerItem)
         {
-            if (moduleUpdateDataPerItem != null && moduleUpdateDataPerItem.Count == m_items.Count)
+            if (moduleUpdateDataPerItem != null && moduleUpdateDataPerItem.Length == ItemCount)
             {
-                for (int index = 0; index < m_items.Count; index++)
+                for (int index = 0; index < ItemCount; index++)
                 {
                     m_items[index].UpdateItemState(moduleUpdateDataPerItem[index]);
                 }

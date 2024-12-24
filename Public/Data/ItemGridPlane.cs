@@ -107,6 +107,22 @@ namespace EasyTechToolUI.ItemGridPlane
         private Guid m_attachedCanvasTransitionManagerGuid;
 
 
+        public GridLayoutGroup GridLayoutGroup
+        {
+            get
+            {
+                return m_gridLayoutGroup;
+            }
+        }
+        public Vector2 ParentPlaneBaseSize
+        {
+            get
+            {
+                return m_transform_itemParent.GetComponent<RectTransform>().sizeDelta;
+            }
+        }
+
+
         public Item[,] ItemPlane
         {
             get
@@ -223,6 +239,7 @@ namespace EasyTechToolUI.ItemGridPlane
             m_spawnItemPlaneSize = newitemPlaneSize;
 
             InitializeModule(null);
+            UpdateModuleState(null);
         }
         public virtual void ClearItemPlane()
         {
@@ -268,22 +285,76 @@ namespace EasyTechToolUI.ItemGridPlane
         {
             ClearItemPlane();
 
-            bool bisInitDataValid = true;
-            if (moduleInitDataPerItem == null)
+            AdjustSettings();
+
+            m_itemPlane = new Item[m_adjustedItemPlaneSize.y, m_adjustedItemPlaneSize.x];
+            for(int coord_y = 0; coord_y < m_adjustedItemPlaneSize.y; coord_y++)
             {
-                bisInitDataValid = false;
+                for(int coord_x = 0; coord_x < m_adjustedItemPlaneSize.x; coord_x++)
+                {
+                    GameObject newItem = Instantiate(m_prefab_item, m_transform_itemParent);
+                    Item item = newItem.GetComponent<Item>();
+
+                    int spawnedItemIndex = coord_y * m_adjustedItemPlaneSize.x + coord_x;
+
+                    if (BIsPlaneParanValud(moduleInitDataPerItem))
+                    {
+                        item.InitializeItem(this, spawnedItemIndex, moduleInitDataPerItem[coord_y, coord_x]);
+                    }
+                    else
+                    {
+                        item.InitializeItem(this, spawnedItemIndex, null);
+                    }
+
+                    m_itemPlane[coord_y, coord_x] = item;
+                }
+            }
+        }
+
+        public override void UpdateModuleState(in object moduleUpdateData)
+        {
+            UpdateModuleState(moduleUpdateData as object[,]);
+        }
+        protected void UpdateModuleState(in object[,] moduleUpdateDataPerItem)
+        {
+            for (int coord_y = 0; coord_y < m_adjustedItemPlaneSize.y; coord_y++)
+            {
+                for (int coord_x = 0; coord_x < m_adjustedItemPlaneSize.x; coord_x++)
+                {
+                    if (BIsPlaneParanValud(moduleUpdateDataPerItem))
+                    {
+                        m_itemPlane[coord_y, coord_x].UpdateItemState(moduleUpdateDataPerItem[coord_y, coord_x]);
+                    }
+                    else
+                    {
+                        m_itemPlane[coord_y, coord_x].UpdateItemState(null);
+                    }
+                }
+            }
+        }
+
+        private bool BIsPlaneParanValud(in object[,] param)
+        {
+            bool bisUpdateDataValid = true;
+            if (param == null)
+            {
+                bisUpdateDataValid = false;
             }
             else
             {
-                if (moduleInitDataPerItem.GetLength(0) != m_spawnItemPlaneSize.y ||
-                    moduleInitDataPerItem.GetLength(1) != m_spawnItemPlaneSize.x)
+                if (param.GetLength(0) != m_spawnItemPlaneSize.y ||
+                    param.GetLength(1) != m_spawnItemPlaneSize.x)
                 {
-                    bisInitDataValid = false;
+                    bisUpdateDataValid = false;
                 }
             }
 
+            return bisUpdateDataValid;
+        }
+        private void AdjustSettings()
+        {
             #region
-            Vector2 parentPlaneBaseSize = m_transform_itemParent.GetComponent<RectTransform>().sizeDelta;
+            Vector2 parentPlaneBaseSize = ParentPlaneBaseSize;
 
             bool bisItemXSizeValid = true;
             bool bisItemYSizeValid = true;
@@ -303,14 +374,14 @@ namespace EasyTechToolUI.ItemGridPlane
                     break;
 
                 case AbstractItemPlacementRegulation.WarningWhenInvalid:
-                    if(!bisItemXSizeValid || !bisItemYSizeValid)
+                    if (!bisItemXSizeValid || !bisItemYSizeValid)
                     {
                         Debug.LogWarning("Invalid Item Initialization Data");
                     }
                     break;
 
                 case AbstractItemPlacementRegulation.LogErrorWhenInvalid:
-                    if(!bisItemXSizeValid || !bisItemYSizeValid)
+                    if (!bisItemXSizeValid || !bisItemYSizeValid)
                     {
                         m_adjustedItemPlaneSize = Vector2Int.zero;
                         Debug.LogError("Invalid Item Initialization Data");
@@ -321,7 +392,7 @@ namespace EasyTechToolUI.ItemGridPlane
                     {
                         if (!bisItemXSizeValid)
                         {
-                            while(true)
+                            while (true)
                             {
                                 m_adjustedItemPlaneSize.x -= 1;
                                 if (!(m_abstractItemCellSize.x * m_adjustedItemPlaneSize.x + m_abstractItemSpacing.x * (m_adjustedItemPlaneSize.x - 1) > parentPlaneBaseSize.x))
@@ -331,12 +402,15 @@ namespace EasyTechToolUI.ItemGridPlane
                             }
                         }
 
-                        if(!bisItemYSizeValid)
+                        if (!bisItemYSizeValid)
                         {
-                            m_adjustedItemPlaneSize.y -= 1;
-                            if (!(m_abstractItemCellSize.y * m_adjustedItemPlaneSize.y + m_abstractItemSpacing.y * (m_adjustedItemPlaneSize.y - 1) > parentPlaneBaseSize.y))
+                            while (true)
                             {
-                                break;
+                                m_adjustedItemPlaneSize.y -= 1;
+                                if (!(m_abstractItemCellSize.y * m_adjustedItemPlaneSize.y + m_abstractItemSpacing.y * (m_adjustedItemPlaneSize.y - 1) > parentPlaneBaseSize.y))
+                                {
+                                    break;
+                                }
                             }
                         }
                     }
@@ -360,65 +434,6 @@ namespace EasyTechToolUI.ItemGridPlane
                     break;
             }
             #endregion
-
-            m_itemPlane = new Item[m_adjustedItemPlaneSize.y, m_adjustedItemPlaneSize.x];
-            for(int coord_y = 0; coord_y < m_adjustedItemPlaneSize.y; coord_y++)
-            {
-                for(int coord_x = 0; coord_x < m_adjustedItemPlaneSize.x; coord_x++)
-                {
-                    GameObject newItem = Instantiate(m_prefab_item, m_transform_itemParent);
-                    Item item = newItem.GetComponent<Item>();
-
-                    int spawnedItemIndex = coord_y * m_adjustedItemPlaneSize.x + coord_x;
-
-                    if (bisInitDataValid)
-                    {
-                        item.InitializeItem(this, spawnedItemIndex, moduleInitDataPerItem[coord_y, coord_x]);
-                    }
-                    else
-                    {
-                        item.InitializeItem(this, spawnedItemIndex, null);
-                    }
-
-                    m_itemPlane[coord_y, coord_x] = item;
-                }
-            }
-        }
-
-        public override void UpdateModuleState(in object moduleUpdateData)
-        {
-            UpdateModuleState(moduleUpdateData as object[,]);
-        }
-        protected void UpdateModuleState(in object[,] moduleUpdateDataPerItem)
-        {
-            bool bisUpdateDataValid = true;
-            if (moduleUpdateDataPerItem == null)
-            {
-                bisUpdateDataValid = false;
-            }
-            else
-            {
-                if (moduleUpdateDataPerItem.GetLength(0) != m_spawnItemPlaneSize.y ||
-                    moduleUpdateDataPerItem.GetLength(1) != m_spawnItemPlaneSize.x)
-                {
-                    bisUpdateDataValid = false;
-                }
-            }
-
-            for (int coord_y = 0; coord_y < m_adjustedItemPlaneSize.y; coord_y++)
-            {
-                for (int coord_x = 0; coord_x < m_adjustedItemPlaneSize.x; coord_x++)
-                {
-                    if (bisUpdateDataValid)
-                    {
-                        m_itemPlane[coord_y, coord_x].UpdateItemState(moduleUpdateDataPerItem[coord_y, coord_x]);
-                    }
-                    else
-                    {
-                        m_itemPlane[coord_y, coord_x].UpdateItemState(null);
-                    }
-                }
-            }
         }
     }
 }
