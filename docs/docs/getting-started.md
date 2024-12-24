@@ -1,13 +1,13 @@
 # Getting Started
 
-<br><br>
+<br>
 
 ## Description.
 When developing a program's UI, proper settings must be made in advance to apply EasyTechToolUI.
 
 This document provides detailed instructions on how to make these settings, precautions, and solutions to various problems that may arise.
 
-<br><br>
+<br>
 
 ## Elements used to implement behavior.
 
@@ -15,7 +15,7 @@ This document provides detailed instructions on how to make these settings, prec
 EasyTechToolUI.dll
 ~~~
 
-<br><br>
+<br>
 
 ## Hand-on Guide.
 
@@ -78,7 +78,6 @@ If a dependency conflict occurs, an error log similar to the image below will be
     </div>
     Image from https://github.com/playgameservices/play-games-plugin-for-unity/issues/2012
 </div>
-
 <br><br>
 
 In order to apply EasyTechToolUI to the development environment, it is necessary to apply the prerequisite plugins that EasyTechToolUI refers to to the development environment in advance. You can find out the dependencies of EasyTechToolUI by checking [README.md](https://github.com/HyunsuYu/EasyTechToolUI/blob/master/README.md) in the EasyTechToolUI github repo.
