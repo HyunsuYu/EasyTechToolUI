@@ -1,0 +1,23 @@
+### YamlMime:ManagedReference
+items:
+- uid: EasyTechToolUI.LayoutGroup
+  commentId: N:EasyTechToolUI.LayoutGroup
+  id: EasyTechToolUI.LayoutGroup
+  children:
+  - EasyTechToolUI.LayoutGroup.LayoutGroup
+  langs:
+  - csharp
+  - vb
+  name: EasyTechToolUI.LayoutGroup
+  nameWithType: EasyTechToolUI.LayoutGroup
+  fullName: EasyTechToolUI.LayoutGroup
+  type: Namespace
+  assemblies:
+  - EasyTechToolUI
+references:
+- uid: EasyTechToolUI.LayoutGroup.LayoutGroup
+  commentId: T:EasyTechToolUI.LayoutGroup.LayoutGroup
+  href: EasyTechToolUI.LayoutGroup.LayoutGroup.html
+  name: LayoutGroup
+  nameWithType: LayoutGroup
+  fullName: EasyTechToolUI.LayoutGroup.LayoutGroup

@@ -1,0 +1,69 @@
+### YamlMime:ManagedReference
+items:
+- uid: EasyTechToolUI.SliderWrapper
+  commentId: N:EasyTechToolUI.SliderWrapper
+  id: EasyTechToolUI.SliderWrapper
+  children:
+  - EasyTechToolUI.SliderWrapper.SliderWrapper
+  - EasyTechToolUI.SliderWrapper.SliderWrapper.SliderWrapperOption
+  langs:
+  - csharp
+  - vb
+  name: EasyTechToolUI.SliderWrapper
+  nameWithType: EasyTechToolUI.SliderWrapper
+  fullName: EasyTechToolUI.SliderWrapper
+  type: Namespace
+  assemblies:
+  - EasyTechToolUI
+references:
+- uid: EasyTechToolUI.SliderWrapper.SliderWrapper
+  commentId: T:EasyTechToolUI.SliderWrapper.SliderWrapper
+  href: EasyTechToolUI.SliderWrapper.SliderWrapper.html
+  name: SliderWrapper
+  nameWithType: SliderWrapper
+  fullName: EasyTechToolUI.SliderWrapper.SliderWrapper
+- uid: EasyTechToolUI.SliderWrapper.SliderWrapper.SliderWrapperOption
+  commentId: T:EasyTechToolUI.SliderWrapper.SliderWrapper.SliderWrapperOption
+  parent: EasyTechToolUI.SliderWrapper
+  href: EasyTechToolUI.SliderWrapper.SliderWrapper.html
+  name: SliderWrapper.SliderWrapperOption
+  nameWithType: SliderWrapper.SliderWrapperOption
+  fullName: EasyTechToolUI.SliderWrapper.SliderWrapper.SliderWrapperOption
+  spec.csharp:
+  - uid: EasyTechToolUI.SliderWrapper.SliderWrapper
+    name: SliderWrapper
+    href: EasyTechToolUI.SliderWrapper.SliderWrapper.html
+  - name: .
+  - uid: EasyTechToolUI.SliderWrapper.SliderWrapper.SliderWrapperOption
+    name: SliderWrapperOption
+    href: EasyTechToolUI.SliderWrapper.SliderWrapper.SliderWrapperOption.html
+  spec.vb:
+  - uid: EasyTechToolUI.SliderWrapper.SliderWrapper
+    name: SliderWrapper
+    href: EasyTechToolUI.SliderWrapper.SliderWrapper.html
+  - name: .
+  - uid: EasyTechToolUI.SliderWrapper.SliderWrapper.SliderWrapperOption
+    name: SliderWrapperOption
+    href: EasyTechToolUI.SliderWrapper.SliderWrapper.SliderWrapperOption.html
+- uid: EasyTechToolUI.SliderWrapper
+  commentId: N:EasyTechToolUI.SliderWrapper
+  href: EasyTechToolUI.html
+  name: EasyTechToolUI.SliderWrapper
+  nameWithType: EasyTechToolUI.SliderWrapper
+  fullName: EasyTechToolUI.SliderWrapper
+  spec.csharp:
+  - uid: EasyTechToolUI
+    name: EasyTechToolUI
+    href: EasyTechToolUI.html
+  - name: .
+  - uid: EasyTechToolUI.SliderWrapper
+    name: SliderWrapper
+    href: EasyTechToolUI.SliderWrapper.html
+  spec.vb:
+  - uid: EasyTechToolUI
+    name: EasyTechToolUI
+    href: EasyTechToolUI.html
+  - name: .
+  - uid: EasyTechToolUI.SliderWrapper
+    name: SliderWrapper
+    href: EasyTechToolUI.SliderWrapper.html

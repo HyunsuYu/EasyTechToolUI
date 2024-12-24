@@ -1,0 +1,156 @@
+### YamlMime:ManagedReference
+items:
+- uid: EasyTechToolUI.FreeLayoutItemPlane.FreeLayoutItemPlane.IItemStateUpdate
+  commentId: T:EasyTechToolUI.FreeLayoutItemPlane.FreeLayoutItemPlane.IItemStateUpdate
+  id: FreeLayoutItemPlane.IItemStateUpdate
+  parent: EasyTechToolUI.FreeLayoutItemPlane
+  children:
+  - EasyTechToolUI.FreeLayoutItemPlane.FreeLayoutItemPlane.IItemStateUpdate.InitializeItem(EasyTechToolUI.FreeLayoutItemPlane.FreeLayoutItemPlane@,System.Object@)
+  - EasyTechToolUI.FreeLayoutItemPlane.FreeLayoutItemPlane.IItemStateUpdate.UpdateItemState(System.Object@)
+  langs:
+  - csharp
+  - vb
+  name: FreeLayoutItemPlane.IItemStateUpdate
+  nameWithType: FreeLayoutItemPlane.IItemStateUpdate
+  fullName: EasyTechToolUI.FreeLayoutItemPlane.FreeLayoutItemPlane.IItemStateUpdate
+  type: Interface
+  source:
+    remote:
+      path: Public/Data/FreeLayoutItemPlane.cs
+      branch: Fix_CirculatingLayoutItemList
+      repo: https://github.com/HyunsuYu/EasyTechToolUI.git
+    id: IItemStateUpdate
+    path: ../Public/Data/FreeLayoutItemPlane.cs
+    startLine: 13
+  assemblies:
+  - EasyTechToolUI
+  namespace: EasyTechToolUI.FreeLayoutItemPlane
+  syntax:
+    content: public interface FreeLayoutItemPlane.IItemStateUpdate
+    content.vb: Public Interface FreeLayoutItemPlane.IItemStateUpdate
+- uid: EasyTechToolUI.FreeLayoutItemPlane.FreeLayoutItemPlane.IItemStateUpdate.InitializeItem(EasyTechToolUI.FreeLayoutItemPlane.FreeLayoutItemPlane@,System.Object@)
+  commentId: M:EasyTechToolUI.FreeLayoutItemPlane.FreeLayoutItemPlane.IItemStateUpdate.InitializeItem(EasyTechToolUI.FreeLayoutItemPlane.FreeLayoutItemPlane@,System.Object@)
+  id: InitializeItem(EasyTechToolUI.FreeLayoutItemPlane.FreeLayoutItemPlane@,System.Object@)
+  parent: EasyTechToolUI.FreeLayoutItemPlane.FreeLayoutItemPlane.IItemStateUpdate
+  langs:
+  - csharp
+  - vb
+  name: InitializeItem(in FreeLayoutItemPlane, in object)
+  nameWithType: FreeLayoutItemPlane.IItemStateUpdate.InitializeItem(in FreeLayoutItemPlane, in object)
+  fullName: EasyTechToolUI.FreeLayoutItemPlane.FreeLayoutItemPlane.IItemStateUpdate.InitializeItem(in EasyTechToolUI.FreeLayoutItemPlane.FreeLayoutItemPlane, in object)
+  type: Method
+  source:
+    remote:
+      path: Public/Data/FreeLayoutItemPlane.cs
+      branch: Fix_CirculatingLayoutItemList
+      repo: https://github.com/HyunsuYu/EasyTechToolUI.git
+    id: InitializeItem
+    path: ../Public/Data/FreeLayoutItemPlane.cs
+    startLine: 15
+  assemblies:
+  - EasyTechToolUI
+  namespace: EasyTechToolUI.FreeLayoutItemPlane
+  syntax:
+    content: void InitializeItem(in FreeLayoutItemPlane freeLayoutItemPlane, in object itemInitData)
+    parameters:
+    - id: freeLayoutItemPlane
+      type: EasyTechToolUI.FreeLayoutItemPlane.FreeLayoutItemPlane
+    - id: itemInitData
+      type: System.Object
+    content.vb: Sub InitializeItem(freeLayoutItemPlane As FreeLayoutItemPlane, itemInitData As Object)
+  overload: EasyTechToolUI.FreeLayoutItemPlane.FreeLayoutItemPlane.IItemStateUpdate.InitializeItem*
+  nameWithType.vb: FreeLayoutItemPlane.IItemStateUpdate.InitializeItem(FreeLayoutItemPlane, Object)
+  fullName.vb: EasyTechToolUI.FreeLayoutItemPlane.FreeLayoutItemPlane.IItemStateUpdate.InitializeItem(EasyTechToolUI.FreeLayoutItemPlane.FreeLayoutItemPlane, Object)
+  name.vb: InitializeItem(FreeLayoutItemPlane, Object)
+- uid: EasyTechToolUI.FreeLayoutItemPlane.FreeLayoutItemPlane.IItemStateUpdate.UpdateItemState(System.Object@)
+  commentId: M:EasyTechToolUI.FreeLayoutItemPlane.FreeLayoutItemPlane.IItemStateUpdate.UpdateItemState(System.Object@)
+  id: UpdateItemState(System.Object@)
+  parent: EasyTechToolUI.FreeLayoutItemPlane.FreeLayoutItemPlane.IItemStateUpdate
+  langs:
+  - csharp
+  - vb
+  name: UpdateItemState(in object)
+  nameWithType: FreeLayoutItemPlane.IItemStateUpdate.UpdateItemState(in object)
+  fullName: EasyTechToolUI.FreeLayoutItemPlane.FreeLayoutItemPlane.IItemStateUpdate.UpdateItemState(in object)
+  type: Method
+  source:
+    remote:
+      path: Public/Data/FreeLayoutItemPlane.cs
+      branch: Fix_CirculatingLayoutItemList
+      repo: https://github.com/HyunsuYu/EasyTechToolUI.git
+    id: UpdateItemState
+    path: ../Public/Data/FreeLayoutItemPlane.cs
+    startLine: 17
+  assemblies:
+  - EasyTechToolUI
+  namespace: EasyTechToolUI.FreeLayoutItemPlane
+  syntax:
+    content: void UpdateItemState(in object itemUpdateData)
+    parameters:
+    - id: itemUpdateData
+      type: System.Object
+    content.vb: Sub UpdateItemState(itemUpdateData As Object)
+  overload: EasyTechToolUI.FreeLayoutItemPlane.FreeLayoutItemPlane.IItemStateUpdate.UpdateItemState*
+  nameWithType.vb: FreeLayoutItemPlane.IItemStateUpdate.UpdateItemState(Object)
+  fullName.vb: EasyTechToolUI.FreeLayoutItemPlane.FreeLayoutItemPlane.IItemStateUpdate.UpdateItemState(Object)
+  name.vb: UpdateItemState(Object)
+references:
+- uid: EasyTechToolUI.FreeLayoutItemPlane
+  commentId: N:EasyTechToolUI.FreeLayoutItemPlane
+  href: EasyTechToolUI.html
+  name: EasyTechToolUI.FreeLayoutItemPlane
+  nameWithType: EasyTechToolUI.FreeLayoutItemPlane
+  fullName: EasyTechToolUI.FreeLayoutItemPlane
+  spec.csharp:
+  - uid: EasyTechToolUI
+    name: EasyTechToolUI
+    href: EasyTechToolUI.html
+  - name: .
+  - uid: EasyTechToolUI.FreeLayoutItemPlane
+    name: FreeLayoutItemPlane
+    href: EasyTechToolUI.FreeLayoutItemPlane.html
+  spec.vb:
+  - uid: EasyTechToolUI
+    name: EasyTechToolUI
+    href: EasyTechToolUI.html
+  - name: .
+  - uid: EasyTechToolUI.FreeLayoutItemPlane
+    name: FreeLayoutItemPlane
+    href: EasyTechToolUI.FreeLayoutItemPlane.html
+- uid: EasyTechToolUI.FreeLayoutItemPlane.FreeLayoutItemPlane.IItemStateUpdate.InitializeItem*
+  commentId: Overload:EasyTechToolUI.FreeLayoutItemPlane.FreeLayoutItemPlane.IItemStateUpdate.InitializeItem
+  href: EasyTechToolUI.FreeLayoutItemPlane.FreeLayoutItemPlane.IItemStateUpdate.html#EasyTechToolUI_FreeLayoutItemPlane_FreeLayoutItemPlane_IItemStateUpdate_InitializeItem_EasyTechToolUI_FreeLayoutItemPlane_FreeLayoutItemPlane__System_Object__
+  name: InitializeItem
+  nameWithType: FreeLayoutItemPlane.IItemStateUpdate.InitializeItem
+  fullName: EasyTechToolUI.FreeLayoutItemPlane.FreeLayoutItemPlane.IItemStateUpdate.InitializeItem
+- uid: EasyTechToolUI.FreeLayoutItemPlane.FreeLayoutItemPlane
+  commentId: T:EasyTechToolUI.FreeLayoutItemPlane.FreeLayoutItemPlane
+  parent: EasyTechToolUI.FreeLayoutItemPlane
+  href: EasyTechToolUI.FreeLayoutItemPlane.FreeLayoutItemPlane.html
+  name: FreeLayoutItemPlane
+  nameWithType: FreeLayoutItemPlane
+  fullName: EasyTechToolUI.FreeLayoutItemPlane.FreeLayoutItemPlane
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: EasyTechToolUI.FreeLayoutItemPlane.FreeLayoutItemPlane.IItemStateUpdate.UpdateItemState*
+  commentId: Overload:EasyTechToolUI.FreeLayoutItemPlane.FreeLayoutItemPlane.IItemStateUpdate.UpdateItemState
+  href: EasyTechToolUI.FreeLayoutItemPlane.FreeLayoutItemPlane.IItemStateUpdate.html#EasyTechToolUI_FreeLayoutItemPlane_FreeLayoutItemPlane_IItemStateUpdate_UpdateItemState_System_Object__
+  name: UpdateItemState
+  nameWithType: FreeLayoutItemPlane.IItemStateUpdate.UpdateItemState
+  fullName: EasyTechToolUI.FreeLayoutItemPlane.FreeLayoutItemPlane.IItemStateUpdate.UpdateItemState

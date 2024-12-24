@@ -5,6 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 
 using UnityEngine;
+using UnityEngine.UI;
 
 
 namespace EasyTechToolUI.CirculatingLayoutItemList
@@ -68,7 +69,7 @@ namespace EasyTechToolUI.CirculatingLayoutItemList
 
                 m_circulatingLayoutItemList.UpdateModuleState(null);
 
-                m_circulatingLayoutItemList.ReorderItem();
+                //m_circulatingLayoutItemList.ReorderItem();
 
                 if(bdoCanvasTransiton)
                 {
@@ -86,9 +87,17 @@ namespace EasyTechToolUI.CirculatingLayoutItemList
         [Header("Item View Item Parent")]
         [SerializeField] private Transform m_transform_itemParent;
 
+        [Header("Scroll Rect")]
+        [SerializeField] private ScrollRect m_scrollRect;
+
+        [SerializeField] private float m_scrollSpeed = 0.05f;
+        [SerializeField] private float m_normalizedPositionMulFactor = 2.0f;
+        private float m_curScrollTime = 0.0f;
+
         private List<Item> m_items = new List<Item>();
 
         private int m_curSelectedAbsoluteItemIndex = 0;
+        private bool m_bisInitialized = false;
 
         private Guid m_attachedCanvasTransitionManagerGuid;
 
@@ -128,6 +137,53 @@ namespace EasyTechToolUI.CirculatingLayoutItemList
             get
             {
                 return m_attachedCanvasTransitionManagerGuid;
+            }
+        }
+
+        protected void ReorderItem()
+        {
+            if (m_bisInitialized)
+            {
+                if(m_items.Count == 0)
+                {
+                    return;
+                }
+
+                if (m_scrollRect.horizontal)
+                {
+                    if (m_scrollRect.horizontalNormalizedPosition <= 0.3f)
+                    {
+                        m_items[ItemCount - 1].transform.SetAsFirstSibling();
+                    }
+                    else if (m_scrollRect.horizontalNormalizedPosition >= 0.7f)
+                    {
+                        m_items[0].transform.SetAsLastSibling();
+                    }
+                }
+
+                if (m_scrollRect.vertical)
+                {
+                    if(m_curScrollTime > 0.0f)
+                    {
+                        m_curScrollTime -= Time.deltaTime;
+                    }
+                    else
+                    {
+                        Debug.Log(m_scrollRect.verticalNormalizedPosition);
+                        if (m_scrollRect.verticalNormalizedPosition <= 0.3f)
+                        {
+                            m_scrollRect.verticalNormalizedPosition += m_normalizedPositionMulFactor * (1.0f / ItemCount);
+                            m_transform_itemParent.GetChild(0).SetAsLastSibling();
+                        }
+                        else if (m_scrollRect.verticalNormalizedPosition >= 0.7f)
+                        {
+                            m_scrollRect.verticalNormalizedPosition -= m_normalizedPositionMulFactor * (1.0f / ItemCount);
+                            m_transform_itemParent.GetChild(ItemCount - 1).SetAsFirstSibling();
+                        }
+
+                        m_curScrollTime = m_scrollSpeed;
+                    }
+                }
             }
         }
 
@@ -181,26 +237,18 @@ namespace EasyTechToolUI.CirculatingLayoutItemList
             UpdateModuleState(null);
         }
 
-        internal void ReorderItem()
-        {
-            for (int index = 0; index < ItemCount; index++)
-            {
-                if(CurAbsoluteSelectedItemIndex != m_items[index].AbsoluteItemIndex)
-                {
-                    m_items[index].transform.SetSiblingIndex(ItemCount - 1);
-                }
-                else
-                {
-                    break;
-                }
-            }
-        }
-
         public override void InitializeModule(in object moduleInitData, in Guid attachedCanvasTransitionManagerGuid)
         {
             m_attachedCanvasTransitionManagerGuid = attachedCanvasTransitionManagerGuid;
 
+            if(m_scrollRect.horizontal && m_scrollRect.vertical)
+            {
+                Debug.LogError("The scroll rect can not be both horizontal and vertical");
+            }
+
             InitializeModule(moduleInitData as List<object>);
+
+            m_bisInitialized = true;
         }
         protected void InitializeModule(in List<object> moduleInitDataPerItem)
         {
