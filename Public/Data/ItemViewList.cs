@@ -106,9 +106,6 @@ namespace EasyTechToolUI.ItemViewList
         private Guid m_attachedCanvasTransitionManagerGuid;
 
 
-        /// <summary>
-        /// A list of items currently managed by the UI module
-        /// </summary>
         public List<Item> Items
         {
             get
@@ -163,6 +160,10 @@ namespace EasyTechToolUI.ItemViewList
             UpdateModuleState(null as object);
         }
 
+        /// <summary>
+        /// Method to remove the specified item from the UI module
+        /// </summary>
+        /// <param name="itemComponentClass"></param>
         internal void RemoveItem(in Item itemComponentClass)
         {
             Destroy(itemComponentClass.gameObject);
