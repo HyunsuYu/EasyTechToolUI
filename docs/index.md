@@ -4,7 +4,7 @@ _layout: landing
 
 # This is the **HOMEPAGE**.
 
-Refer to [Markdown](docs/_site/index.html) for how to write markdown files.
+Refer to [Markdown](./_site/index.html) for how to write markdown files.
 
 ## Quick Start Notes:
 
