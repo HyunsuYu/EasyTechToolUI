@@ -1,9 +1,13 @@
 # Getting Started
 
+<br><br>
+
 ## Description.
 When developing a program's UI, proper settings must be made in advance to apply EasyTechToolUI.
 
 This document provides detailed instructions on how to make these settings, precautions, and solutions to various problems that may arise.
+
+<br><br>
 
 ## Elements used to implement behavior.
 
@@ -11,7 +15,12 @@ This document provides detailed instructions on how to make these settings, prec
 EasyTechToolUI.dll
 ~~~
 
+<br><br>
+
 ## Hand-on Guide.
+
+<br>
+
 ### 1. Prepare the file ‘EasyTechToolUI.dll’
 ‘EasyTechToolUI.dll’ is available on the release page of EasyTechToolUI’s github repo.
 
@@ -24,6 +33,8 @@ EasyTechToolUI.dll
 <br><br>
 
 You can download the 'EasyTechToolUI.dll' file of the desired version from the various versions available on the release page. If you want detailed debugging, you can also download 'EasyTechToolUI.pdb'.
+
+<br>
 
 ### 2. Create a ‘Plugins’ folder under the Assets folder
 If you want to add a desired dll file as a plugin to your Unity project, the standard way is to place it under Assets/Plugins/.
@@ -50,6 +61,9 @@ Finally, place the downloaded 'EasyTechToolUI.dll' under the Plugins folder to c
 <br><br>
 
 ## Points to Note.
+
+<br>
+
 ### Dependency conflict issue.
 One of the most basic issues to consider when implementing a plugin is dependency conflicts.
 
@@ -70,6 +84,8 @@ If a dependency conflict occurs, an error log similar to the image below will be
 In order to apply EasyTechToolUI to the development environment, it is necessary to apply the prerequisite plugins that EasyTechToolUI refers to to the development environment in advance. You can find out the dependencies of EasyTechToolUI by checking [README.md](https://github.com/HyunsuYu/EasyTechToolUI/blob/master/README.md) in the EasyTechToolUI github repo.
 
 After checking, you can solve the problem by finding the missing plugin and applying it to the development environment.
+
+<br>
 
 ### Version conflict issue.
 EasyTechToolUI is constantly being reorganized and improved, including maintaining the previous API and adding new features. As a result, if you download and apply a version of the plugin that does not support the feature you want to use, you will naturally not be able to use that feature.

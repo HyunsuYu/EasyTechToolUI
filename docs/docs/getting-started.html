@@ -87,13 +87,17 @@
         <article data-uid="">
 <h1 id="getting-started">Getting Started</h1>
 
+<p><br><br></p>
 <h2 id="description">Description.</h2>
 <p>When developing a program's UI, proper settings must be made in advance to apply EasyTechToolUI.</p>
 <p>This document provides detailed instructions on how to make these settings, precautions, and solutions to various problems that may arise.</p>
+<p><br><br></p>
 <h2 id="elements-used-to-implement-behavior">Elements used to implement behavior.</h2>
 <pre><code>EasyTechToolUI.dll
 </code></pre>
+<p><br><br></p>
 <h2 id="hand-on-guide">Hand-on Guide.</h2>
+<br>
 <h3 id="1-prepare-the-file-easytechtooluidll">1. Prepare the file ‘EasyTechToolUI.dll’</h3>
 <p>‘EasyTechToolUI.dll’ is available on the release page of EasyTechToolUI’s github repo.</p>
 <p><a href="https://github.com/HyunsuYu/EasyTechToolUI/releases">EasyTechToolUI Releases</a></p>
@@ -103,6 +107,7 @@
 </div>
 <br><br>
 <p>You can download the 'EasyTechToolUI.dll' file of the desired version from the various versions available on the release page. If you want detailed debugging, you can also download 'EasyTechToolUI.pdb'.</p>
+<br>
 <h3 id="2-create-a-plugins-folder-under-the-assets-folder">2. Create a ‘Plugins’ folder under the Assets folder</h3>
 <p>If you want to add a desired dll file as a plugin to your Unity project, the standard way is to place it under Assets/Plugins/.</p>
 <p>If you'd like to find Unity's official documentation on applying plugins to your project, here are some good starting points:</p>
@@ -121,6 +126,7 @@
 </div>
 <br><br>
 <h2 id="points-to-note">Points to Note.</h2>
+<br>
 <h3 id="dependency-conflict-issue">Dependency conflict issue.</h3>
 <p>One of the most basic issues to consider when implementing a plugin is dependency conflicts.</p>
 <p>In some cases, plugin A may reference another plugin B through Z, and if plugins B through Z are not properly prepared when trying to apply A to the development environment, a critical error may occur.</p>
@@ -135,6 +141,7 @@
 <p><br><br></p>
 <p>In order to apply EasyTechToolUI to the development environment, it is necessary to apply the prerequisite plugins that EasyTechToolUI refers to to the development environment in advance. You can find out the dependencies of EasyTechToolUI by checking <a href="https://github.com/HyunsuYu/EasyTechToolUI/blob/master/README.md">README.md</a> in the EasyTechToolUI github repo.</p>
 <p>After checking, you can solve the problem by finding the missing plugin and applying it to the development environment.</p>
+<br>
 <h3 id="version-conflict-issue">Version conflict issue.</h3>
 <p>EasyTechToolUI is constantly being reorganized and improved, including maintaining the previous API and adding new features. As a result, if you download and apply a version of the plugin that does not support the feature you want to use, you will naturally not be able to use that feature.</p>
 <p>It would be nice if there were appropriate API documentation for each version, but unfortunately, this is difficult due to various practical issues. Therefore, the best method we recommend is to download and apply the latest version of the plugin.</p>
