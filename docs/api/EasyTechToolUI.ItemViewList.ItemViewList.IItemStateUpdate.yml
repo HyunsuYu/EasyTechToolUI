@@ -1,0 +1,165 @@
+### YamlMime:ManagedReference
+items:
+- uid: EasyTechToolUI.ItemViewList.ItemViewList.IItemStateUpdate
+  commentId: T:EasyTechToolUI.ItemViewList.ItemViewList.IItemStateUpdate
+  id: ItemViewList.IItemStateUpdate
+  parent: EasyTechToolUI.ItemViewList
+  children:
+  - EasyTechToolUI.ItemViewList.ItemViewList.IItemStateUpdate.InitializeItem(EasyTechToolUI.ItemViewList.ItemViewList@,System.Object@)
+  - EasyTechToolUI.ItemViewList.ItemViewList.IItemStateUpdate.UpdateItemState(System.Object@)
+  langs:
+  - csharp
+  - vb
+  name: ItemViewList.IItemStateUpdate
+  nameWithType: ItemViewList.IItemStateUpdate
+  fullName: EasyTechToolUI.ItemViewList.ItemViewList.IItemStateUpdate
+  type: Interface
+  source:
+    remote:
+      path: Public/Data/ItemViewList.cs
+      branch: master
+      repo: https://github.com/HyunsuYu/EasyTechToolUI.git
+    id: IItemStateUpdate
+    path: ../Public/Data/ItemViewList.cs
+    startLine: 19
+  assemblies:
+  - EasyTechToolUI
+  namespace: EasyTechToolUI.ItemViewList
+  summary: Interface that defines methods for managing items in the UI module
+  example: []
+  syntax:
+    content: public interface ItemViewList.IItemStateUpdate
+    content.vb: Public Interface ItemViewList.IItemStateUpdate
+- uid: EasyTechToolUI.ItemViewList.ItemViewList.IItemStateUpdate.InitializeItem(EasyTechToolUI.ItemViewList.ItemViewList@,System.Object@)
+  commentId: M:EasyTechToolUI.ItemViewList.ItemViewList.IItemStateUpdate.InitializeItem(EasyTechToolUI.ItemViewList.ItemViewList@,System.Object@)
+  id: InitializeItem(EasyTechToolUI.ItemViewList.ItemViewList@,System.Object@)
+  parent: EasyTechToolUI.ItemViewList.ItemViewList.IItemStateUpdate
+  langs:
+  - csharp
+  - vb
+  name: InitializeItem(in ItemViewList, in object)
+  nameWithType: ItemViewList.IItemStateUpdate.InitializeItem(in ItemViewList, in object)
+  fullName: EasyTechToolUI.ItemViewList.ItemViewList.IItemStateUpdate.InitializeItem(in EasyTechToolUI.ItemViewList.ItemViewList, in object)
+  type: Method
+  source:
+    remote:
+      path: Public/Data/ItemViewList.cs
+      branch: master
+      repo: https://github.com/HyunsuYu/EasyTechToolUI.git
+    id: InitializeItem
+    path: ../Public/Data/ItemViewList.cs
+    startLine: 26
+  assemblies:
+  - EasyTechToolUI
+  namespace: EasyTechToolUI.ItemViewList
+  summary: Method for initializing items in the UI module
+  example: []
+  syntax:
+    content: void InitializeItem(in ItemViewList itemViewList, in object itemInitData)
+    parameters:
+    - id: itemViewList
+      type: EasyTechToolUI.ItemViewList.ItemViewList
+      description: Instance of ItemViewList where the current item is placed
+    - id: itemInitData
+      type: System.Object
+      description: Parameters place in custom data that can be used to initialize the current item. Null is also possible if desired
+    content.vb: Sub InitializeItem(itemViewList As ItemViewList, itemInitData As Object)
+  overload: EasyTechToolUI.ItemViewList.ItemViewList.IItemStateUpdate.InitializeItem*
+  nameWithType.vb: ItemViewList.IItemStateUpdate.InitializeItem(ItemViewList, Object)
+  fullName.vb: EasyTechToolUI.ItemViewList.ItemViewList.IItemStateUpdate.InitializeItem(EasyTechToolUI.ItemViewList.ItemViewList, Object)
+  name.vb: InitializeItem(ItemViewList, Object)
+- uid: EasyTechToolUI.ItemViewList.ItemViewList.IItemStateUpdate.UpdateItemState(System.Object@)
+  commentId: M:EasyTechToolUI.ItemViewList.ItemViewList.IItemStateUpdate.UpdateItemState(System.Object@)
+  id: UpdateItemState(System.Object@)
+  parent: EasyTechToolUI.ItemViewList.ItemViewList.IItemStateUpdate
+  langs:
+  - csharp
+  - vb
+  name: UpdateItemState(in object)
+  nameWithType: ItemViewList.IItemStateUpdate.UpdateItemState(in object)
+  fullName: EasyTechToolUI.ItemViewList.ItemViewList.IItemStateUpdate.UpdateItemState(in object)
+  type: Method
+  source:
+    remote:
+      path: Public/Data/ItemViewList.cs
+      branch: master
+      repo: https://github.com/HyunsuYu/EasyTechToolUI.git
+    id: UpdateItemState
+    path: ../Public/Data/ItemViewList.cs
+    startLine: 32
+  assemblies:
+  - EasyTechToolUI
+  namespace: EasyTechToolUI.ItemViewList
+  summary: A method that can be invoked when updating the status of the current item
+  example: []
+  syntax:
+    content: void UpdateItemState(in object itemUpdateData)
+    parameters:
+    - id: itemUpdateData
+      type: System.Object
+      description: A parameter spot for custom data that can be used to update the status of the current item. Null is also possible if desired
+    content.vb: Sub UpdateItemState(itemUpdateData As Object)
+  overload: EasyTechToolUI.ItemViewList.ItemViewList.IItemStateUpdate.UpdateItemState*
+  nameWithType.vb: ItemViewList.IItemStateUpdate.UpdateItemState(Object)
+  fullName.vb: EasyTechToolUI.ItemViewList.ItemViewList.IItemStateUpdate.UpdateItemState(Object)
+  name.vb: UpdateItemState(Object)
+references:
+- uid: EasyTechToolUI.ItemViewList
+  commentId: N:EasyTechToolUI.ItemViewList
+  href: EasyTechToolUI.html
+  name: EasyTechToolUI.ItemViewList
+  nameWithType: EasyTechToolUI.ItemViewList
+  fullName: EasyTechToolUI.ItemViewList
+  spec.csharp:
+  - uid: EasyTechToolUI
+    name: EasyTechToolUI
+    href: EasyTechToolUI.html
+  - name: .
+  - uid: EasyTechToolUI.ItemViewList
+    name: ItemViewList
+    href: EasyTechToolUI.ItemViewList.html
+  spec.vb:
+  - uid: EasyTechToolUI
+    name: EasyTechToolUI
+    href: EasyTechToolUI.html
+  - name: .
+  - uid: EasyTechToolUI.ItemViewList
+    name: ItemViewList
+    href: EasyTechToolUI.ItemViewList.html
+- uid: EasyTechToolUI.ItemViewList.ItemViewList.IItemStateUpdate.InitializeItem*
+  commentId: Overload:EasyTechToolUI.ItemViewList.ItemViewList.IItemStateUpdate.InitializeItem
+  href: EasyTechToolUI.ItemViewList.ItemViewList.IItemStateUpdate.html#EasyTechToolUI_ItemViewList_ItemViewList_IItemStateUpdate_InitializeItem_EasyTechToolUI_ItemViewList_ItemViewList__System_Object__
+  name: InitializeItem
+  nameWithType: ItemViewList.IItemStateUpdate.InitializeItem
+  fullName: EasyTechToolUI.ItemViewList.ItemViewList.IItemStateUpdate.InitializeItem
+- uid: EasyTechToolUI.ItemViewList.ItemViewList
+  commentId: T:EasyTechToolUI.ItemViewList.ItemViewList
+  parent: EasyTechToolUI.ItemViewList
+  href: EasyTechToolUI.ItemViewList.ItemViewList.html
+  name: ItemViewList
+  nameWithType: ItemViewList
+  fullName: EasyTechToolUI.ItemViewList.ItemViewList
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: EasyTechToolUI.ItemViewList.ItemViewList.IItemStateUpdate.UpdateItemState*
+  commentId: Overload:EasyTechToolUI.ItemViewList.ItemViewList.IItemStateUpdate.UpdateItemState
+  href: EasyTechToolUI.ItemViewList.ItemViewList.IItemStateUpdate.html#EasyTechToolUI_ItemViewList_ItemViewList_IItemStateUpdate_UpdateItemState_System_Object__
+  name: UpdateItemState
+  nameWithType: ItemViewList.IItemStateUpdate.UpdateItemState
+  fullName: EasyTechToolUI.ItemViewList.ItemViewList.IItemStateUpdate.UpdateItemState

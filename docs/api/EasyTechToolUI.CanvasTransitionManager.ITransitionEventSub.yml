@@ -1,0 +1,147 @@
+### YamlMime:ManagedReference
+items:
+- uid: EasyTechToolUI.CanvasTransitionManager.ITransitionEventSub
+  commentId: T:EasyTechToolUI.CanvasTransitionManager.ITransitionEventSub
+  id: CanvasTransitionManager.ITransitionEventSub
+  parent: EasyTechToolUI
+  children:
+  - EasyTechToolUI.CanvasTransitionManager.ITransitionEventSub.InitializeAwake(System.Guid@)
+  - EasyTechToolUI.CanvasTransitionManager.ITransitionEventSub.OnTransition(System.String@)
+  langs:
+  - csharp
+  - vb
+  name: CanvasTransitionManager.ITransitionEventSub
+  nameWithType: CanvasTransitionManager.ITransitionEventSub
+  fullName: EasyTechToolUI.CanvasTransitionManager.ITransitionEventSub
+  type: Interface
+  source:
+    remote:
+      path: Public/Manager/CanvasTransitionManager.cs
+      branch: master
+      repo: https://github.com/HyunsuYu/EasyTechToolUI.git
+    id: ITransitionEventSub
+    path: ../Public/Manager/CanvasTransitionManager.cs
+    startLine: 20
+  assemblies:
+  - EasyTechToolUI
+  namespace: EasyTechToolUI
+  summary: Define the methods that must be implemented when each page is transition by the CanvasTransitionManager
+  example: []
+  syntax:
+    content: public interface CanvasTransitionManager.ITransitionEventSub
+    content.vb: Public Interface CanvasTransitionManager.ITransitionEventSub
+- uid: EasyTechToolUI.CanvasTransitionManager.ITransitionEventSub.OnTransition(System.String@)
+  commentId: M:EasyTechToolUI.CanvasTransitionManager.ITransitionEventSub.OnTransition(System.String@)
+  id: OnTransition(System.String@)
+  parent: EasyTechToolUI.CanvasTransitionManager.ITransitionEventSub
+  langs:
+  - csharp
+  - vb
+  name: OnTransition(in string)
+  nameWithType: CanvasTransitionManager.ITransitionEventSub.OnTransition(in string)
+  fullName: EasyTechToolUI.CanvasTransitionManager.ITransitionEventSub.OnTransition(in string)
+  type: Method
+  source:
+    remote:
+      path: Public/Manager/CanvasTransitionManager.cs
+      branch: master
+      repo: https://github.com/HyunsuYu/EasyTechToolUI.git
+    id: OnTransition
+    path: ../Public/Manager/CanvasTransitionManager.cs
+    startLine: 26
+  assemblies:
+  - EasyTechToolUI
+  namespace: EasyTechToolUI
+  summary: Called when the screen switches to the page that inherited the corresponding ITransitionEventSub
+  example: []
+  syntax:
+    content: void OnTransition(in string from)
+    parameters:
+    - id: from
+      type: System.String
+      description: Name of the screen before it was switched to the current screen
+    content.vb: Sub OnTransition(from As String)
+  overload: EasyTechToolUI.CanvasTransitionManager.ITransitionEventSub.OnTransition*
+  nameWithType.vb: CanvasTransitionManager.ITransitionEventSub.OnTransition(String)
+  fullName.vb: EasyTechToolUI.CanvasTransitionManager.ITransitionEventSub.OnTransition(String)
+  name.vb: OnTransition(String)
+- uid: EasyTechToolUI.CanvasTransitionManager.ITransitionEventSub.InitializeAwake(System.Guid@)
+  commentId: M:EasyTechToolUI.CanvasTransitionManager.ITransitionEventSub.InitializeAwake(System.Guid@)
+  id: InitializeAwake(System.Guid@)
+  parent: EasyTechToolUI.CanvasTransitionManager.ITransitionEventSub
+  langs:
+  - csharp
+  - vb
+  name: InitializeAwake(in Guid)
+  nameWithType: CanvasTransitionManager.ITransitionEventSub.InitializeAwake(in Guid)
+  fullName: EasyTechToolUI.CanvasTransitionManager.ITransitionEventSub.InitializeAwake(in System.Guid)
+  type: Method
+  source:
+    remote:
+      path: Public/Manager/CanvasTransitionManager.cs
+      branch: master
+      repo: https://github.com/HyunsuYu/EasyTechToolUI.git
+    id: InitializeAwake
+    path: ../Public/Manager/CanvasTransitionManager.cs
+    startLine: 32
+  assemblies:
+  - EasyTechToolUI
+  namespace: EasyTechToolUI
+  summary: The page that inherited ITTransitionEventSub is called by the appropriate CanvasTransitionManager when it is initialized for the first time
+  example: []
+  syntax:
+    content: void InitializeAwake(in Guid attachedCanvasTransitionManagerGuid)
+    parameters:
+    - id: attachedCanvasTransitionManagerGuid
+      type: System.Guid
+      description: ''
+    content.vb: Sub InitializeAwake(attachedCanvasTransitionManagerGuid As Guid)
+  overload: EasyTechToolUI.CanvasTransitionManager.ITransitionEventSub.InitializeAwake*
+  nameWithType.vb: CanvasTransitionManager.ITransitionEventSub.InitializeAwake(Guid)
+  fullName.vb: EasyTechToolUI.CanvasTransitionManager.ITransitionEventSub.InitializeAwake(System.Guid)
+  name.vb: InitializeAwake(Guid)
+references:
+- uid: EasyTechToolUI
+  commentId: N:EasyTechToolUI
+  href: EasyTechToolUI.html
+  name: EasyTechToolUI
+  nameWithType: EasyTechToolUI
+  fullName: EasyTechToolUI
+- uid: EasyTechToolUI.CanvasTransitionManager.ITransitionEventSub.OnTransition*
+  commentId: Overload:EasyTechToolUI.CanvasTransitionManager.ITransitionEventSub.OnTransition
+  href: EasyTechToolUI.CanvasTransitionManager.ITransitionEventSub.html#EasyTechToolUI_CanvasTransitionManager_ITransitionEventSub_OnTransition_System_String__
+  name: OnTransition
+  nameWithType: CanvasTransitionManager.ITransitionEventSub.OnTransition
+  fullName: EasyTechToolUI.CanvasTransitionManager.ITransitionEventSub.OnTransition
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: EasyTechToolUI.CanvasTransitionManager.ITransitionEventSub.InitializeAwake*
+  commentId: Overload:EasyTechToolUI.CanvasTransitionManager.ITransitionEventSub.InitializeAwake
+  href: EasyTechToolUI.CanvasTransitionManager.ITransitionEventSub.html#EasyTechToolUI_CanvasTransitionManager_ITransitionEventSub_InitializeAwake_System_Guid__
+  name: InitializeAwake
+  nameWithType: CanvasTransitionManager.ITransitionEventSub.InitializeAwake
+  fullName: EasyTechToolUI.CanvasTransitionManager.ITransitionEventSub.InitializeAwake
+- uid: System.Guid
+  commentId: T:System.Guid
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.guid
+  name: Guid
+  nameWithType: Guid
+  fullName: System.Guid

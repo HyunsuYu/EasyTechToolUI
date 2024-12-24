@@ -1,0 +1,182 @@
+### YamlMime:ManagedReference
+items:
+- uid: EasyTechToolUI.ItemGridPlane.ItemGridPlane.AbstractItemPlacementRegulation
+  commentId: T:EasyTechToolUI.ItemGridPlane.ItemGridPlane.AbstractItemPlacementRegulation
+  id: ItemGridPlane.AbstractItemPlacementRegulation
+  parent: EasyTechToolUI.ItemGridPlane
+  children:
+  - EasyTechToolUI.ItemGridPlane.ItemGridPlane.AbstractItemPlacementRegulation.LogErrorWhenInvalid
+  - EasyTechToolUI.ItemGridPlane.ItemGridPlane.AbstractItemPlacementRegulation.NoRegulation
+  - EasyTechToolUI.ItemGridPlane.ItemGridPlane.AbstractItemPlacementRegulation.SliceItemSizeToFit
+  - EasyTechToolUI.ItemGridPlane.ItemGridPlane.AbstractItemPlacementRegulation.WarningWhenInvalid
+  langs:
+  - csharp
+  - vb
+  name: ItemGridPlane.AbstractItemPlacementRegulation
+  nameWithType: ItemGridPlane.AbstractItemPlacementRegulation
+  fullName: EasyTechToolUI.ItemGridPlane.ItemGridPlane.AbstractItemPlacementRegulation
+  type: Enum
+  source:
+    remote:
+      path: Public/Data/ItemGridPlane.cs
+      branch: master
+      repo: https://github.com/HyunsuYu/EasyTechToolUI.git
+    id: AbstractItemPlacementRegulation
+    path: ../Public/Data/ItemGridPlane.cs
+    startLine: 21
+  assemblies:
+  - EasyTechToolUI
+  namespace: EasyTechToolUI.ItemGridPlane
+  syntax:
+    content: 'public enum ItemGridPlane.AbstractItemPlacementRegulation : byte'
+    content.vb: Public Enum ItemGridPlane.AbstractItemPlacementRegulation As Byte
+- uid: EasyTechToolUI.ItemGridPlane.ItemGridPlane.AbstractItemPlacementRegulation.NoRegulation
+  commentId: F:EasyTechToolUI.ItemGridPlane.ItemGridPlane.AbstractItemPlacementRegulation.NoRegulation
+  id: NoRegulation
+  parent: EasyTechToolUI.ItemGridPlane.ItemGridPlane.AbstractItemPlacementRegulation
+  langs:
+  - csharp
+  - vb
+  name: NoRegulation
+  nameWithType: ItemGridPlane.AbstractItemPlacementRegulation.NoRegulation
+  fullName: EasyTechToolUI.ItemGridPlane.ItemGridPlane.AbstractItemPlacementRegulation.NoRegulation
+  type: Field
+  source:
+    remote:
+      path: Public/Data/ItemGridPlane.cs
+      branch: master
+      repo: https://github.com/HyunsuYu/EasyTechToolUI.git
+    id: NoRegulation
+    path: ../Public/Data/ItemGridPlane.cs
+    startLine: 23
+  assemblies:
+  - EasyTechToolUI
+  namespace: EasyTechToolUI.ItemGridPlane
+  syntax:
+    content: NoRegulation = 0
+    return:
+      type: EasyTechToolUI.ItemGridPlane.ItemGridPlane.AbstractItemPlacementRegulation
+- uid: EasyTechToolUI.ItemGridPlane.ItemGridPlane.AbstractItemPlacementRegulation.WarningWhenInvalid
+  commentId: F:EasyTechToolUI.ItemGridPlane.ItemGridPlane.AbstractItemPlacementRegulation.WarningWhenInvalid
+  id: WarningWhenInvalid
+  parent: EasyTechToolUI.ItemGridPlane.ItemGridPlane.AbstractItemPlacementRegulation
+  langs:
+  - csharp
+  - vb
+  name: WarningWhenInvalid
+  nameWithType: ItemGridPlane.AbstractItemPlacementRegulation.WarningWhenInvalid
+  fullName: EasyTechToolUI.ItemGridPlane.ItemGridPlane.AbstractItemPlacementRegulation.WarningWhenInvalid
+  type: Field
+  source:
+    remote:
+      path: Public/Data/ItemGridPlane.cs
+      branch: master
+      repo: https://github.com/HyunsuYu/EasyTechToolUI.git
+    id: WarningWhenInvalid
+    path: ../Public/Data/ItemGridPlane.cs
+    startLine: 24
+  assemblies:
+  - EasyTechToolUI
+  namespace: EasyTechToolUI.ItemGridPlane
+  syntax:
+    content: WarningWhenInvalid = 1
+    return:
+      type: EasyTechToolUI.ItemGridPlane.ItemGridPlane.AbstractItemPlacementRegulation
+- uid: EasyTechToolUI.ItemGridPlane.ItemGridPlane.AbstractItemPlacementRegulation.LogErrorWhenInvalid
+  commentId: F:EasyTechToolUI.ItemGridPlane.ItemGridPlane.AbstractItemPlacementRegulation.LogErrorWhenInvalid
+  id: LogErrorWhenInvalid
+  parent: EasyTechToolUI.ItemGridPlane.ItemGridPlane.AbstractItemPlacementRegulation
+  langs:
+  - csharp
+  - vb
+  name: LogErrorWhenInvalid
+  nameWithType: ItemGridPlane.AbstractItemPlacementRegulation.LogErrorWhenInvalid
+  fullName: EasyTechToolUI.ItemGridPlane.ItemGridPlane.AbstractItemPlacementRegulation.LogErrorWhenInvalid
+  type: Field
+  source:
+    remote:
+      path: Public/Data/ItemGridPlane.cs
+      branch: master
+      repo: https://github.com/HyunsuYu/EasyTechToolUI.git
+    id: LogErrorWhenInvalid
+    path: ../Public/Data/ItemGridPlane.cs
+    startLine: 25
+  assemblies:
+  - EasyTechToolUI
+  namespace: EasyTechToolUI.ItemGridPlane
+  syntax:
+    content: LogErrorWhenInvalid = 2
+    return:
+      type: EasyTechToolUI.ItemGridPlane.ItemGridPlane.AbstractItemPlacementRegulation
+- uid: EasyTechToolUI.ItemGridPlane.ItemGridPlane.AbstractItemPlacementRegulation.SliceItemSizeToFit
+  commentId: F:EasyTechToolUI.ItemGridPlane.ItemGridPlane.AbstractItemPlacementRegulation.SliceItemSizeToFit
+  id: SliceItemSizeToFit
+  parent: EasyTechToolUI.ItemGridPlane.ItemGridPlane.AbstractItemPlacementRegulation
+  langs:
+  - csharp
+  - vb
+  name: SliceItemSizeToFit
+  nameWithType: ItemGridPlane.AbstractItemPlacementRegulation.SliceItemSizeToFit
+  fullName: EasyTechToolUI.ItemGridPlane.ItemGridPlane.AbstractItemPlacementRegulation.SliceItemSizeToFit
+  type: Field
+  source:
+    remote:
+      path: Public/Data/ItemGridPlane.cs
+      branch: master
+      repo: https://github.com/HyunsuYu/EasyTechToolUI.git
+    id: SliceItemSizeToFit
+    path: ../Public/Data/ItemGridPlane.cs
+    startLine: 26
+  assemblies:
+  - EasyTechToolUI
+  namespace: EasyTechToolUI.ItemGridPlane
+  syntax:
+    content: SliceItemSizeToFit = 3
+    return:
+      type: EasyTechToolUI.ItemGridPlane.ItemGridPlane.AbstractItemPlacementRegulation
+references:
+- uid: EasyTechToolUI.ItemGridPlane
+  commentId: N:EasyTechToolUI.ItemGridPlane
+  href: EasyTechToolUI.html
+  name: EasyTechToolUI.ItemGridPlane
+  nameWithType: EasyTechToolUI.ItemGridPlane
+  fullName: EasyTechToolUI.ItemGridPlane
+  spec.csharp:
+  - uid: EasyTechToolUI
+    name: EasyTechToolUI
+    href: EasyTechToolUI.html
+  - name: .
+  - uid: EasyTechToolUI.ItemGridPlane
+    name: ItemGridPlane
+    href: EasyTechToolUI.ItemGridPlane.html
+  spec.vb:
+  - uid: EasyTechToolUI
+    name: EasyTechToolUI
+    href: EasyTechToolUI.html
+  - name: .
+  - uid: EasyTechToolUI.ItemGridPlane
+    name: ItemGridPlane
+    href: EasyTechToolUI.ItemGridPlane.html
+- uid: EasyTechToolUI.ItemGridPlane.ItemGridPlane.AbstractItemPlacementRegulation
+  commentId: T:EasyTechToolUI.ItemGridPlane.ItemGridPlane.AbstractItemPlacementRegulation
+  parent: EasyTechToolUI.ItemGridPlane
+  href: EasyTechToolUI.ItemGridPlane.ItemGridPlane.html
+  name: ItemGridPlane.AbstractItemPlacementRegulation
+  nameWithType: ItemGridPlane.AbstractItemPlacementRegulation
+  fullName: EasyTechToolUI.ItemGridPlane.ItemGridPlane.AbstractItemPlacementRegulation
+  spec.csharp:
+  - uid: EasyTechToolUI.ItemGridPlane.ItemGridPlane
+    name: ItemGridPlane
+    href: EasyTechToolUI.ItemGridPlane.ItemGridPlane.html
+  - name: .
+  - uid: EasyTechToolUI.ItemGridPlane.ItemGridPlane.AbstractItemPlacementRegulation
+    name: AbstractItemPlacementRegulation
+    href: EasyTechToolUI.ItemGridPlane.ItemGridPlane.AbstractItemPlacementRegulation.html
+  spec.vb:
+  - uid: EasyTechToolUI.ItemGridPlane.ItemGridPlane
+    name: ItemGridPlane
+    href: EasyTechToolUI.ItemGridPlane.ItemGridPlane.html
+  - name: .
+  - uid: EasyTechToolUI.ItemGridPlane.ItemGridPlane.AbstractItemPlacementRegulation
+    name: AbstractItemPlacementRegulation
+    href: EasyTechToolUI.ItemGridPlane.ItemGridPlane.AbstractItemPlacementRegulation.html
