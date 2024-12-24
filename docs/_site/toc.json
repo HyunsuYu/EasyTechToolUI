@@ -1,2 +1,15 @@
-
-{"items":[{"name":"Docs","href":"docs/introduction.html","tocHref":"docs/toc.html","topicHref":"docs/introduction.html"},{"name":"API","href":"api/"}],"pdf":true}
+{
+    "items": [
+        {
+            "name": "Docs",
+            "href": "docs/introduction.html",
+            "tocHref": "docs/toc.html",
+            "topicHref": "docs/introduction.html"
+        },
+        {
+            "name": "API",
+            "href": "api/"
+        }
+    ],
+    "pdf": true
+}

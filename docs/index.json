@@ -9,6 +9,16 @@
     "title": "Introduction",
     "keywords": "Introduction"
   },
+  "docs/subsection1.html": {
+    "href": "docs/subsection1.html",
+    "title": "Test 1",
+    "keywords": "Test 1"
+  },
+  "docs/subsection2.html": {
+    "href": "docs/subsection2.html",
+    "title": "",
+    "keywords": "Test 2"
+  },
   "index.html": {
     "href": "index.html",
     "title": "This is the HOMEPAGE.",
