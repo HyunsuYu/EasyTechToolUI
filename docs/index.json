@@ -162,7 +162,7 @@
   "docs/introduction.html": {
     "href": "docs/introduction.html",
     "title": "Introduction",
-    "keywords": "Introduction"
+    "keywords": "Introduction EasyTechToolUI is a project that supports the creation of programs with simple UI structures, such as in-house tools, easily and quickly. This project supports Unity and is very simple to apply in the form of plugin. Here's a strong reason to use EasyTechToolUI for your project: You just have to use all the components as they are, or inherit and fill in a little bit of content It provides convenient data buffers, utility methods, and properties considering flexibility in use It allows easy access to each element from anywhere and helps to code that lowers strong bonds between codes The purpose of this document is to provide a complete reference to the API of the EasyTech ToolUI and a manual including tutorials on each feature."
   },
   "index.html": {
     "href": "index.html",
