@@ -335,6 +335,29 @@
     },
     {
       "type": "Conceptual",
+      "source_relative_path": "changeLog/Changes.md",
+      "output": {
+        ".html": {
+          "relative_path": "changeLog/Changes.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "changeLog/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "changeLog/toc.html"
+        },
+        ".json": {
+          "relative_path": "changeLog/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
       "source_relative_path": "docs/getting-started.md",
       "output": {
         ".html": {
@@ -372,6 +395,29 @@
       "output": {
         ".html": {
           "relative_path": "index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "license/License.md",
+      "output": {
+        ".html": {
+          "relative_path": "license/License.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "license/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "license/toc.html"
+        },
+        ".json": {
+          "relative_path": "license/toc.json"
         }
       },
       "version": ""

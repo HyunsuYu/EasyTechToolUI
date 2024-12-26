@@ -154,6 +154,11 @@
     "title": "Namespace EasyTechToolUI",
     "keywords": "Namespace EasyTechToolUI Classes CanvasTransitionManager EasyTechToolUI's top administrator is responsible for initializing, updating, and transition of pages CanvasTransitionManagerBuffer A buffer that helps store and identify all CanvasTransitionManagers present in the program. EdgyModulePrototype An abstract class that collects things to manage the UI module located at the bottom of the UI abstraction tree. TransitionCanvasMonoBehaviour<_TransitionCanvasCommonDataBuffer> Class that describe each page that is the subject of the screen Interfaces CanvasTransitionManager.ITransitionEventSub Define the methods that must be implemented when each page is transition by the CanvasTransitionManager IItemSelectedAction The interface defined by the method for processing when an item in the UI element is selected IModuleStateUpdate Interface that defines the methods necessary to manage the UI module"
   },
+  "changeLog/Changes.html": {
+    "href": "changeLog/Changes.html",
+    "title": "Changelog",
+    "keywords": "Changelog All notable changes to this package will be documented in this file. The format is based on Keep a Changelog and this project adheres to Semantic Versioning. [0.0.0] - 2024-12-26 Added Added CanvasTransitonManager feature Added ItemViewList feature Added ItemGridPlane feature Added FreeLayoutItemPlane feature"
+  },
   "docs/getting-started.html": {
     "href": "docs/getting-started.html",
     "title": "Getting Started",
@@ -168,5 +173,10 @@
     "href": "index.html",
     "title": "",
     "keywords": "EasyTechToolUI Abstract Here's a strong reason to use EasyTechToolUI for your project: You just have to use all the components as they are, or inherit and fill in a little bit of content It provides convenient data buffers, utility methods, and properties considering flexibility in use It allows easy access to each element from anywhere and helps to code that lowers strong bonds between codes Features CanvasTransitonManager ItemViewList ItemGridPlane Usage [!IMPORTANT] This project is for UI development in Unity. Informs that no other game engine supports it Dependencies UnityEngine.dll UnityEngine.UI.dll Supported UI styles"
+  },
+  "license/License.html": {
+    "href": "license/License.html",
+    "title": "",
+    "keywords": "MIT License Copyright (c) 2024 Hyunsu Yu Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the \"Software\"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions: The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software. THE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE."
   }
 }

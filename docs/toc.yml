@@ -2,3 +2,7 @@
   href: docs/
 - name: API
   href: api/
+- name: ChangeLog
+  href: changeLog/
+- name: License
+  href: license/
